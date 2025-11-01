@@ -120,7 +120,7 @@ def scrape_company_pages(company_data, **context):
         
         try:
             logging.info(f"  Fetching {page_name}: {url}")
-            response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
+            response = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
             
             if response.status_code == 200:
                 # Save raw HTML
