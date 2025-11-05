@@ -10,19 +10,39 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-EVALUATION_COMPANIES = ["anthropic", "cohere", "databricks", "glean", "openevidence"]
 BASE_URL = "http://localhost:8002"
-OUTPUT_DIR = "evaluation_output"
+OUTPUT_DIR = "evaluation_output"  # Relative to lab9 folder
+
+def get_evaluation_companies():
+    """Get ALL companies with payloads for evaluation"""
+    project_root = Path(__file__).resolve().parents[2]
+    payloads_dir = project_root / "data" / "payloads"
+    
+    if not payloads_dir.exists():
+        # Fallback to default companies
+        return ["anthropic", "cohere", "databricks", "glean", "openevidence"]
+    
+    # Get all companies with payloads
+    payload_files = list(payloads_dir.glob("*.json"))
+    companies = sorted([f.stem for f in payload_files])
+    
+    return companies  # Return all companies
 
 def generate_and_save_dashboards():
     """Generate both RAG and Structured dashboards and save to files"""
     
-    # Create output directory
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    # Output directory is relative to lab9 folder
+    lab9_dir = Path(__file__).resolve().parent
+    output_dir = lab9_dir / OUTPUT_DIR
+    output_dir.mkdir(exist_ok=True)
+    
+    # Get companies to evaluate
+    companies = get_evaluation_companies()
     
     print("=" * 60)
     print("LAB 9: Generating Dashboards for Evaluation")
     print("=" * 60)
+    print(f"\nEvaluating {len(companies)} companies: {', '.join(companies)}")
     
     # Check API
     try:
@@ -32,13 +52,14 @@ def generate_and_save_dashboards():
             return
     except:
         print(f"\n[ERROR] API not running. Start with: python src/lab7/rag_dashboard.py")
+        print("       The API server must be running for Lab 9 to work.")
         return
     
-    print(f"\n[OK] API is running")
+    print(f"\n[OK] API is running at {BASE_URL}")
     
     results = {}
     
-    for company in EVALUATION_COMPANIES:
+    for company in companies:
         print(f"\n{'='*60}")
         print(f"Processing: {company.upper()}")
         print(f"{'='*60}")
@@ -59,7 +80,7 @@ def generate_and_save_dashboards():
                 chunks_used = rag_data.get("chunks_used", 0)
                 
                 # Save to file
-                rag_file = f"{OUTPUT_DIR}/{company}_rag.md"
+                rag_file = output_dir / f"{company}_rag.md"
                 with open(rag_file, "w", encoding="utf-8") as f:
                     f.write(f"# RAG Dashboard: {company.upper()}\n\n")
                     f.write(f"Generated: {datetime.now().isoformat()}\n")
@@ -68,7 +89,7 @@ def generate_and_save_dashboards():
                     f.write(rag_dashboard)
                 
                 company_results["rag"] = {
-                    "file": rag_file,
+                    "file": str(rag_file),
                     "chunks_used": chunks_used,
                     "length": len(rag_dashboard)
                 }
@@ -93,7 +114,7 @@ def generate_and_save_dashboards():
                 structured_dashboard = structured_data.get("dashboard", "")
                 
                 # Save to file
-                structured_file = f"{OUTPUT_DIR}/{company}_structured.md"
+                structured_file = output_dir / f"{company}_structured.md"
                 with open(structured_file, "w", encoding="utf-8") as f:
                     f.write(f"# Structured Dashboard: {company.upper()}\n\n")
                     f.write(f"Generated: {datetime.now().isoformat()}\n")
@@ -102,7 +123,7 @@ def generate_and_save_dashboards():
                     f.write(structured_dashboard)
                 
                 company_results["structured"] = {
-                    "file": structured_file,
+                    "file": str(structured_file),
                     "length": len(structured_dashboard)
                 }
                 print(f"  [OK] Saved to {structured_file}")
@@ -116,13 +137,13 @@ def generate_and_save_dashboards():
         results[company] = company_results
     
     # Generate comparison summary
-    summary_file = f"{OUTPUT_DIR}/summary.md"
+    summary_file = output_dir / "summary.md"
     with open(summary_file, "w", encoding="utf-8") as f:
         f.write("# Evaluation Dashboard Summary\n\n")
         f.write(f"Generated: {datetime.now().isoformat()}\n\n")
         f.write("## Companies Evaluated\n\n")
         
-        for company in EVALUATION_COMPANIES:
+        for company in companies:
             result = results.get(company, {})
             f.write(f"### {company.upper()}\n\n")
             
@@ -142,12 +163,12 @@ def generate_and_save_dashboards():
     
     print(f"\n{'='*60}")
     print(f"[OK] Evaluation dashboards generated!")
-    print(f"   Output directory: {OUTPUT_DIR}/")
+    print(f"   Output directory: {output_dir}/")
     print(f"   Summary: {summary_file}")
     print(f"\nNext steps:")
-    print(f"  1. Review dashboards in {OUTPUT_DIR}/")
+    print(f"  1. Review dashboards in {output_dir}/")
     print(f"  2. Fill out EVAL.md with rubric scores")
-    print(f"  3. Complete REFLECTION.md")
+    print(f"  3. Run calculate_evaluation_matrix.py to generate evaluation matrix")
 
 if __name__ == "__main__":
     generate_and_save_dashboards()

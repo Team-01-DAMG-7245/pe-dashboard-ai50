@@ -1,0 +1,210 @@
+{
+  "company_record": {
+    "company_id": "mercor",
+    "legal_name": "Mercor",
+    "brand_name": null,
+    "website": "https://www.mercor.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2024,
+    "categories": [
+      "AI",
+      "Remote Work",
+      "Talent Matching",
+      "Human Resources",
+      "Technology"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 453600000.0,
+    "last_disclosed_valuation_usd": 10000000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-10-27",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.mercor.com",
+        "crawled_at": "2025-10-27T00:00:00Z",
+        "snippet": "Mercor is the global allocator for extraordinary human talent in the AI economy."
+      },
+      {
+        "source_url": "https://www.mercor.com/blog",
+        "crawled_at": "2025-10-27T00:00:00Z",
+        "snippet": "Announcing Mercor's $350 million Series C at a $10 billion valuation."
+      },
+      {
+        "source_url": "https://www.mercor.com/about",
+        "crawled_at": "2025-10-27T00:00:00Z",
+        "snippet": "Mercor connects graduate-level experts with meaningful, well-paid work."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "mercor",
+      "occurred_on": "2025-10-27",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 350000000.0,
+      "valuation_usd": 10000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "mercor",
+      "occurred_on": "2025-02-20",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 100000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "mercor",
+      "occurred_on": "2024-01-10",
+      "event_type": "funding",
+      "title": "Seed funding round",
+      "description": null,
+      "round_name": "Seed",
+      "investors": [
+        "General Catalyst",
+        "Scott Sandell"
+      ],
+      "amount_usd": 3600000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "mercor",
+      "as_of": "2025-11-05",
+      "headcount_total": 2040,
+      "headcount_growth_pct": null,
+      "job_openings_count": 204,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "Legal",
+        "Consulting",
+        "Video Captioning",
+        "Video Annotation",
+        "Photography",
+        "Evaluation",
+        "Chemistry Labeling",
+        "Physics Labeling"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "San Francisco, CA"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Mercor is hiring for various roles including Legal Expert, Consulting Expert, and more."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "mercor_product_1",
+      "company_id": "mercor",
+      "name": "Mercor",
+      "description": "Find top-tier, remote, AI roles for your expertise. Available only on Mercor.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_2",
+      "company_id": "mercor",
+      "name": "APEX",
+      "description": "The AI Productivity Index.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "mercor_matt",
+      "company_id": "mercor",
+      "name": "Matt",
+      "role": "Unknown",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "mercor_angela",
+      "company_id": "mercor",
+      "name": "Angela",
+      "role": "Unknown",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "mercor_jared",
+      "company_id": "mercor",
+      "name": "Jared",
+      "role": "Unknown",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 3 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

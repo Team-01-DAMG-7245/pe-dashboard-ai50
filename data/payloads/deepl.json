@@ -1,0 +1,173 @@
+{
+  "company_record": {
+    "company_id": "deepl",
+    "legal_name": "DeepL SE",
+    "brand_name": null,
+    "website": "https://www.deepl.com/",
+    "hq_city": "Cologne",
+    "hq_state": "North Rhine-Westphalia",
+    "hq_country": "Germany",
+    "founded_year": 2017,
+    "categories": [
+      "AI",
+      "Language Translation",
+      "Natural Language Processing",
+      "SaaS",
+      "Enterprise Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 0.0,
+    "last_disclosed_valuation_usd": 0.0,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-29T00:00:00Z",
+        "snippet": "DeepL's mission to break down language barriers. Trusted by over 200,000 businesses globally."
+      },
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-29T00:00:00Z",
+        "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
+      },
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-29T00:00:00Z",
+        "snippet": "DeepL's core product, the DeepL Translator, powers global communication through cutting-edge artificial intelligence solutions."
+      },
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-29T00:00:00Z",
+        "snippet": "DeepL's AI labs are building next-generation language tools."
+      },
+      {
+        "source_url": "https://www.deepl.com",
+        "crawled_at": "2023-10-29T00:00:00Z",
+        "snippet": "DeepL offers a full suite of language tools, including real-time voice translation and document translation."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "deepl",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "deepl_product_1",
+      "company_id": "deepl",
+      "name": "DeepL Translate",
+      "description": "The world's most accurate translator, trusted by over 200,000 businesses globally.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_2",
+      "company_id": "deepl",
+      "name": "DeepL AI labs",
+      "description": "See what the DeepL R&D teams are building next!",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_3",
+      "company_id": "deepl",
+      "name": "DeepL glossary",
+      "description": "30,000 glossary entries for consistent translations in 16 languages.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "deepl_product_4",
+      "company_id": "deepl",
+      "name": "DeepL language tools",
+      "description": "A full suite of language tools, built to power your global voice.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "deepl_deepl_team",
+      "company_id": "deepl",
+      "name": "DeepL Team",
+      "role": "Leadership Team",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "deepl_deepl_founders",
+      "company_id": "deepl",
+      "name": "DeepL Founders",
+      "role": "Founders",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

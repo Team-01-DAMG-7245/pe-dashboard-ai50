@@ -1,0 +1,123 @@
+{
+  "glean": {
+    "company_id": "glean",
+    "rag": null,
+    "structured": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 13,
+      "word_count": 397,
+      "has_provenance": true
+    }
+  },
+  "databricks": {
+    "company_id": "databricks",
+    "rag": null,
+    "structured": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 10,
+      "word_count": 363,
+      "has_provenance": true
+    }
+  },
+  "cohere": {
+    "company_id": "cohere",
+    "rag": null,
+    "structured": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 16,
+      "word_count": 362,
+      "has_provenance": true
+    }
+  },
+  "clay": {
+    "company_id": "clay",
+    "rag": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 3,
+      "word_count": 445,
+      "has_provenance": true
+    },
+    "structured": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 20,
+      "word_count": 347,
+      "has_provenance": true
+    }
+  },
+  "hebbia": {
+    "company_id": "hebbia",
+    "rag": null,
+    "structured": {
+      "has_8_sections": true,
+      "sections_found": [
+        "Company Overview",
+        "Business Model and GTM",
+        "Funding & Investor Profile",
+        "Growth Momentum",
+        "Visibility & Market Sentiment",
+        "Risks and Challenges",
+        "Outlook",
+        "Disclosure Gaps"
+      ],
+      "sections_count": 8,
+      "not_disclosed_count": 21,
+      "word_count": 311,
+      "has_provenance": true
+    }
+  }
+}

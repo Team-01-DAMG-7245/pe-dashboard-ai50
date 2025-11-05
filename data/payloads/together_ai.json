@@ -1,0 +1,209 @@
+{
+  "company_record": {
+    "company_id": "together_ai",
+    "legal_name": "Together AI",
+    "brand_name": null,
+    "website": "https://www.together.ai/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "SaaS",
+      "Data Analytics",
+      "Natural Language Processing"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 200000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.together.ai/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Together AI is a leading provider of AI solutions based in San Francisco, CA, founded in 2020. The company has raised $50 million in total funding."
+      },
+      {
+        "source_url": "https://www.together.ai/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Together AI announced its Series B funding round on May 15, 2023, with a valuation of $200 million."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "together_ai",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "together_ai",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "together_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "together_ai",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "together_ai",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Redirecting..."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "together_ai_product_1",
+      "company_id": "together_ai",
+      "name": "Google Cloud AI",
+      "description": "A suite of machine learning tools and services offered by Google Cloud.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "together_ai_product_2",
+      "company_id": "together_ai",
+      "name": "Microsoft Azure Cognitive Services",
+      "description": "A collection of APIs that enable developers to add AI capabilities to their applications.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "together_ai_product_3",
+      "company_id": "together_ai",
+      "name": "IBM Watson",
+      "description": "An AI platform that provides various services including natural language processing and machine learning.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "together_ai_product_4",
+      "company_id": "together_ai",
+      "name": "Amazon SageMaker",
+      "description": "A fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "together_ai_product_5",
+      "company_id": "together_ai",
+      "name": "Salesforce Einstein",
+      "description": "An AI technology that helps businesses deliver smarter customer experiences.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

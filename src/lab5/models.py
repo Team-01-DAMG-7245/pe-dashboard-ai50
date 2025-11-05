@@ -3,7 +3,7 @@ from typing import List, Optional
 from datetime import date
 
 class Provenance(BaseModel):
-    source_url: HttpUrl
+    source_url: Optional[str] = None  # Changed from HttpUrl to Optional[str] for flexibility
     crawled_at: str
     snippet: Optional[str] = None
 
@@ -28,7 +28,7 @@ class Company(BaseModel):
 
 class Event(BaseModel):
     event_id: str
-    company_id: str
+    company_id: Optional[str] = None  # Will be set after extraction
     occurred_on: date
     event_type: str
     title: str
@@ -96,6 +96,16 @@ class Visibility(BaseModel):
     glassdoor_rating: Optional[float] = None
     schema_version: str = "2.0.0"
     provenance: List[Provenance] = []
+
+# Wrapper models for instructor List extraction
+class EventsList(BaseModel):
+    events: List[Event] = []
+
+class LeadershipList(BaseModel):
+    leadership: List[Leadership] = []
+
+class ProductsList(BaseModel):
+    products: List[Product] = []
 
 class Payload(BaseModel):
     company_record: Company

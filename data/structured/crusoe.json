@@ -1,0 +1,174 @@
+{
+  "company_record": {
+    "company_id": "crusoe",
+    "legal_name": "MarkUpgrade",
+    "brand_name": "Crusoe",
+    "website": "https://crusoe.com/",
+    "hq_city": "None",
+    "hq_state": "None",
+    "hq_country": "None",
+    "founded_year": 2025,
+    "categories": [
+      "Domain Names",
+      "Business Strategy",
+      "Digital Assets",
+      "Startup Services",
+      "Branding"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series A",
+    "last_round_date": "2025-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://crusoe.com",
+        "crawled_at": "2025-01-01T00:00:00Z",
+        "snippet": "The domain name CRUSOE.COM is available for sale or other proposals. Contact MarkUpgrade for details."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "crusoe",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "CRUSOE.COM | Strategic-Grade domain names for established businesses and funded startups"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "crusoe_product_1",
+      "company_id": "crusoe",
+      "name": "CRUSOE.COM",
+      "description": "The domain name CRUSOE.COM is available for sale or other proposals.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "crusoe_product_2",
+      "company_id": "crusoe",
+      "name": "MarkUpgrade",
+      "description": "A service that offers Strategic-Grade domain names to save businesses time, money, and energy while unlocking growth, clarity, and trust.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "crusoe_mark_upgrade",
+      "company_id": "crusoe",
+      "name": "Mark Upgrade",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,90 @@
+{
+  "company_record": {
+    "company_id": "vannevar_labs",
+    "legal_name": "Vannevar Labs",
+    "brand_name": null,
+    "website": "https://vannevar-labs.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Seed round",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://vannevar-labs.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We're under construction. Please check back for an update soon."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "vannevar_labs",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round announcement",
+      "description": "No specific funding details available.",
+      "round_name": "Seed round",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "vannevar_labs",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevar-labs.com",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We're under construction. Please check back for an update soon."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "vannevar_labs_product_1",
+      "company_id": "vannevar_labs",
+      "name": "Vannevar Labs",
+      "description": "We're under construction. Please check back for an update soon.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

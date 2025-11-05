@@ -1,0 +1,198 @@
+{
+  "company_record": {
+    "company_id": "perplexity_ai",
+    "legal_name": "Perplexity Ai",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Seed round",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": []
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Seed round",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": 0.0,
+      "valuation_usd": 0.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "perplexity_ai",
+      "as_of": "2025-11-05",
+      "headcount_total": 50000,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Sales",
+        "Engineering"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "San Francisco"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://atom.com",
+          "crawled_at": "2023-10-01",
+          "snippet": "trusted by 50k+ clients!"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "perplexity_ai_product_1",
+      "company_id": "perplexity_ai",
+      "name": "Squadhelp",
+      "description": "Now known as Atom, where everything starts!",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "perplexity_ai_product_2",
+      "company_id": "perplexity_ai",
+      "name": "AtomPay",
+      "description": "A service for domain transactions and purchases in the Atom.com marketplace.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "perplexity_ai_product_3",
+      "company_id": "perplexity_ai",
+      "name": "AI Domain Name Generator",
+      "description": "Get hundreds of smart domain ideas in seconds.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "perplexity_ai_product_4",
+      "company_id": "perplexity_ai",
+      "name": "AI Domain Appraisal Tool",
+      "description": "Instantly check your domain\u2019s market value.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

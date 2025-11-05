@@ -1,0 +1,258 @@
+{
+  "company_record": {
+    "company_id": "abridge",
+    "legal_name": "Abridge",
+    "brand_name": null,
+    "website": "https://www.abridge.com/",
+    "hq_city": "Pittsburgh",
+    "hq_state": "PA",
+    "hq_country": "USA",
+    "founded_year": 2019,
+    "categories": [
+      "Generative AI",
+      "Healthcare Technology",
+      "Clinical Documentation",
+      "AI for Healthcare",
+      "Natural Language Processing"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 100000000.0,
+    "last_disclosed_valuation_usd": 1000000000.0,
+    "last_round_name": "Series B",
+    "last_round_date": "2025-08-12",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.abridge.com/about",
+        "crawled_at": "2025-10-31T00:00:00Z",
+        "snippet": "Pioneers in Generative AI for Healthcare | About Abridge"
+      },
+      {
+        "source_url": "https://www.abridge.com",
+        "crawled_at": "2025-10-31T00:00:00Z",
+        "snippet": "Generative AI for Clinical Conversations | Abridge"
+      },
+      {
+        "source_url": "https://www.abridge.com/blog",
+        "crawled_at": "2025-10-31T00:00:00Z",
+        "snippet": "Insights and Innovations in AI for Healthcare | Abridge Blog"
+      },
+      {
+        "source_url": "https://www.abridge.com/news",
+        "crawled_at": "2025-10-31T00:00:00Z",
+        "snippet": "Abridge in the Press"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "abridge",
+      "occurred_on": "2025-08-12",
+      "event_type": "funding",
+      "title": "Funding announcement for Real Time Prior Authorization",
+      "description": null,
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-29",
+      "event_type": "funding",
+      "title": "Partnership with AltaMed Health Services Corporation",
+      "description": null,
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-10",
+      "event_type": "funding",
+      "title": "Partnership with Sharp HealthCare",
+      "description": null,
+      "round_name": null,
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Abridge is a growing team of practicing MDs, AI scientists, PhDs, creatives, technologists, and engineers."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "abridge_product_1",
+      "company_id": "abridge",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Leading healthcare AI infrastructure, powering the most trusted billable, clinically useful, and compliant notes at the point of care.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "abridge_product_2",
+      "company_id": "abridge",
+      "name": "Abridge AI Platform",
+      "description": "Enterprise-grade AI for clinical conversations\u2014trusted by the largest healthcare systems, measurably improving outcomes for clinicians, nurses, and revenue cycle teams at scale.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "abridge_product_3",
+      "company_id": "abridge",
+      "name": "Abridge Inside Epic",
+      "description": "Capture patient conversations in Haiku. Trust and verify AI note drafts in Hyperspace using Linked Evidence.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "abridge_shiv_rao,_md",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "abridge_zack_lipton,_phd",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "abridge_julia_chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "abridge_brian_wilson",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "abridge_sagar_sanghvi",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "abridge_tim_hwang",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 3 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

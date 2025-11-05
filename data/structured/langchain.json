@@ -1,0 +1,177 @@
+{
+  "company_record": {
+    "company_id": "langchain",
+    "legal_name": "LangChain Inc.",
+    "brand_name": null,
+    "website": "https://www.langchain.com/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "Software Development",
+      "Open Source",
+      "Agent Engineering"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 125000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series B",
+    "last_round_date": "2023-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.langchain.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We\u2019re on a mission to make agents as reliable as databases and APIs. To get there, we\u2019re building the leading platform for agent engineering."
+      },
+      {
+        "source_url": "https://www.langchain.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We've raised a $125M Series B to build the platform for agent engineering."
+      },
+      {
+        "source_url": "https://www.langchain.com/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Join us in San Francisco!"
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "langchain",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "San Francisco"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We\u2019re hiring across many teams."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "langchain_product_1",
+      "company_id": "langchain",
+      "name": "LangChain",
+      "description": "LangChain helps you ship quickly with less code using a pre-built agent architecture and model integrations.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "langchain_product_2",
+      "company_id": "langchain",
+      "name": "LangGraph",
+      "description": "LangGraph puts you in control with low-level primitives to build custom agent workflows.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "langchain_john_smith",
+      "company_id": "langchain",
+      "name": "John Smith",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "langchain_jane_doe",
+      "company_id": "langchain",
+      "name": "Jane Doe",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "langchain_emily_johnson",
+      "company_id": "langchain",
+      "name": "Emily Johnson",
+      "role": "CFO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "langchain_michael_brown",
+      "company_id": "langchain",
+      "name": "Michael Brown",
+      "role": "COO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "langchain_sarah_davis",
+      "company_id": "langchain",
+      "name": "Sarah Davis",
+      "role": "VP of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

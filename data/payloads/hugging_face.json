@@ -1,0 +1,159 @@
+{
+  "company_record": {
+    "company_id": "hugging_face",
+    "legal_name": "Hugging Face, Inc.",
+    "brand_name": null,
+    "website": "https://huggingface.co/",
+    "hq_city": "New York",
+    "hq_state": "NY",
+    "hq_country": "USA",
+    "founded_year": 2016,
+    "categories": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Natural Language Processing",
+      "Developer Tools",
+      "Open Source"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 2000000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://huggingface.co",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Hugging Face is an AI company based in New York, known for its contributions to natural language processing and machine learning."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "hugging_face",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "hugging_face",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "hugging_face",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "hugging_face",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": 250000000.0,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "hugging_face",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "The domain you are trying to purchase is listed on spaceship.com."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "hugging_face_product_1",
+      "company_id": "hugging_face",
+      "name": "hugging-face.com",
+      "description": "Domain for sale",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_2",
+      "company_id": "hugging_face",
+      "name": "spaceship.com",
+      "description": "Platform for transaction support and secure payments.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

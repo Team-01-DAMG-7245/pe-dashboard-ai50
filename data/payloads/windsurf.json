@@ -1,0 +1,247 @@
+{
+  "company_record": {
+    "company_id": "windsurf",
+    "legal_name": "Windsurf",
+    "brand_name": null,
+    "website": "https://www.windsurf.com/",
+    "hq_city": "Mountain View",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2025,
+    "categories": [
+      "AI",
+      "Software Development",
+      "Coding Tools",
+      "Developer Tools",
+      "Enterprise Software"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 243000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.windsurf.com/about",
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "Windsurf has been developed by a team of researchers and engineers to build the future of software development."
+      },
+      {
+        "source_url": "https://www.windsurf.com/careers",
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "$243M in funding"
+      },
+      {
+        "source_url": "https://www.windsurf.com/home",
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "Windsurf is the most intuitive AI coding experience, built to keep you\u2014and your team\u2014in flow."
+      },
+      {
+        "source_url": "https://www.windsurf.com/blog",
+        "crawled_at": "2025-10-29T00:00:00Z",
+        "snippet": "Introducing SWE-1.5: Our Fast Agent Model"
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "windsurf",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "windsurf_product_1",
+      "company_id": "windsurf",
+      "name": "Windsurf Editor",
+      "description": "The most powerful AI IDE.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "windsurf_product_2",
+      "company_id": "windsurf",
+      "name": "Windsurf Plugin",
+      "description": "Get started using Windsurf Plugin in your preferred IDE. Over 20+ IDEs supported.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "windsurf_product_3",
+      "company_id": "windsurf",
+      "name": "Cascade",
+      "description": "Cascade will remember important things about your codebase and workflow.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "windsurf_product_4",
+      "company_id": "windsurf",
+      "name": "MCP Support",
+      "description": "Enhance your AI workflows by connecting custom tools and services. Access curated MCP servers in Windsurf settings for one click set-up.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "windsurf_product_5",
+      "company_id": "windsurf",
+      "name": "Plugin Store",
+      "description": "Manage Plugins.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "windsurf_varun_mohan",
+      "company_id": "windsurf",
+      "name": "Varun Mohan",
+      "role": "CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_anshul_ramachandran",
+      "company_id": "windsurf",
+      "name": "Anshul Ramachandran",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_garry_tan",
+      "company_id": "windsurf",
+      "name": "Garry Tan",
+      "role": "President & CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_sarah_perkel",
+      "company_id": "windsurf",
+      "name": "Sarah Perkel",
+      "role": "Head of Product Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_carl_franzen",
+      "company_id": "windsurf",
+      "name": "Carl Franzen",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_jesus_diaz",
+      "company_id": "windsurf",
+      "name": "Jesus Diaz",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "windsurf_maxwell_zeff",
+      "company_id": "windsurf",
+      "name": "Maxwell Zeff",
+      "role": "Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

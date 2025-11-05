@@ -82,9 +82,12 @@ class TextChunker:
 def chunk_company_data(company_id: str, raw_data_path: str = None) -> List[Dict]:
     """Chunk all text data for a company from initial folder"""
     if raw_data_path is None:
-        # Get project root (4 levels up from lab4/chunker.py)
-        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-        raw_data_path = os.path.join(project_root, 'data', 'raw')
+        # Get project root (3 levels up from lab4/chunker.py: src/lab4/chunker.py -> src -> root)
+        # Use Path for more reliable path resolution
+        from pathlib import Path
+        file_path = Path(__file__).resolve()
+        project_root = file_path.parent.parent.parent
+        raw_data_path = os.path.join(str(project_root), 'data', 'raw')
     
     chunker = TextChunker()
     all_chunks = []
@@ -96,19 +99,24 @@ def chunk_company_data(company_id: str, raw_data_path: str = None) -> List[Dict]
         print(f"No initial folder found for {company_id}")
         return []
     
-    # Process each .txt file
+    # Process each .txt file (prioritize _clean.txt files if available)
     txt_files = ['about.txt', 'blog.txt', 'careers.txt', 'homepage.txt', 'product.txt']
     
     for txt_file in txt_files:
-        file_path = os.path.join(initial_path, txt_file)
+        # First try _clean.txt version, then fall back to regular .txt
+        source_type = txt_file.replace('.txt', '')
+        clean_file_path = os.path.join(initial_path, f'{source_type}_clean.txt')
+        regular_file_path = os.path.join(initial_path, txt_file)
+        
+        # Choose which file to use
+        file_path = clean_file_path if os.path.exists(clean_file_path) else regular_file_path
         
         if os.path.exists(file_path):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     text = f.read()
                 
-                # Get source type from filename
-                source_type = txt_file.replace('.txt', '')
+                # Get source type from filename (remove _clean suffix if present)
                 
                 metadata = {
                     'company_id': company_id,

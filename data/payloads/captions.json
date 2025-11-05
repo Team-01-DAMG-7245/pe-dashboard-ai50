@@ -1,0 +1,81 @@
+{
+  "company_record": {
+    "company_id": "captions",
+    "legal_name": "ClearCaptions, LLC",
+    "brand_name": null,
+    "website": "https://www.clearcaptions.com/",
+    "hq_city": "None",
+    "hq_state": "None",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": [
+      "Telecommunications",
+      "Accessibility",
+      "Assistive Technology",
+      "Captioning Services",
+      "Communication Services"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.clearcaptions.com",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "ClearCaptions is available to qualified, hard-of-hearing U.S. residents at no cost as part of the Title IV of the Americans with Disabilities Act (ADA)."
+      }
+    ]
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "captions",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "United States"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2025-09-10T19:31:05+00:00",
+          "snippet": "ClearCaptions is available in the United States and its territories only."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "captions_product_1",
+      "company_id": "captions",
+      "name": "ClearCaptions",
+      "description": "A no-cost service that provides on-screen captions of what your caller is saying in near-real time for individuals with hearing loss.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

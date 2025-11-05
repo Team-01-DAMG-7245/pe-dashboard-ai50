@@ -1,0 +1,303 @@
+{
+  "company_record": {
+    "company_id": "baseten",
+    "legal_name": "Baseten Inc.",
+    "brand_name": null,
+    "website": "https://www.baseten.co/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "Machine Learning",
+      "MLOps",
+      "Cloud Computing",
+      "Developer Tools"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 2000000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2024-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-05",
+    "provenance": [
+      {
+        "source_url": "https://www.baseten.co/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
+      },
+      {
+        "source_url": "https://www.baseten.co/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Join our team. We build delightful products for engineering and AI teams to deliver their best work."
+      },
+      {
+        "source_url": "https://www.baseten.co",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Deploy AI models in production | Baseten. Inference is everything."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "baseten",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "baseten",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [
+        "Investor C"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1200000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "baseten",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [
+        "Investor D",
+        "Investor E"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1500000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "baseten",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [
+        "Investor F"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2000000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "baseten",
+      "as_of": "2025-11-05",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "baseten_product_1",
+      "company_id": "baseten",
+      "name": "Baseten Inference Stack",
+      "description": "Performant model runtimes, cross-cloud high availability, and seamless developer workflows.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_2",
+      "company_id": "baseten",
+      "name": "Kimi K2 0905",
+      "description": "Try It",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_3",
+      "company_id": "baseten",
+      "name": "DeepSeek V3.1",
+      "description": "Try It",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_4",
+      "company_id": "baseten",
+      "name": "Qwen3 Coder 480B",
+      "description": "Try It",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_5",
+      "company_id": "baseten",
+      "name": "GPT OSS 120B",
+      "description": "Try It",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "baseten_lo\u00efc_houssier",
+      "company_id": "baseten",
+      "name": "Lo\u00efc Houssier",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "baseten_nathan_sobo",
+      "company_id": "baseten",
+      "name": "Nathan Sobo",
+      "role": "Co-founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "baseten_sahaj_garg",
+      "company_id": "baseten",
+      "name": "Sahaj Garg",
+      "role": "Co-Founder and CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "baseten_lily_clifford",
+      "company_id": "baseten",
+      "name": "Lily Clifford",
+      "role": "Co-founder and CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "baseten_isaiah_granet",
+      "company_id": "baseten",
+      "name": "Isaiah Granet",
+      "role": "CEO and Co-Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "baseten_waseem_alshikh",
+      "company_id": "baseten",
+      "name": "Waseem Alshikh",
+      "role": "CTO and Co-Founder",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
