@@ -4,6 +4,12 @@ Automated data pipeline for scraping and analyzing Forbes AI 50 companies for pr
 
 ---
 
+##Submission Deliverables
+1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50
+2. **EVAL.md** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/EVAL.md
+3. **Demo video** : 
+4. **Reflection.md for Evaluation** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/REFLECTION.md 
+---
 ## Quick Start
 
 ### Run Airflow (Docker)
@@ -249,12 +255,12 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 - Rubric: factual correctness, schema adherence, hallucination control
 - Output: `EVAL.md` with scores and findings
 
-### 🔄 Lab 10: Dockerize FastAPI + Streamlit
+### ✅ Lab 10: Dockerize FastAPI + Streamlit
 - `docker-compose.yml` for app layer
 - FastAPI: http://localhost:8000
 - Streamlit: http://localhost:8501
 
-### 🔄 Lab 11: DAG ↔ App Integration
+### ✅ Lab 11: DAG ↔ App Integration
 - Daily DAG writes to `data/payloads/`
 - App reads from payloads for dashboard generation
 
@@ -315,18 +321,23 @@ python src\lab6\assemble_payloads.py
 
 ---
 
-## Deliverables
+## Contributions
 
-- [x] GitHub repo: `pe-dashboard-ai50`
-- [x] Working Airflow DAGs (Lab 2-3)
-- [x] FastAPI with `/dashboard/rag`, `/dashboard/structured`
-- [x] Vector DB with ChromaDB (Lab 4)
-- [x] Structured extraction with Pydantic (Lab 5)
-- [x] Payload assembly and validation (Lab 6)
-- [x] RAG pipeline dashboard (Lab 7)
-- [x] Structured pipeline dashboard (Lab 8)
-- [x] `EVAL.md` comparing RAG vs Structured (5+ companies) (Lab 9)
-- [ ] Streamlit UI with company dropdown → dashboard
-- [ ] Docker for FastAPI + Streamlit
-- [ ] Demo video ≤10 mins
-- [ ] Contribution attestation
+- Swara: Phase 1 (Labs 0–1), Phase 2 (Lab 5), Phase 3 (Labs 8–9)
+- Nat: Phase 1 (Labs 2–3), Phase 4 (Labs 10–11)
+- Kundana: Phase 2 (Labs 4, 6, 7)
+
+### Roles & Responsibilities
+
+- Swara
+  - Scraping (Lab 1), structured extraction (Lab 5)
+  - Evaluation and Documentation (EVAL.md, REFLECTION.md)
+  - Dashboard generation via Structured pipeline (Lab 8) and evaluation (Lab 9)
+
+- Nat
+  - Airflow DAGs (full-load and daily) and deployment (Labs 2–3)
+  - Frontend/Streamlit and containerization in Phase 4 (Labs 10–11)
+
+- Kundana
+  - RAG-based pipeline and retrieval experiments (Labs 4, 7)
+  - Payload assembly integration (Lab 6)
