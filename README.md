@@ -4,7 +4,7 @@ Automated data pipeline for scraping and analyzing Forbes AI 50 companies for pr
 
 ---
 
-##Submission Deliverables
+## Submission Deliverables
 1. **GitHub repo** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50
 2. **EVAL.md** : https://github.com/Team-01-DAMG-7245/pe-dashboard-ai50/blob/swara/EVAL.md
 3. **Demo video** : 
