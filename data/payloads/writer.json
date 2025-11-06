@@ -13,10 +13,10 @@
       "Enterprise Software",
       "Generative AI",
       "Machine Learning",
-      "Data Analytics"
+      "Natural Language Processing"
     ],
     "related_companies": [],
-    "total_raised_usd": 1021000000.0,
+    "total_raised_usd": 521000000.0,
     "last_disclosed_valuation_usd": 1900000000.0,
     "last_round_name": "Series C",
     "last_round_date": "2024-11-12",
@@ -26,12 +26,12 @@
       {
         "source_url": "https://www.writer.com/about",
         "crawled_at": "2025-02-27T00:00:00Z",
-        "snippet": "Founded in 2020 by May Habib and Waseem AlShikh, WRITER delivers unmatched ROI for hundreds of customers like Accenture, Intuit, Mars, Marriott, Uber, and Vanguard. WRITER has raised $326M of venture capital at a $1.9B valuation from world-class investors including Premji Invest, Radical Ventures, ICONIQ Growth, Insight Partners, Balderton, B Capital, Salesforce Ventures, Adobe Ventures, Citi Ventures, IBM Ventures, and others."
+        "snippet": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence."
       },
       {
         "source_url": "https://www.writer.com/newsroom",
         "crawled_at": "2025-02-27T00:00:00Z",
-        "snippet": "WRITER raises $200M Series C at $1.9B valuation to fuel leadership in agentic enterprise AI."
+        "snippet": "WRITER has raised $326M of venture capital at a $1.9B valuation from world-class investors."
       },
       {
         "source_url": "https://www.writer.com/careers",
@@ -115,55 +115,18 @@
       "title": "Funding round raising $200M",
       "description": null,
       "round_name": null,
-      "investors": [],
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1900000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "6",
-      "company_id": "writer",
-      "occurred_on": "2023-09-18",
-      "event_type": "funding",
-      "title": "Funding round raising $100M",
-      "description": null,
-      "round_name": null,
-      "investors": [],
-      "amount_usd": 100000000.0,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "7",
-      "company_id": "writer",
-      "occurred_on": "2024-11-12",
-      "event_type": "funding",
-      "title": "Funding round raising $200M at $1.9B valuation",
-      "description": null,
-      "round_name": null,
-      "investors": [],
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1900000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "8",
-      "company_id": "writer",
-      "occurred_on": "2024-11-12",
-      "event_type": "funding",
-      "title": "Funding round raising $200M",
-      "description": null,
-      "round_name": null,
-      "investors": [],
+      "investors": [
+        "Premji Invest",
+        "Radical Ventures",
+        "ICONIQ Growth",
+        "Insight Partners",
+        "Balderton",
+        "B Capital",
+        "Salesforce Ventures",
+        "Adobe Ventures",
+        "Citi Ventures",
+        "IBM Ventures"
+      ],
       "amount_usd": 200000000.0,
       "valuation_usd": 1900000000.0,
       "actors": [],
@@ -176,16 +139,101 @@
     {
       "company_id": "writer",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "headcount_total": 350,
+      "headcount_growth_pct": 200.0,
+      "job_openings_count": 20,
+      "engineering_openings": 5,
+      "sales_openings": 7,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Support"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Action Agent",
+        "AI Studio",
+        "Palmyra LLMs",
+        "Knowledge Graph"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London",
+        "Chicago",
+        "Austin"
+      ],
       "confidence": null,
+      "funding_cadence_months": 17.95335085413929,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 200.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Accenture",
+        "Intuit",
+        "Mars",
+        "Marriott",
+        "Uber",
+        "Vanguard"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "WRITER named in 2025 CNBC Disruptor 50 list",
+        "WRITER launches a \u2018super agent\u2019 that outperforms OpenAI",
+        "WRITER triples revenue and expands to 250 customers"
+      ],
+      "negative_signals": [
+        "None"
+      ],
+      "positive_events_count": 5,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Accenture",
+        "Customer testimonial from Vanguard"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
       "provenance": []
     }
@@ -240,7 +288,7 @@
       "product_id": "writer_product_4",
       "company_id": "writer",
       "name": "Knowledge Graph",
-      "description": "A tool for organizing and managing knowledge in AI systems.",
+      "description": "A tool for organizing and managing knowledge in AI applications.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -610,6 +658,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 8 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

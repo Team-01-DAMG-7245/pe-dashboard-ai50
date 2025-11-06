@@ -106,16 +106,58 @@
       "engineering_openings": 0,
       "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": null,
-      "active_products": null,
+      "pricing_tiers": [],
+      "active_products": [],
       "geo_presence": [],
       "confidence": 0.0,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Stable",
+      "headcount_growth_rate": 0.0,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": 0.0,
+      "positive_signals": [
+        "Series A funding round",
+        "Series B funding round",
+        "Series C funding round",
+        "Series D funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 37.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 65.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
       "provenance": [
         {
           "source_url": null,
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics found for headcount, job openings, or growth."
+          "snippet": "No specific metrics found for Figure AI."
         }
       ]
     }
@@ -167,78 +209,7 @@
       "provenance": []
     }
   ],
-  "leadership": [
-    {
-      "person_id": "figure_ai_john_smith",
-      "company_id": "figure_ai",
-      "name": "John Smith",
-      "role": "CEO",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "figure_ai_jane_doe",
-      "company_id": "figure_ai",
-      "name": "Jane Doe",
-      "role": "CTO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "figure_ai_emily_johnson",
-      "company_id": "figure_ai",
-      "name": "Emily Johnson",
-      "role": "CFO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "figure_ai_michael_brown",
-      "company_id": "figure_ai",
-      "name": "Michael Brown",
-      "role": "COO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "figure_ai_sarah_davis",
-      "company_id": "figure_ai",
-      "name": "Sarah Davis",
-      "role": "VP of Marketing",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    }
-  ],
+  "leadership": [],
   "visibility": [],
   "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."

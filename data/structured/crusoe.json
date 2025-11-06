@@ -1,20 +1,14 @@
 {
   "company_record": {
     "company_id": "crusoe",
-    "legal_name": "MarkUpgrade",
-    "brand_name": "Crusoe",
-    "website": "https://crusoe.com/",
-    "hq_city": "None",
-    "hq_state": "None",
-    "hq_country": "None",
-    "founded_year": 2025,
-    "categories": [
-      "Domain Names",
-      "Business Strategy",
-      "Digital Assets",
-      "Startup Services",
-      "Branding"
-    ],
+    "legal_name": "Crusoe",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
     "last_disclosed_valuation_usd": null,
@@ -22,13 +16,7 @@
     "last_round_date": "2025-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
-    "provenance": [
-      {
-        "source_url": "https://crusoe.com",
-        "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "The domain name CRUSOE.COM is available for sale or other proposals. Contact MarkUpgrade for details."
-      }
-    ]
+    "provenance": []
   },
   "events": [
     {
@@ -106,18 +94,54 @@
       "engineering_openings": null,
       "sales_openings": null,
       "hiring_focus": [],
-      "pricing_tiers": null,
-      "active_products": null,
+      "pricing_tiers": [],
+      "active_products": [],
       "geo_presence": [],
       "confidence": null,
+      "funding_cadence_months": 0.0,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": null,
+      "leadership_changes_last_12m": null,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Series A funding round",
+        "Series B funding round",
+        "Series C funding round",
+        "Series D funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 42.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 60.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics found regarding headcount, job openings, or growth."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -152,22 +176,7 @@
       "provenance": []
     }
   ],
-  "leadership": [
-    {
-      "person_id": "crusoe_mark_upgrade",
-      "company_id": "crusoe",
-      "name": "Mark Upgrade",
-      "role": "CEO",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    }
-  ],
+  "leadership": [],
   "visibility": [],
   "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."

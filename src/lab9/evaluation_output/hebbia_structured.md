@@ -1,6 +1,6 @@
 # Structured Dashboard: HEBBIA
 
-Generated: 2025-11-05T14:37:09.110727
+Generated: 2025-11-05T18:50:57.033385
 Source: Structured Payload (data/payloads/hebbia.json)
 
 ---
@@ -10,40 +10,54 @@ Source: Structured Payload (data/payloads/hebbia.json)
 - **Founded Year:** 2020
 - **Headquarters:** San Francisco, CA, USA
 - **Website:** [hebbia.com](https://www.hebbia.com/)
-- **Categories:** AI, Finance, Legal Tech, Enterprise Software, Data Analytics
-- **Total Raised:** $130,000,000
-
-## Business Model and GTM
-- **Products:**
-  - **Matrix:** The AI interface for serious work that executes complex multi-step workflows, reasons over any amount and modality of data, and provides total transparency with enterprise security.
-  - **Hebbia:** An AI platform for finance that integrates generative AI to create value from day one, with over 1000 live use cases across various sectors.
-- **Job Openings:** 20 (10 in Engineering, 5 in Sales, and others in Marketing, Product, Design, and Operations)
-- **Geo Presence:** New York City, San Francisco, CA, London, UK
-
-## Funding & Investor Profile
+- **Categories:** AI, Enterprise Software, Finance, Legal Tech, Data Analytics
+- **Total Raised:** $130 million
 - **Last Round Name:** Series B
 - **Last Round Date:** October 21, 2025
-- **Investors:** a16z
-- **Last Disclosed Valuation:** Not disclosed.
+- **Provenance:** The company states it was one of the first to productionize LLMs, pioneering retrieval augmented generation (RAG).
+
+## Business Model and GTM
+- **Active Products:** 
+  - AI for Finance
+  - Matrix
+- **Notable Customers:** JP Morgan, KKR, Sixth Street, Evercore, Lazard, Paul Hastings, YC
+- **Customer Quality Score:** Enterprise
+- **Pricing Information:** Not disclosed.
+- **Marketing Claims:** The company states it has 1000+ live use cases and $14T AUM of firms using Hebbia.
+
+## Funding & Investor Profile
+- **Recent Funding Event:** Series B funding round
+- **Amount Raised:** $130 million
+- **Lead Investor:** a16z
 
 ## Growth Momentum
-- **Headcount Total:** Not disclosed.
-- **Headcount Growth Percentage:** Not disclosed.
-- **Hiring Focus:** Engineering, Sales, Marketing, Product, Design, Operations
+- **Total Headcount:** 500
+- **Job Openings Count:** 22
+- **Hiring Focus:** Engineering, Sales, Marketing, AI Strategy, Design
+- **Headcount Velocity:** Rapid
+- **Release Velocity:** High
+- **Geography Expansion:** San Francisco
+- **Geography Expansion Rate:** Moderate
+- **Positive Signals:** Raised $130M Series B, Opened new office in San Francisco
 
 ## Visibility & Market Sentiment
-- The company states that it was one of the first to productionize LLMs, pioneering retrieval augmented generation (RAG).
-- The company states it has raised 4 rounds of financing.
-- The company states it is building the most important software product of the next 100 years.
+- **Transparency Score:** 85.0 (High)
+- **Positive Events Count:** 1
+- **Negative Events Count:** 0
+- **Leadership Stability:** Growing
+- **Leadership Changes Last 12 Months:** 1
+- **Churn Signals:** Not disclosed.
+- **Regulatory Exposure:** Not disclosed.
 
 ## Risks and Challenges
-- Not disclosed.
+- **Risk Score:** 33.0 (Medium)
+- **Key Challenges:** Not disclosed.
+- **Negative Signals:** Not disclosed.
 
 ## Outlook
-- The company is positioned in a rapidly growing sector with significant funding and a strong product offering. The focus on hiring across multiple functions suggests plans for expansion and scaling operations.
+- The company is positioned for growth with a strong funding round and a focus on expanding its product offerings in the AI and finance sectors. The leadership team is stable, and the company has a high transparency score, indicating a positive outlook.
 
 ## Disclosure Gaps
-- Information on specific risks and challenges is not disclosed.
-- Details regarding the last disclosed valuation are not disclosed.
-- Headcount total and growth percentage are not disclosed.
-- Information on related companies is not disclosed.
+- Pricing information not disclosed.
+- Marketing claims lack supporting case studies.
+- Actual case studies: Not disclosed.

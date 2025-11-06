@@ -53,8 +53,43 @@ class Snapshot(BaseModel):
     hiring_focus: List[str] = []
     pricing_tiers: Optional[List[str]] = []  # Allow empty list as default
     active_products: Optional[List[str]] = []  # Allow empty list as default
-    geo_presence: List[str] = []
+    geo_presence: Optional[List[str]] = []  # Allow empty list as default
     confidence: Optional[float] = None
+    # Growth Momentum Metrics
+    funding_cadence_months: Optional[float] = None  # Average months between funding rounds
+    headcount_velocity: Optional[str] = None  # e.g., "Rapid", "Moderate", "Slow", "Stable"
+    headcount_growth_rate: Optional[float] = None  # Annual growth rate percentage
+    release_velocity: Optional[str] = None  # e.g., "High", "Medium", "Low"
+    products_released_last_12m: Optional[int] = None  # Number of products/features released in last 12 months
+    geography_expansion: List[str] = []  # New geographic locations/regions
+    geography_expansion_rate: Optional[str] = None  # e.g., "Rapid", "Moderate", "Slow"
+    # Durability Indicators
+    notable_customers: List[str] = []  # Well-known customers/partners
+    customer_quality_score: Optional[str] = None  # e.g., "Enterprise", "Mid-market", "SMB"
+    churn_signals: List[str] = []  # Any churn or customer retention issues mentioned
+    regulatory_exposure: List[str] = []  # Regulatory risks or compliance issues
+    leadership_stability: Optional[str] = None  # e.g., "Stable", "High turnover", "Growing"
+    leadership_changes_last_12m: Optional[int] = None  # Number of leadership changes
+    # Risk & Challenges
+    layoffs_mentioned: Optional[bool] = None  # Whether layoffs are mentioned
+    layoffs_count: Optional[int] = None  # Number of layoffs if mentioned
+    layoffs_date: Optional[date] = None  # Date of layoffs if mentioned
+    layoffs_percentage: Optional[float] = None  # Percentage of workforce laid off
+    positive_signals: List[str] = []  # Product releases, partnerships, funding, positive news
+    negative_signals: List[str] = []  # Layoffs, churn, regulatory issues, negative news
+    positive_events_count: Optional[int] = None  # Count of positive events/announcements
+    negative_events_count: Optional[int] = None  # Count of negative events/announcements
+    risk_score: Optional[float] = None  # Overall risk score (0-100, lower is better)
+    risk_level: Optional[str] = None  # "Low", "Medium", "High", "Critical"
+    key_challenges: List[str] = []  # Identified challenges and risks
+    # Transparency & Disclosure
+    transparency_score: Optional[float] = None  # Transparency score (0-100, higher is better)
+    transparency_level: Optional[str] = None  # "High", "Medium", "Low", "Poor"
+    marketed_info_available: List[str] = []  # What information is marketed (claims, features, benefits)
+    actual_case_studies: List[str] = []  # Actual case studies, customer testimonials, proof points
+    disclosure_gaps: List[str] = []  # Information that should be disclosed but isn't (e.g., pricing, customer count, metrics)
+    missing_key_info: List[str] = []  # Critical information that's missing (e.g., pricing, customer count, metrics, team size)
+    marketing_vs_reality_gap: Optional[str] = None  # Assessment of gap between marketing claims and proof
     schema_version: str = "2.0.0"
     provenance: List[Provenance] = []
 

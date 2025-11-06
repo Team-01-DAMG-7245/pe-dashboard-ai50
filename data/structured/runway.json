@@ -133,20 +133,24 @@
       "company_id": "runway",
       "as_of": "2025-11-05",
       "headcount_total": 100,
-      "headcount_growth_pct": null,
+      "headcount_growth_pct": 100.0,
       "job_openings_count": 6,
-      "engineering_openings": 1,
+      "engineering_openings": 3,
       "sales_openings": 3,
       "hiring_focus": [
+        "Engineering",
+        "Sales",
         "Customer Experience",
         "Finance",
-        "Go-to-market",
-        "Sales",
-        "Engineering"
+        "Go-to-market"
       ],
-      "pricing_tiers": null,
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
       "active_products": [
-        "FP&A software"
+        "FP&A for high growth teams"
       ],
       "geo_presence": [
         "New York",
@@ -154,6 +158,64 @@
         "Remote"
       ],
       "confidence": null,
+      "funding_cadence_months": 11.999014454664913,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "North America"
+      ],
+      "geography_expansion_rate": "Rapid",
+      "notable_customers": [
+        "AngelList",
+        "Superhuman",
+        "MyFitnessPal",
+        "Kick",
+        "Kit",
+        "SandboxVR"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $X",
+        "New product launches"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 5,
+      "negative_events_count": 0,
+      "risk_score": 25.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Company X",
+        "Customer testimonial from Company Y"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Customer count not available",
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
       "provenance": []
     }
@@ -179,6 +241,66 @@
       "company_id": "runway",
       "name": "burnrate.cash",
       "description": "A tool for financial analysis and planning.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "runway_product_3",
+      "company_id": "runway",
+      "name": "FP&A",
+      "description": "Financial Planning & Analysis for high growth teams.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "runway_product_4",
+      "company_id": "runway",
+      "name": "Analyze with AI",
+      "description": "Accelerate workflows, drill into variance, and deeply understand your business.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "runway_product_5",
+      "company_id": "runway",
+      "name": "Pressure test every plan",
+      "description": "Create dimension-rich plans, drag and drop to explore outcomes, and make instant decisions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "runway_product_6",
+      "company_id": "runway",
+      "name": "Answer every 'what-if?'",
+      "description": "Build and compare multiple scenarios, tweak assumptions.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

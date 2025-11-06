@@ -13,7 +13,7 @@
       "Remote Work",
       "Talent Matching",
       "Human Resources",
-      "Data Annotation"
+      "Technology"
     ],
     "related_companies": [],
     "total_raised_usd": 453600000.0,
@@ -26,17 +26,17 @@
       {
         "source_url": "https://www.mercor.com",
         "crawled_at": "2025-10-27T00:00:00Z",
-        "snippet": "Mercor is based in San Francisco, CA and has raised a total of $450 million across multiple funding rounds."
+        "snippet": "Mercor is based in San Francisco, CA and has raised a total of $350 million in Series C funding at a $10 billion valuation."
       },
       {
         "source_url": "https://www.mercor.com/blog",
         "crawled_at": "2025-10-27T00:00:00Z",
-        "snippet": "Announcing Mercor's $350 million Series C at a $10 billion valuation."
+        "snippet": "Mercor announced $3.6M in funding and the launch of its platform in January 2024."
       },
       {
-        "source_url": "https://www.mercor.com/about",
+        "source_url": "https://www.mercor.com/blog",
         "crawled_at": "2025-10-27T00:00:00Z",
-        "snippet": "Mercor is redefining hiring with AI, founded in 2024."
+        "snippet": "Mercor raised $100M in Series B funding in February 2025."
       }
     ]
   },
@@ -49,7 +49,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": null,
+      "investors": [],
       "amount_usd": 350000000.0,
       "valuation_usd": 10000000000.0,
       "actors": [],
@@ -65,7 +65,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": null,
+      "investors": [],
       "amount_usd": 100000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -80,11 +80,8 @@
       "event_type": "funding",
       "title": "Seed funding round",
       "description": null,
-      "round_name": null,
-      "investors": [
-        "General Catalyst",
-        "Scott Sandell"
-      ],
+      "round_name": "Seed",
+      "investors": [],
       "amount_usd": 3600000.0,
       "valuation_usd": null,
       "actors": [],
@@ -103,14 +100,21 @@
       "engineering_openings": 0,
       "sales_openings": 0,
       "hiring_focus": [
-        "AI Experts",
+        "Legal",
         "Consulting",
         "Video Captioning",
         "Video Annotation",
         "Photography",
         "Evaluation"
       ],
-      "pricing_tiers": null,
+      "pricing_tiers": [
+        "$20-$30/hr",
+        "$35/hr",
+        "$40/hr",
+        "$45/hr",
+        "$80-$120/hr",
+        "$110-$130/hr"
+      ],
       "active_products": [
         "APEX: The AI Productivity Index"
       ],
@@ -118,14 +122,53 @@
         "San Francisco, CA"
       ],
       "confidence": null,
+      "funding_cadence_months": 10.775295663600525,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 1,
+      "geography_expansion": [
+        "San Francisco"
+      ],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Announced $350 million Series C funding",
+        "Raised $100M Series B funding",
+        "Launched fully-automated platform"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 3,
+      "negative_events_count": 0,
+      "risk_score": 34.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 80.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered hiring platform",
+        "Unlocking human potential in the AI economy"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Customer names/references not disclosed",
+        "Marketing claims lack supporting case studies"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.linkedin.com/company/mercor",
-          "crawled_at": "2025-10-27T00:00:00Z",
-          "snippet": "Company Size: 201-500 employees"
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -149,6 +192,156 @@
       "company_id": "mercor",
       "name": "APEX",
       "description": "The AI Productivity Index.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_3",
+      "company_id": "mercor",
+      "name": "Legal Expert",
+      "description": "Roles created for legal expertise with pay ranging from $110-$130/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_4",
+      "company_id": "mercor",
+      "name": "Consulting Expert",
+      "description": "Roles created for consulting expertise with pay ranging from $80-$120/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_5",
+      "company_id": "mercor",
+      "name": "Generalist Video Captioning Expert",
+      "description": "Roles created for video captioning expertise with pay of $45/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_6",
+      "company_id": "mercor",
+      "name": "Generalist Video Annotators",
+      "description": "Roles created for video annotation expertise with pay of $45/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_7",
+      "company_id": "mercor",
+      "name": "Photography Experts",
+      "description": "Roles created for photography expertise with pay of $45/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_8",
+      "company_id": "mercor",
+      "name": "Visual Annotation Expert",
+      "description": "Roles created for visual annotation expertise with pay of $40/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_9",
+      "company_id": "mercor",
+      "name": "Generalist Evaluator Expert",
+      "description": "Roles created for evaluation expertise with pay ranging from $35-$40/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_10",
+      "company_id": "mercor",
+      "name": "Short Video Captioning / Description Expert",
+      "description": "Roles created for short video captioning expertise with pay of $35/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_11",
+      "company_id": "mercor",
+      "name": "Chemistry Labeling Experts - India",
+      "description": "Roles created for chemistry labeling expertise with pay ranging from $20-$30/hr.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_12",
+      "company_id": "mercor",
+      "name": "Physics Labeling expert - India",
+      "description": "Roles created for physics labeling expertise with pay ranging from $20-$30/hr.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

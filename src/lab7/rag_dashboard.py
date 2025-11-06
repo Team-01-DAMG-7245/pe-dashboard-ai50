@@ -35,10 +35,21 @@ sys.modules['onnxruntime'] = MockONNXRuntime()
 import os
 import json
 from typing import Dict
+from pathlib import Path
+from dotenv import load_dotenv
 from openai import OpenAI
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import chromadb
+
+# Load environment variables from .env file
+project_root = Path(__file__).resolve().parents[2]
+env_path = project_root / ".env"
+if env_path.exists():
+    load_dotenv(env_path)
+else:
+    # Also try loading from current directory
+    load_dotenv()
 
 app = FastAPI(title="PE Dashboard API - RAG Pipeline")
 
@@ -252,19 +263,19 @@ The "Disclosure Gaps" section MUST be included as the final section and should l
         if missing_sections:
             # If sections are missing, regenerate with stronger emphasis
             print(f"Warning: Missing sections: {missing_sections}, regenerating...")
-                
+            
             stronger_prompt = user_prompt + f"\n\nCRITICAL: You MUST include all 8 sections with ## headers. Missing: {', '.join(missing_sections)}\n\nYour output MUST start with ## Company Overview and end with ## Disclosure Gaps."
-                
-                response = client.chat.completions.create(
-                    model="gpt-4o-mini",
-                    messages=[
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": stronger_prompt}
-                    ],
-                    temperature=0.1,
+            
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": stronger_prompt}
+                ],
+                temperature=0.1,
                 max_tokens=3000  # Increased for complete sections
-                )
-                dashboard = response.choices[0].message.content
+            )
+            dashboard = response.choices[0].message.content
         
         # Final validation - ensure all sections present
         final_missing = [s for s in required_sections if s not in dashboard]
@@ -343,7 +354,15 @@ CRITICAL REQUIREMENTS:
    - Visibility & Market Sentiment
    - Risks and Challenges
    - Outlook
-   - Disclosure Gaps"""
+   - Disclosure Gaps
+
+5. For Disclosure Gaps section:
+   - Do NOT include "Missing Key Information" as a heading, category, or bullet point
+   - Do NOT use phrases like "Missing Key Information:" followed by a list
+   - Focus on specific gaps: missing financial metrics, incomplete leadership data, unclear product details, etc.
+   - List specific data points that are not available using bullet points (e.g., "• Revenue figures not disclosed", "• Customer retention metrics unavailable")
+   - Format as specific bullet points or short statements about what data is missing
+   - If no specific gaps, simply state "No significant disclosure gaps identified." or "All key information appears to be disclosed.""""
         
         # Step 5: Generate dashboard
         response = client.chat.completions.create(
@@ -357,6 +376,13 @@ CRITICAL REQUIREMENTS:
         )
         
         dashboard = response.choices[0].message.content
+        
+        # Post-process: Remove "Missing Key Information" line from Disclosure Gaps
+        import re
+        # Remove lines that start with "Missing Key Information:" or contain it as a header
+        dashboard = re.sub(r'^.*Missing Key Information:.*$', '', dashboard, flags=re.MULTILINE | re.IGNORECASE)
+        # Clean up extra blank lines
+        dashboard = re.sub(r'\n{3,}', '\n\n', dashboard)
         
         # Validate 8 sections
         required_sections = [

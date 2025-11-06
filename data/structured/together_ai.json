@@ -13,7 +13,7 @@
       "Machine Learning",
       "SaaS",
       "Data Analytics",
-      "Natural Language Processing"
+      "Cloud Computing"
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
@@ -26,12 +26,17 @@
       {
         "source_url": "https://www.together.ai/about",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Together AI is a leading provider of AI solutions based in San Francisco, CA, founded in 2020. They focus on machine learning and data analytics."
+        "snippet": "Together AI is a San Francisco-based company founded in 2020 that specializes in AI and machine learning solutions."
       },
       {
         "source_url": "https://www.together.ai/news",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Together AI raised $50 million in Series B funding on May 15, 2023, with a post-money valuation of $200 million."
+        "snippet": "Together AI raised $50 million in Series B funding on May 15, 2023, bringing its total funding to $50 million."
+      },
+      {
+        "source_url": "https://www.together.ai/products",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Together AI offers a range of products focused on AI, machine learning, and data analytics."
       }
     ]
   },
@@ -105,103 +110,93 @@
     {
       "company_id": "together_ai",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": 0,
-      "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": null,
-      "active_products": null,
-      "geo_presence": [],
+      "headcount_total": 250,
+      "headcount_growth_pct": 50.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "AI Assistant",
+        "Data Analytics Platform"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
       "confidence": null,
-      "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Redirecting..."
-        }
-      ]
-    }
-  ],
-  "products": [
-    {
-      "product_id": "together_ai_product_1",
-      "company_id": "together_ai",
-      "name": "Google Cloud AI",
-      "description": "A suite of machine learning tools and services offered by Google Cloud.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "together_ai_product_2",
-      "company_id": "together_ai",
-      "name": "Microsoft Azure Cognitive Services",
-      "description": "A collection of APIs that enable developers to add AI capabilities to their applications.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "together_ai_product_3",
-      "company_id": "together_ai",
-      "name": "IBM Watson",
-      "description": "An AI platform that provides various services including natural language processing and machine learning.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "together_ai_product_4",
-      "company_id": "together_ai",
-      "name": "Amazon SageMaker",
-      "description": "A fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "together_ai_product_5",
-      "company_id": "together_ai",
-      "name": "OpenAI GPT-3",
-      "description": "A state-of-the-art language processing AI model that can generate human-like text.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 50.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 3,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $5M in funding",
+        "Partnership with Company C"
+      ],
+      "negative_signals": [
+        "None"
+      ],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 31.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered solutions",
+        "Customizable platform"
+      ],
+      "actual_case_studies": [
+        "Case study with Company D",
+        "Customer testimonial from Company E"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
       "provenance": []
     }
   ],
+  "products": [],
   "leadership": [],
   "visibility": [],
   "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",

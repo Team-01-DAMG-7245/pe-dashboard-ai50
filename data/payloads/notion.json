@@ -11,13 +11,13 @@
     "categories": [
       "Productivity Software",
       "Collaboration Tools",
-      "AI",
+      "AI Tools",
       "Workspace Management",
-      "SaaS"
+      "Knowledge Management"
     ],
     "related_companies": [],
-    "total_raised_usd": 10000000000.0,
-    "last_disclosed_valuation_usd": 2500000000.0,
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": 10000000000.0,
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
@@ -29,11 +29,6 @@
         "snippet": "Notion is based in beautiful downtown San Francisco, with offices around the world."
       },
       {
-        "source_url": "https://www.notion.so",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "The AI workspace that works for you."
-      },
-      {
         "source_url": "https://www.notion.so/blog",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "$10 Billion Productivity Startup Notion Wants To Build Your AI Everything App."
@@ -41,7 +36,7 @@
       {
         "source_url": "https://www.notion.so/careers",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Notion is an in-person company, and currently requires its employees to come to the office for two Anchor Days."
+        "snippet": "Notion is growing faster than ever across offices in San Francisco, New York, Dublin, Hyderabad, Tokyo, Seoul and Sydney."
       }
     ]
   },
@@ -54,12 +49,9 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [
-        "Investor A",
-        "Investor B"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1000000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -73,12 +65,9 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [
-        "Investor C",
-        "Investor D"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1500000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -92,12 +81,9 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [
-        "Investor E",
-        "Investor F"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 2000000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -111,12 +97,9 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [
-        "Investor G",
-        "Investor H"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 2500000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -127,24 +110,23 @@
     {
       "company_id": "notion",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 350,
       "headcount_growth_pct": null,
-      "job_openings_count": 40,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "job_openings_count": 60,
+      "engineering_openings": 20,
+      "sales_openings": 20,
       "hiring_focus": [
         "Engineering",
         "Sales",
         "Marketing",
-        "Product Design",
-        "Product Management",
-        "Customer Experience",
         "Customer Success",
         "Data Science",
+        "Product Design",
+        "Product Management",
+        "Business Development",
         "Legal",
         "Finance",
-        "People",
-        "Operations"
+        "People"
       ],
       "pricing_tiers": [
         "AI Search",
@@ -157,11 +139,21 @@
         "Team Wiki",
         "Project Management Tool",
         "Basic CRM",
-        "Site Builder",
         "Forms"
       ],
       "active_products": [
-        "Notion 3.0"
+        "Notion 3.0",
+        "AI Search",
+        "AI Chatbot",
+        "AI Meeting Notes",
+        "AI Writing Assistant",
+        "AI Email App",
+        "AI Research",
+        "Calendar Scheduling",
+        "Team Wiki",
+        "Project Management Tool",
+        "Basic CRM",
+        "Forms"
       ],
       "geo_presence": [
         "San Francisco",
@@ -176,47 +168,60 @@
         "Paris",
         "Singapore",
         "Spain",
-        "Brazil"
+        "Brazil",
+        "Denver"
       ],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": null,
+      "release_velocity": "High",
+      "products_released_last_12m": 1,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific",
+        "New York",
+        "London"
+      ],
+      "geography_expansion_rate": "Rapid",
+      "notable_customers": [
+        "62% of Fortune 100",
+        "Over 50% of YC companies"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Launched Notion 3.0",
+        "Partnership with Samsung"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 27.0,
+      "risk_level": "Low",
+      "key_challenges": [],
+      "transparency_score": 80.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI workspace",
+        "Productivity tools",
+        "Customizable workspace"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Marketing claims lack supporting case studies"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Notion is committed to providing highly competitive, innovative, and inclusive benefits offering that attracts the best talent from diverse backgrounds. We aim for all our programs to promote overall employee health."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Notion offers flexible paid vacation as well as 10+ observed holidays by country."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer competitive medical, dental, vision insurance for employees and dependents."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer biological, adoptive, and foster parents paid time off to spend quality time with family."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Notion makes it easy to save money for retirement. There\u2019s also employer matching!"
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer a generous monthly subsidy for your commute."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer everyone a monthly stipend to use toward services that fit their personal needs."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -224,7 +229,7 @@
       "product_id": "notion_product_1",
       "company_id": "notion",
       "name": "Notion 3.0",
-      "description": "The AI workspace that works for you, designed to streamline workflows and enhance productivity.",
+      "description": "The AI workspace that works for you, streamlining workflows and enhancing productivity.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -239,7 +244,7 @@
       "product_id": "notion_product_2",
       "company_id": "notion",
       "name": "AI Search",
-      "description": "An AI-powered search tool that helps you find information across all your pages, messages, and files.",
+      "description": "An AI-powered search tool that surfaces exactly what you need from all your pages, messages, files, and the web.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -254,7 +259,7 @@
       "product_id": "notion_product_3",
       "company_id": "notion",
       "name": "AI Chatbot",
-      "description": "An AI-driven chatbot that assists with various tasks and queries.",
+      "description": "An AI-driven chatbot designed to assist users with various tasks.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -284,7 +289,7 @@
       "product_id": "notion_product_5",
       "company_id": "notion",
       "name": "AI Writing Assistant",
-      "description": "An AI tool that helps improve writing quality and efficiency.",
+      "description": "An AI tool that helps users with writing tasks.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -299,7 +304,7 @@
       "product_id": "notion_product_6",
       "company_id": "notion",
       "name": "AI Email App",
-      "description": "An AI application designed to enhance email management and communication.",
+      "description": "An AI application designed to assist with email management.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -314,7 +319,7 @@
       "product_id": "notion_product_7",
       "company_id": "notion",
       "name": "AI Research",
-      "description": "A research tool powered by AI to assist in gathering and analyzing information.",
+      "description": "A research tool powered by AI to assist in gathering information.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -329,7 +334,7 @@
       "product_id": "notion_product_8",
       "company_id": "notion",
       "name": "Calendar Scheduling",
-      "description": "A tool for scheduling meetings and managing calendars.",
+      "description": "A tool for scheduling events and meetings.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -344,7 +349,7 @@
       "product_id": "notion_product_9",
       "company_id": "notion",
       "name": "Team Wiki",
-      "description": "A collaborative space for teams to document and share knowledge.",
+      "description": "A collaborative space for teams to share knowledge and information.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -359,7 +364,7 @@
       "product_id": "notion_product_10",
       "company_id": "notion",
       "name": "Project Management Tool",
-      "description": "A tool designed to help teams manage projects and tasks effectively.",
+      "description": "A tool designed to help teams manage projects effectively.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -374,7 +379,7 @@
       "product_id": "notion_product_11",
       "company_id": "notion",
       "name": "Basic CRM",
-      "description": "A basic customer relationship management tool for managing client interactions.",
+      "description": "A basic customer relationship management tool.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -389,7 +394,7 @@
       "product_id": "notion_product_12",
       "company_id": "notion",
       "name": "Site Builder",
-      "description": "A tool for creating and managing websites.",
+      "description": "A tool for building websites.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -404,7 +409,7 @@
       "product_id": "notion_product_13",
       "company_id": "notion",
       "name": "Forms",
-      "description": "A tool for creating and managing forms for data collection.",
+      "description": "A tool for creating and managing forms.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -449,20 +454,6 @@
       "person_id": "notion_ted_nelson",
       "company_id": "notion",
       "name": "Ted Nelson",
-      "role": "Pioneer",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "notion_steve_jobs",
-      "company_id": "notion",
-      "name": "Steve Jobs",
       "role": "Pioneer",
       "is_founder": false,
       "start_date": null,

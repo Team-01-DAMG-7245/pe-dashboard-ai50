@@ -17,26 +17,26 @@
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
-    "last_disclosed_valuation_usd": 2000000000.0,
+    "last_disclosed_valuation_usd": null,
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.baseten.co",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Baseten has helped us abstract away so much of the complexity of AI model deployments and MLOps."
-      },
-      {
-        "source_url": "https://www.baseten.co",
+        "source_url": "https://www.baseten.co/about",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "We build delightful products for engineering and machine learning teams to deliver their best work."
       },
       {
+        "source_url": "https://www.baseten.co/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Join our team. We build delightful products for engineering and AI teams to deliver their best work."
+      },
+      {
         "source_url": "https://www.baseten.co",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Baseten cut our P95 latency by 80% across the dozens of fine-tuned embedding models."
+        "snippet": "Deploy AI models in production | Baseten"
       }
     ]
   },
@@ -49,12 +49,9 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [
-        "Investor A",
-        "Investor B"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1000000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -68,12 +65,9 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [
-        "Investor C",
-        "Investor D"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1200000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -87,12 +81,9 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [
-        "Investor E",
-        "Investor F"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 1500000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -106,12 +97,9 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [
-        "Investor G",
-        "Investor H"
-      ],
+      "investors": null,
       "amount_usd": 250000000.0,
-      "valuation_usd": 2000000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -124,7 +112,7 @@
       "as_of": "2025-11-05",
       "headcount_total": 350,
       "headcount_growth_pct": null,
-      "job_openings_count": 30,
+      "job_openings_count": 36,
       "engineering_openings": 20,
       "sales_openings": 8,
       "hiring_focus": [
@@ -142,7 +130,7 @@
       "active_products": [
         "Baseten Inference Stack",
         "Model APIs",
-        "AI Solutions"
+        "Training Infrastructure"
       ],
       "geo_presence": [
         "San Francisco",
@@ -150,25 +138,64 @@
         "Montreal",
         "Remote"
       ],
-      "confidence": 1.0,
+      "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": null,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Superhuman",
+        "Writer"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Launched Baseten Training",
+        "Achieved 2x faster inference",
+        "Partnership with NVIDIA"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 27.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 82.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "High-performance AI model deployment",
+        "Seamless developer workflows"
+      ],
+      "actual_case_studies": [
+        "Case study with Superhuman",
+        "Customer testimonial from Writer"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.baseten.co/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Baseten is hiring for various roles across Engineering, Product, Marketing, Recruiting, and Sales."
-        },
-        {
-          "source_url": "https://www.baseten.co/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Baseten has a team of 350 employees."
-        },
-        {
-          "source_url": "https://www.baseten.co/blog",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Baseten has achieved significant performance improvements in AI model deployments."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -190,8 +217,8 @@
     {
       "product_id": "baseten_product_2",
       "company_id": "baseten",
-      "name": "Kimi K2 0905",
-      "description": "Try It",
+      "name": "Model APIs",
+      "description": "Test new workloads, prototype new products, or evaluate the latest models with production-grade performance \u2014 instantly.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -205,8 +232,8 @@
     {
       "product_id": "baseten_product_3",
       "company_id": "baseten",
-      "name": "DeepSeek V3.1",
-      "description": "Try It",
+      "name": "Kimi K2 0905",
+      "description": "Try It.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -220,8 +247,8 @@
     {
       "product_id": "baseten_product_4",
       "company_id": "baseten",
-      "name": "Qwen3 Coder 480B",
-      "description": "Try It",
+      "name": "DeepSeek V3.1",
+      "description": "Try It.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -235,8 +262,38 @@
     {
       "product_id": "baseten_product_5",
       "company_id": "baseten",
+      "name": "Qwen3 Coder 480B",
+      "description": "Try It.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_6",
+      "company_id": "baseten",
       "name": "GPT OSS 120B",
-      "description": "Try It",
+      "description": "Try It.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "baseten_product_7",
+      "company_id": "baseten",
+      "name": "Training on Baseten",
+      "description": "Use inference-optimized infra to train your models without restrictions or overhead, for the best possible performance in production.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

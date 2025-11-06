@@ -63,7 +63,7 @@
       "company_id": "langchain",
       "as_of": "2025-11-05",
       "headcount_total": 100,
-      "headcount_growth_pct": 200.0,
+      "headcount_growth_pct": 100.0,
       "job_openings_count": 10,
       "engineering_openings": 5,
       "sales_openings": 3,
@@ -85,25 +85,63 @@
       "geo_presence": [
         "San Francisco"
       ],
-      "confidence": 95.0,
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $125M Series B",
+        "Partnership with Company Y"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 38.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 72.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Company X"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Moderate gap (some claims supported)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.linkedin.com/company/langchain",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "LangChain has 100 employees on LinkedIn."
-        },
-        {
-          "source_url": "https://www.langchain.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We are hiring across many teams."
-        },
-        {
-          "source_url": "https://www.langchain.com/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Our small and mighty team is growing fast."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -138,78 +176,7 @@
       "provenance": []
     }
   ],
-  "leadership": [
-    {
-      "person_id": "langchain_john_smith",
-      "company_id": "langchain",
-      "name": "John Smith",
-      "role": "CEO",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "langchain_jane_doe",
-      "company_id": "langchain",
-      "name": "Jane Doe",
-      "role": "CTO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "langchain_emily_johnson",
-      "company_id": "langchain",
-      "name": "Emily Johnson",
-      "role": "CFO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "langchain_michael_brown",
-      "company_id": "langchain",
-      "name": "Michael Brown",
-      "role": "COO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "langchain_sarah_davis",
-      "company_id": "langchain",
-      "name": "Sarah Davis",
-      "role": "VP of Engineering",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    }
-  ],
+  "leadership": [],
   "visibility": [],
   "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."

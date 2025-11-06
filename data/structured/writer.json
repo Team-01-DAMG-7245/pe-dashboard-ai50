@@ -3,7 +3,7 @@
     "company_id": "writer",
     "legal_name": "WRITER, Inc.",
     "brand_name": "WRITER",
-    "website": "https://writer.com/",
+    "website": "https://www.writer.com/",
     "hq_city": "San Francisco",
     "hq_state": "CA",
     "hq_country": "USA",
@@ -16,7 +16,7 @@
       "Natural Language Processing"
     ],
     "related_companies": [],
-    "total_raised_usd": 1221000000.0,
+    "total_raised_usd": 521000000.0,
     "last_disclosed_valuation_usd": 1900000000.0,
     "last_round_name": "Series C",
     "last_round_date": "2024-11-12",
@@ -24,22 +24,17 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://writer.com",
+        "source_url": "https://www.writer.com/about",
         "crawled_at": "2025-02-27T00:00:00Z",
-        "snippet": "WRITER has raised $326M of venture capital at a $1.9B valuation from world-class investors including Premji Invest, Radical Ventures, ICONIQ Growth, Insight Partners, Balderton, B Capital, Salesforce Ventures, Adobe Ventures, Citi Ventures, IBM Ventures, and others."
+        "snippet": "WRITER is where the world\u2019s leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence."
       },
       {
-        "source_url": "https://writer.com/about",
+        "source_url": "https://www.writer.com/newsroom",
         "crawled_at": "2025-02-27T00:00:00Z",
-        "snippet": "Founded in 2020 by May Habib and Waseem AlShikh, WRITER delivers unmatched ROI for hundreds of customers like Accenture, Intuit, Mars, Marriott, Uber, and Vanguard."
+        "snippet": "WRITER has raised $326M of venture capital at a $1.9B valuation from world-class investors."
       },
       {
-        "source_url": "https://writer.com/news",
-        "crawled_at": "2025-02-27T00:00:00Z",
-        "snippet": "WRITER named in 2025 CNBC Disruptor 50 list."
-      },
-      {
-        "source_url": "https://writer.com/careers",
+        "source_url": "https://www.writer.com/careers",
         "crawled_at": "2025-02-27T00:00:00Z",
         "snippet": "We\u2019re hiring across every role, and if you share our vision of AI helping every human achieve their potential, join us."
       }
@@ -72,7 +67,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": null,
+      "investors": [],
       "amount_usd": 100000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -88,7 +83,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": null,
+      "investors": [],
       "amount_usd": 200000000.0,
       "valuation_usd": 1900000000.0,
       "actors": [],
@@ -104,7 +99,7 @@
       "title": "Funding round at $1.9B valuation",
       "description": null,
       "round_name": null,
-      "investors": null,
+      "investors": [],
       "amount_usd": null,
       "valuation_usd": 1900000000.0,
       "actors": [],
@@ -120,87 +115,18 @@
       "title": "Funding round raising $200M",
       "description": null,
       "round_name": null,
-      "investors": null,
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1900000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "6",
-      "company_id": "writer",
-      "occurred_on": "2023-09-18",
-      "event_type": "funding",
-      "title": "Funding round raising $100M",
-      "description": null,
-      "round_name": null,
-      "investors": null,
-      "amount_usd": 100000000.0,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "7",
-      "company_id": "writer",
-      "occurred_on": "2023-09-18",
-      "event_type": "funding",
-      "title": "Funding round raising $100M",
-      "description": null,
-      "round_name": null,
-      "investors": null,
-      "amount_usd": 100000000.0,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "8",
-      "company_id": "writer",
-      "occurred_on": "2023-09-18",
-      "event_type": "funding",
-      "title": "Funding round raising $100M",
-      "description": null,
-      "round_name": null,
-      "investors": null,
-      "amount_usd": 100000000.0,
-      "valuation_usd": null,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "9",
-      "company_id": "writer",
-      "occurred_on": "2024-11-12",
-      "event_type": "funding",
-      "title": "Funding round raising $200M",
-      "description": null,
-      "round_name": null,
-      "investors": null,
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1900000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "10",
-      "company_id": "writer",
-      "occurred_on": "2024-11-12",
-      "event_type": "funding",
-      "title": "Funding round raising $200M",
-      "description": null,
-      "round_name": null,
-      "investors": null,
+      "investors": [
+        "Premji Invest",
+        "Radical Ventures",
+        "ICONIQ Growth",
+        "Insight Partners",
+        "Balderton",
+        "B Capital",
+        "Salesforce Ventures",
+        "Adobe Ventures",
+        "Citi Ventures",
+        "IBM Ventures"
+      ],
       "amount_usd": 200000000.0,
       "valuation_usd": 1900000000.0,
       "actors": [],
@@ -214,7 +140,7 @@
       "company_id": "writer",
       "as_of": "2025-11-05",
       "headcount_total": 350,
-      "headcount_growth_pct": 100.0,
+      "headcount_growth_pct": 200.0,
       "job_openings_count": 20,
       "engineering_openings": 5,
       "sales_openings": 7,
@@ -222,9 +148,6 @@
         "Engineering",
         "Sales",
         "Marketing",
-        "Finance",
-        "HR",
-        "Legal",
         "Support"
       ],
       "pricing_tiers": [
@@ -245,25 +168,74 @@
         "Chicago",
         "Austin"
       ],
-      "confidence": 95.0,
+      "confidence": null,
+      "funding_cadence_months": 17.95335085413929,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 200.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Accenture",
+        "Intuit",
+        "Mars",
+        "Marriott",
+        "Uber",
+        "Vanguard"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "WRITER named in 2025 CNBC Disruptor 50 list",
+        "WRITER launches a \u2018super agent\u2019 that outperforms OpenAI",
+        "WRITER triples revenue and expands to 250 customers"
+      ],
+      "negative_signals": [
+        "None"
+      ],
+      "positive_events_count": 5,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Serves Fortune 500",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Accenture",
+        "Customer testimonial from Vanguard"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.writer.com/careers",
-          "crawled_at": "2025-10-01T00:00:00Z",
-          "snippet": "WRITER is hiring across various departments including Engineering, Sales, Marketing, Finance, HR, Legal, and Support."
-        },
-        {
-          "source_url": "https://www.writer.com/about",
-          "crawled_at": "2025-10-01T00:00:00Z",
-          "snippet": "WRITER has a headcount of approximately 350 employees and has grown significantly since its founding."
-        },
-        {
-          "source_url": "https://www.writer.com/news",
-          "crawled_at": "2025-10-01T00:00:00Z",
-          "snippet": "WRITER has tripled its revenue and expanded to 250 customers as demand for enterprise AI soars."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -683,219 +655,9 @@
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
-    },
-    {
-      "person_id": "writer_doug_pepper",
-      "company_id": "writer",
-      "name": "Doug Pepper",
-      "role": "General Partner",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_jamie_barnett",
-      "company_id": "writer",
-      "name": "Jamie Barnett",
-      "role": "Investor & Advisor",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_radhika_venkatraman",
-      "company_id": "writer",
-      "name": "Radhika Venkatraman",
-      "role": "Senior Advisor",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_whit_bouck",
-      "company_id": "writer",
-      "name": "Whit Bouck",
-      "role": "Managing Director",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_ajay_dhaul",
-      "company_id": "writer",
-      "name": "Ajay Dhaul",
-      "role": "SVP Global Data, Applied AI & Digital Business Transformation",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_casey_santos",
-      "company_id": "writer",
-      "name": "Casey Santos",
-      "role": "Chief Information Officer",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_jennifer_manry",
-      "company_id": "writer",
-      "name": "Jennifer Manry",
-      "role": "Principal, Corporate Systems & Technology",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_nishith_desai",
-      "company_id": "writer",
-      "name": "Nishith Desai",
-      "role": "Managing Director, Investment Banking Engineering",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_sathish_muthukrishnan",
-      "company_id": "writer",
-      "name": "Sathish Muthukrishnan",
-      "role": "Chief Information, Data and Digital Officer",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_scott_spradley",
-      "company_id": "writer",
-      "name": "Scott Spradley",
-      "role": "Chief Technology Officer",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_siddhartha_bala",
-      "company_id": "writer",
-      "name": "Siddhartha Bala",
-      "role": "CIO, Data & Analytics/Head of Public Cloud",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_teresa_tung",
-      "company_id": "writer",
-      "name": "Teresa Tung",
-      "role": "Senior Managing Director",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_anna_griffin",
-      "company_id": "writer",
-      "name": "Anna Griffin",
-      "role": "Chief Market Officer",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_jessica_bergmann",
-      "company_id": "writer",
-      "name": "Jessica Bergmann",
-      "role": "VP, Global Content & Social Marketing",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "writer_marc_appel",
-      "company_id": "writer",
-      "name": "Marc Appel",
-      "role": "Managing Director, Content & Editorial Strategy",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 10 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -1,53 +1,51 @@
 # Structured Dashboard: LUMINANCE
 
-Generated: 2025-11-05T14:37:53.985445
+Generated: 2025-11-05T18:51:36.767887
 Source: Structured Payload (data/payloads/luminance.json)
 
 ---
 
 ## Company Overview
 - **Legal Name:** Luminance
-- **Website:** [luminance.com](https://www.luminance.com/)
-- **Headquarters:** Cambridge, United Kingdom
 - **Founded Year:** 2020
+- **Headquarters:** Cambridge, United Kingdom
+- **Website:** [luminance.com](https://www.luminance.com/)
 - **Categories:** AI, Legal Technology, Contract Management, Compliance, Enterprise Software
-- **Total Raised:** $75,000,000
-- **Last Round Name:** Series C
-- **Last Round Date:** January 1, 2025
 
 ## Business Model and GTM
-Luminance offers AI-powered solutions designed to automate and enhance contract management processes. The company states that its Legal-Grade™ AI automates and augments every touchpoint a business has with its contracts. Key products include:
-- **Luminance’s AI-Powered Checklists:** Helps teams navigate negotiations efficiently.
-- **Word Plugin:** Automates contract reviews within Microsoft Word.
-- **Lumi Summary:** Summarizes contract clauses.
-- **Lumi Generate:** Consolidates AI reasoning for contract clauses.
-- **Legal-Grade™ AI:** Enhances contract interactions.
+Luminance offers a suite of AI-powered products designed to automate and enhance contract management processes across various business departments, including Legal, Compliance, Procurement, Sales, and HR. The company's flagship product, Legal-Grade™ AI, automates and augments every touchpoint a business has with its contracts. The company states that its solutions help teams navigate negotiations more quickly, confidently, and compliantly.
 
 ## Funding & Investor Profile
-- **Total Raised:** $75,000,000
+- **Total Raised:** $75 million
 - **Last Round:** Series C
 - **Last Round Date:** January 1, 2025
-- **Last Disclosed Valuation:** Not disclosed.
+- **Investors:** Not disclosed.
 
 ## Growth Momentum
-- **Headcount:** 700 employees
+- **Headcount:** 700
+- **Headcount Growth Rate:** Not disclosed.
 - **Job Openings:** 0
-- **Hiring Focus:** Engineering, Sales, Marketing, Product, Design, Operations
-- **Geo Presence:** 70 countries
-- **Headcount Growth Percentage:** Not disclosed.
+- **Hiring Focus:** Engineering, Sales, Marketing, Product, Operations
+- **Active Products:** Legal-Grade AI, AI-Powered Checklists, Word Plugin, Lumi Summary, Lumi Generate
+- **Geographic Presence:** 70 countries
+- **Notable Customers:** AMD, BBC Studios, Hitachi, Liberty Mutual, Koch Industries
+- **Positive Signals:** Raised $75 million in Series C funding, Featured in Forbes’ AI 50 List, Named Best AI Product for Legal at the CogX Awards
 
 ## Visibility & Market Sentiment
-- **Confidence Level:** 0.9
-- **Market Sentiment:** Not disclosed.
+- **Customer Quality Score:** Enterprise
+- **Churn Signals:** Not disclosed.
+- **Regulatory Exposure:** Not disclosed.
+- **Leadership Stability:** Stable
+- **Transparency Score:** 100.0 (High)
+- **Marketing vs. Reality Gap:** Well-supported (claims backed by proof)
 
 ## Risks and Challenges
-- **Risks:** Not disclosed.
-- **Challenges:** Not disclosed.
+- **Risk Score:** 38.0 (Medium)
+- **Key Challenges:** Not disclosed.
+- **Negative Signals:** Not disclosed.
 
 ## Outlook
-The company appears to be well-positioned for growth with a strong product offering in the legal technology space and a significant funding round completed in early 2025. The hiring focus across multiple departments suggests plans for expansion and development.
+Luminance is positioned for continued growth with its recent funding and strong customer base. The company is expanding its geographic presence rapidly, particularly through platforms like AWS Marketplace. The leadership team is stable, and there are no recent layoffs or significant changes reported.
 
 ## Disclosure Gaps
-- Last disclosed valuation is not available.
-- Specific risks and challenges faced by the company are not disclosed.
-- Market sentiment details are not disclosed.
+- Pricing information not disclosed.

@@ -11,8 +11,8 @@
     "categories": [
       "Medical Equipment",
       "Analytical Instruments",
-      "Healthcare Solutions",
       "Laboratory Supplies",
+      "Healthcare Solutions",
       "Pharmaceutical Testing"
     ],
     "related_companies": [],
@@ -27,11 +27,6 @@
         "source_url": "https://www.wlabs.sa",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "World of Labs Trading Establishment, supplies Analytical, Medical Equipment, Solutions & Kits, as well as installing, operating and recommend the correct equipment and provide training for its use."
-      },
-      {
-        "source_url": "https://www.wlabs.sa",
-        "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "World of Labs located in Riyadh the capital City of Saudi Arabia."
       }
     ]
   },
@@ -64,8 +59,7 @@
       "sales_openings": 0,
       "hiring_focus": [
         "Medical Equipment",
-        "Analytical Equipment",
-        "Healthcare Solutions"
+        "Analytical Solutions"
       ],
       "pricing_tiers": [],
       "active_products": [
@@ -79,14 +73,60 @@
         "Riyadh, Saudi Arabia"
       ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [
+        "Hain Lifescience",
+        "NORMAX",
+        "MICROBIOLOGICS",
+        "ERWEKA",
+        "Associates of CAPE",
+        "Altus science"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Strong presence in Saudi Arabia",
+        "Over 7300 happy customers",
+        "Over 8200 clients",
+        "2000+ products offered"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 43.0,
+      "risk_level": "Medium",
+      "key_challenges": [],
+      "transparency_score": 52.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [
+        "Provider of choice in Medical & Laboratory Equipment",
+        "Outstanding customer satisfaction",
+        "High-quality products and services"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Claims to have a strong presence but lacks specific growth metrics"
+      ],
+      "missing_key_info": [
+        "Headcount growth percentage not disclosed",
+        "Job openings not available"
+      ],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "World of Labs Trading Establishment, supplies Analytical, Medical Equipment, Solutions & Kits, as well as installing, operating and recommend the correct equipment and provide training for its use."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -109,7 +149,7 @@
       "product_id": "world_labs_product_2",
       "company_id": "world_labs",
       "name": "NORMAX",
-      "description": "Normax - F\u00e1brica de Vidros was established on January 2nd, 1975.",
+      "description": "Normax - F\u00e1brica de Vidros has been operational since January 2nd, 1975.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -169,7 +209,7 @@
       "product_id": "world_labs_product_6",
       "company_id": "world_labs",
       "name": "Altus Science",
-      "description": "Altus Science is a company specializing in scientific solutions.",
+      "description": "Altus Science is a company involved in scientific research and development.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -187,7 +227,7 @@
       "company_id": "world_labs",
       "name": "World of Labs",
       "role": "Founder",
-      "is_founder": false,
+      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -197,9 +237,9 @@
       "provenance": []
     },
     {
-      "person_id": "world_labs_world_of_labs",
+      "person_id": "world_labs_ceo",
       "company_id": "world_labs",
-      "name": "World of Labs",
+      "name": "CEO",
       "role": "CEO",
       "is_founder": false,
       "start_date": null,

@@ -10,9 +10,9 @@
     "founded_year": 2020,
     "categories": [
       "AI",
+      "Enterprise Software",
       "Finance",
       "Legal Tech",
-      "Enterprise Software",
       "Data Analytics"
     ],
     "related_companies": [],
@@ -25,22 +25,22 @@
     "provenance": [
       {
         "source_url": "https://www.hebbia.com/about",
-        "crawled_at": "2025-10-21T00:00:00Z",
+        "crawled_at": "2023-10-21T00:00:00Z",
         "snippet": "In 2020, Hebbia was one of the first companies to productionize LLMs, pioneering retrieval augmented generation (RAG). Since then we\u2019ve raised 4 rounds of financing."
       },
       {
         "source_url": "https://www.hebbia.com/home",
-        "crawled_at": "2025-10-21T00:00:00Z",
+        "crawled_at": "2023-10-21T00:00:00Z",
         "snippet": "Hebbia raises $130M Series B led by a16z."
       },
       {
         "source_url": "https://www.hebbia.com/news",
-        "crawled_at": "2025-10-21T00:00:00Z",
+        "crawled_at": "2023-10-21T00:00:00Z",
         "snippet": "Hebbia Opens Doors in San Francisco and Welcomes New CTO."
       },
       {
         "source_url": "https://www.hebbia.com/careers",
-        "crawled_at": "2025-10-21T00:00:00Z",
+        "crawled_at": "2023-10-21T00:00:00Z",
         "snippet": "We are building the most important software product of the next 100 years."
       }
     ]
@@ -69,38 +69,86 @@
     {
       "company_id": "hebbia",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 500,
       "headcount_growth_pct": null,
-      "job_openings_count": 20,
-      "engineering_openings": 10,
-      "sales_openings": 5,
+      "job_openings_count": 22,
+      "engineering_openings": 12,
+      "sales_openings": 7,
       "hiring_focus": [
         "Engineering",
         "Sales",
         "Marketing",
-        "Product",
-        "Design",
-        "Operations"
+        "AI Strategy",
+        "Design"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": null,
+      "active_products": [
+        "AI for Finance",
+        "Matrix"
+      ],
       "geo_presence": [
         "New York City",
         "San Francisco, CA",
         "London, UK"
       ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": null,
+      "release_velocity": "High",
+      "products_released_last_12m": 0,
+      "geography_expansion": [
+        "San Francisco"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "JP Morgan",
+        "KKR",
+        "Sixth Street",
+        "Evercore",
+        "Lazard",
+        "Paul Hastings",
+        "YC"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Growing",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $130M Series B",
+        "Opened new office in San Francisco"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 33.0,
+      "risk_level": "Medium",
+      "key_challenges": [],
+      "transparency_score": 85.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI platform for finance",
+        "1000+ live use cases",
+        "$14T AUM of firms using Hebbia"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Pricing information not disclosed",
+        "Marketing claims lack supporting case studies"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Hebbia has pioneered the most used AI architectures in the world. We continue to set the pace of innovation in useful AI."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We value our people. Your Benefits: Start-up equity, Competitive Salary, Office in Downtown NY, Commuter benefits, Flexible PTO, Comprehensive medical, dental, and vision insurance, Daily Catered Lunches, Fertility HRA, Parental Leave."
+          "source_url": "https://www.linkedin.com/company/hebbia",
+          "crawled_at": "2023-10-21T00:00:00Z",
+          "snippet": "Company Size: 201-500 employees"
         }
       ]
     }
@@ -125,7 +173,7 @@
       "product_id": "hebbia_product_2",
       "company_id": "hebbia",
       "name": "Hebbia",
-      "description": "An AI platform for finance that integrates generative AI to create value from day one, with over 1000 live use cases across various sectors.",
+      "description": "An AI platform for finance that integrates generative AI to create value from day one, with a wealth of use cases across various sectors.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

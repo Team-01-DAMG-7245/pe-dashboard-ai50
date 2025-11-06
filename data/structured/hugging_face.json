@@ -18,8 +18,8 @@
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
     "last_disclosed_valuation_usd": 2000000000.0,
-    "last_round_name": "Series D",
-    "last_round_date": "2024-01-01",
+    "last_round_name": "Series A",
+    "last_round_date": "2023-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
@@ -34,7 +34,7 @@
     {
       "event_id": "1",
       "company_id": "hugging_face",
-      "occurred_on": "2021-01-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series A funding round",
       "description": null,
@@ -50,7 +50,7 @@
     {
       "event_id": "2",
       "company_id": "hugging_face",
-      "occurred_on": "2022-01-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series B funding round",
       "description": null,
@@ -82,7 +82,7 @@
     {
       "event_id": "4",
       "company_id": "hugging_face",
-      "occurred_on": "2024-01-01",
+      "occurred_on": "2023-01-01",
       "event_type": "funding",
       "title": "Series D funding round",
       "description": null,
@@ -106,20 +106,54 @@
       "engineering_openings": null,
       "sales_openings": null,
       "hiring_focus": [],
-      "pricing_tiers": [
-        "Free"
-      ],
+      "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [],
       "confidence": null,
+      "funding_cadence_months": 0.0,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": null,
+      "leadership_changes_last_12m": null,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Series A funding round",
+        "Series B funding round",
+        "Series C funding round",
+        "Series D funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 42.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 65.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No data available for headcount, job openings, or growth metrics."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -142,7 +176,7 @@
       "product_id": "hugging_face_product_2",
       "company_id": "hugging_face",
       "name": "spaceship.com",
-      "description": "Platform for domain transaction support and secure payments.",
+      "description": "Platform for transaction support and secure payments.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -157,7 +191,7 @@
       "product_id": "hugging_face_product_3",
       "company_id": "hugging_face",
       "name": "Spaceship",
-      "description": "Service for buying and finalizing domain purchases.",
+      "description": "Service for buying domains and finalizing purchases.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

@@ -11,12 +11,22 @@ from typing import Dict, List
 from datetime import date, datetime
 from pydantic import ValidationError
 from pathlib import Path
+from dotenv import load_dotenv
 
 from lab5.models import (
     Company, Event, Snapshot, Product, 
     Leadership, Visibility, Payload, Provenance,
     EventsList, LeadershipList, ProductsList
 )
+
+# Load environment variables from .env file
+project_root = Path(__file__).resolve().parents[2]
+env_path = project_root / ".env"
+if env_path.exists():
+    load_dotenv(env_path)
+else:
+    # Also try loading from current directory
+    load_dotenv()
 
 # Import job counting helper
 try:
@@ -550,11 +560,127 @@ def extract_snapshot(company_id: str, texts: Dict[str, str]) -> Snapshot:
     - If you see LinkedIn mentions (e.g., "X employees on LinkedIn", "LinkedIn shows X employees"), extract those numbers
     - Look for company size mentions that might be from LinkedIn
     
+    GROWTH MOMENTUM METRICS (CRITICAL - Extract these):
+    
+    11. headcount_velocity: How fast is the company hiring? (STRING)
+       - Look for: hiring announcements, growth rates, "doubling team size", "growing rapidly"
+       - Extract: "Rapid" (doubling in <12 months), "Moderate" (20-50% growth), "Slow" (<20%), "Stable" (minimal growth)
+       - Consider: job openings count relative to headcount, growth announcements
+    
+    12. headcount_growth_rate: Annual headcount growth percentage (FLOAT)
+       - Look for: "grew from X to Y in Z months", "doubled team size", "50% growth"
+       - Calculate if you see: "from 100 to 200 employees in 12 months" → 100.0%
+       - Extract percentage if explicitly mentioned
+    
+    13. release_velocity: How frequently are products/features released? (STRING)
+       - Look for: product launches, feature releases, "new product every X months"
+       - Extract: "High" (multiple releases/month), "Medium" (monthly), "Low" (quarterly or less)
+       - Consider: number of products, frequency of announcements
+    
+    14. products_released_last_12m: Number of products/features released in last 12 months (INTEGER)
+       - Count product launches, major features, new offerings mentioned
+       - Look in: blog posts, news, product announcements
+       - Extract actual count if mentioned
+    
+    15. geography_expansion: New geographic locations/regions (LIST of strings)
+       - Look for: "opening office in X", "expanding to Y", "new location in Z"
+       - Extract: ["Europe", "Asia-Pacific", "New York", "London", etc.]
+       - Look for: international expansion, new office openings, global presence
+    
+    16. geography_expansion_rate: How fast is geographic expansion? (STRING)
+       - Extract: "Rapid" (multiple new locations recently), "Moderate" (1-2 new locations), "Slow" (minimal expansion)
+    
+    DURABILITY INDICATORS (CRITICAL - Extract these):
+    
+    17. notable_customers: Well-known customers/partners (LIST of strings)
+       - Look for: "customers include", "partners with", Fortune 500 mentions, big brand names
+       - Extract: ["Company A", "Company B", "Fortune 500", etc.]
+       - Look in: About page, homepage, case studies, press releases
+    
+    18. customer_quality_score: Type of customers (STRING)
+       - Extract: "Enterprise" (large companies), "Mid-market" (medium businesses), "SMB" (small businesses), "Mixed"
+       - Look for: enterprise sales, SMB focus, customer segments mentioned
+    
+    19. churn_signals: Customer retention issues (LIST of strings)
+       - Look for: "churn", "customer retention", "lost customers", retention challenges
+       - Extract any mentions of customer loss or retention issues
+       - If none mentioned, leave empty
+    
+    20. regulatory_exposure: Regulatory risks or compliance issues (LIST of strings)
+       - Look for: "regulation", "compliance", "regulatory", "GDPR", "CCPA", "AI regulation"
+       - Extract: ["GDPR", "AI Safety", "Data Privacy", etc.]
+       - Look for: regulatory mentions, compliance challenges, industry regulations
+    
+    21. leadership_stability: Leadership team stability (STRING)
+       - Extract: "Stable" (founders still there, low turnover), "Growing" (adding leaders), "High turnover" (if mentioned)
+       - Consider: founder presence, leadership changes, team growth
+    
+    22. leadership_changes_last_12m: Number of leadership changes in last 12 months (INTEGER)
+       - Count: new executives hired, departures mentioned, leadership announcements
+       - Look in: news, blog posts, press releases
+    
+    RISK & CHALLENGES (CRITICAL - Extract these):
+    
+    23. layoffs_mentioned: Whether layoffs are mentioned (BOOLEAN)
+       - Look for: "layoffs", "reduction in force", "RIF", "workforce reduction", "downsizing", "restructuring"
+       - Check: Layoffs.fyi mentions, news articles, blog posts
+       - Extract: true if mentioned, false if not
+    
+    24. layoffs_count: Number of employees laid off (INTEGER)
+       - Look for: "laid off X employees", "cutting X jobs", "X% of workforce"
+       - Extract the NUMBER if mentioned
+    
+    25. layoffs_date: Date of layoffs (DATE)
+       - Look for: "announced layoffs on [date]", "in [month/year]", recent layoff announcements
+       - Extract date if mentioned
+    
+    26. layoffs_percentage: Percentage of workforce laid off (FLOAT)
+       - Look for: "X% of workforce", "cutting X%", "reducing by X%"
+       - Extract percentage if mentioned
+    
+    27. positive_signals: Positive news/events (LIST of strings)
+       - Look for: product launches, partnerships, funding rounds, customer wins, awards, expansions
+       - Extract: ["Product X launched", "Partnership with Company Y", "Raised $X", "Won award Z", etc.]
+       - Look in: blog posts, news, press releases, announcements
+    
+    28. negative_signals: Negative news/events (LIST of strings)
+       - Look for: layoffs, customer churn, regulatory issues, lawsuits, security breaches, negative press
+       - Extract: ["Layoffs announced", "Lost major customer", "Regulatory investigation", etc.]
+       - Look in: news, blog posts, press releases
+    
+    29. key_challenges: Identified challenges and risks (LIST of strings)
+       - Look for: market challenges, competition, regulatory hurdles, technical challenges, scaling issues
+       - Extract: ["Regulatory compliance", "Market competition", "Scaling challenges", etc.]
+       - Consider: regulatory exposure, churn signals, leadership turnover, layoffs
+    
+    TRANSPARENCY & DISCLOSURE GAPS (CRITICAL - Analyze these):
+    
+    30. marketed_info_available: What information is publicly marketed/claimed (LIST of strings)
+       - Look for: marketing claims, feature descriptions, benefits, value propositions
+       - Extract: ["Enterprise AI platform", "Serves Fortune 500", "99.9% uptime", "AI-powered search", etc.]
+       - Look in: homepage, product pages, marketing materials, about page
+    
+    31. actual_case_studies: Actual proof points, case studies, customer testimonials (LIST of strings)
+       - Look for: case studies, customer testimonials, "used by", "customers include", specific examples
+       - Extract: ["Case study with Company X", "Customer testimonial from Company Y", "Used by Z companies", etc.]
+       - Look in: case studies page, testimonials, customer success stories, press releases
+       - Focus on SPECIFIC examples, not just claims
+    
+    32. missing_key_info: Critical information that should be disclosed but isn't (LIST of strings)
+       - Check for missing: pricing information, customer count, revenue, metrics, team size, location details
+       - Extract: ["Pricing not disclosed", "Customer count not available", "Revenue not disclosed", "Team size unclear", etc.]
+       - Look for: "Not disclosed", "Contact us", vague statements instead of specific numbers
+    
+    33. disclosure_gaps: Gaps between what's marketed and what's proven (LIST of strings)
+       - Compare: marketed claims vs actual case studies
+       - Identify: ["Claims enterprise customers but no case studies", "Marketing claims not backed by proof", etc.]
+       - Look for: bold claims without evidence, missing customer names, vague metrics
+    
     Text to analyze (search through ALL of this carefully):
     {combined}
     
-    Extract ALL metrics and information you find. Be extremely thorough, especially for headcount and job openings!
-    Count every job listing you see. Extract all departments hiring. Be comprehensive!
+    Extract ALL metrics and information you find. Be extremely thorough, especially for Growth Momentum, Durability indicators, and Risk & Challenges!
+    Count every job listing you see. Extract all departments hiring. Identify positive and negative signals. Be comprehensive!
     """
     
     try:
@@ -630,6 +756,7 @@ def process_company(company_id: str) -> Dict:
     snapshot = extract_snapshot(company_id, texts)
     
     # Update company-level fields from events if missing or improve them
+    # Calculate Growth Momentum metrics from events and other data
     if events:
         # Sort events by date (most recent first)
         sorted_events = sorted([e for e in events if e.occurred_on], 
@@ -653,6 +780,275 @@ def process_company(company_id: str) -> Dict:
             # Use events total if it's larger or if company doesn't have one
             if not company.total_raised_usd or total_from_events > company.total_raised_usd:
                 company.total_raised_usd = total_from_events
+        
+        # Calculate funding cadence (average months between funding rounds)
+        if len(funding_events) >= 2:
+            funding_dates = sorted([e.occurred_on for e in funding_events])
+            date_diffs = []
+            for i in range(1, len(funding_dates)):
+                delta = funding_dates[i] - funding_dates[i-1]
+                months_diff = delta.days / 30.44  # Average days per month
+                date_diffs.append(months_diff)
+            if date_diffs:
+                snapshot.funding_cadence_months = sum(date_diffs) / len(date_diffs)
+    
+    # Calculate headcount velocity from snapshot data
+    if snapshot.headcount_total and snapshot.job_openings_count:
+        # If job openings are high relative to headcount, likely rapid hiring
+        job_ratio = snapshot.job_openings_count / snapshot.headcount_total if snapshot.headcount_total > 0 else 0
+        if not snapshot.headcount_velocity:
+            if job_ratio > 0.15:  # >15% of headcount are open positions
+                snapshot.headcount_velocity = "Rapid"
+            elif job_ratio > 0.08:  # 8-15%
+                snapshot.headcount_velocity = "Moderate"
+            elif job_ratio > 0.03:  # 3-8%
+                snapshot.headcount_velocity = "Slow"
+            else:
+                snapshot.headcount_velocity = "Stable"
+    
+    # Calculate release velocity from products
+    if products:
+        # Count products with GA dates in last 12 months
+        today = date.today()
+        one_year_ago = date(today.year - 1, today.month, today.day)
+        recent_products = [p for p in products if p.ga_date and p.ga_date >= one_year_ago]
+        
+        if not snapshot.products_released_last_12m:
+            snapshot.products_released_last_12m = len(recent_products)
+        
+        # Determine release velocity
+        if not snapshot.release_velocity:
+            if len(recent_products) >= 5:
+                snapshot.release_velocity = "High"
+            elif len(recent_products) >= 2:
+                snapshot.release_velocity = "Medium"
+            else:
+                snapshot.release_velocity = "Low"
+    
+    # Extract notable customers from products
+    if products and not snapshot.notable_customers:
+        all_customers = []
+        for product in products:
+            if product.reference_customers:
+                all_customers.extend(product.reference_customers)
+        if all_customers:
+            snapshot.notable_customers = list(set(all_customers))[:10]  # Top 10 unique customers
+    
+    # Calculate leadership stability
+    if leadership:
+        # Count leadership changes (those with end_date or recent start_date)
+        if not snapshot.leadership_changes_last_12m:
+            today = date.today()
+            one_year_ago = date(today.year - 1, today.month, today.day)
+            recent_changes = [
+                l for l in leadership 
+                if (l.start_date and l.start_date >= one_year_ago) or 
+                   (l.end_date and l.end_date >= one_year_ago)
+            ]
+            snapshot.leadership_changes_last_12m = len(recent_changes)
+        
+        # Determine stability
+        if not snapshot.leadership_stability:
+            if snapshot.leadership_changes_last_12m and snapshot.leadership_changes_last_12m > 3:
+                snapshot.leadership_stability = "High turnover"
+            elif snapshot.leadership_changes_last_12m and snapshot.leadership_changes_last_12m > 0:
+                snapshot.leadership_stability = "Growing"
+            else:
+                snapshot.leadership_stability = "Stable"
+    
+    # Calculate positive vs negative events from events list
+    if events:
+        positive_events = []
+        negative_events = []
+        
+        for event in events:
+            event_lower = event.title.lower() + " " + (event.description or "").lower()
+            
+            # Positive signals
+            if any(keyword in event_lower for keyword in [
+                'funding', 'raised', 'partnership', 'launch', 'award', 'expansion',
+                'growth', 'milestone', 'customer', 'contract', 'acquisition'
+            ]) and not any(neg in event_lower for neg in ['layoff', 'churn', 'loss', 'failure']):
+                positive_events.append(event.title)
+            
+            # Negative signals
+            if any(keyword in event_lower for keyword in [
+                'layoff', 'reduction', 'downsizing', 'rif', 'restructuring',
+                'lawsuit', 'breach', 'churn', 'loss', 'failure', 'investigation'
+            ]):
+                negative_events.append(event.title)
+        
+        snapshot.positive_events_count = len(positive_events)
+        snapshot.negative_events_count = len(negative_events)
+        
+        # Add to signals if not already extracted
+        if not snapshot.positive_signals:
+            snapshot.positive_signals = positive_events[:10]  # Top 10
+        if not snapshot.negative_signals:
+            snapshot.negative_signals = negative_events[:10]  # Top 10
+    
+    # Calculate Risk Score (0-100, lower is better)
+    risk_score = 50.0  # Start at neutral
+    
+    # Layoffs significantly increase risk
+    if snapshot.layoffs_mentioned:
+        risk_score += 30
+        if snapshot.layoffs_percentage:
+            risk_score += min(snapshot.layoffs_percentage * 0.5, 20)  # Up to +20 for large layoffs
+        elif snapshot.layoffs_count and snapshot.headcount_total:
+            layoff_pct = (snapshot.layoffs_count / snapshot.headcount_total) * 100
+            risk_score += min(layoff_pct * 0.5, 20)
+    
+    # Negative signals increase risk
+    if snapshot.negative_events_count:
+        risk_score += snapshot.negative_events_count * 3  # +3 per negative event
+    
+    # Churn signals increase risk
+    if snapshot.churn_signals:
+        risk_score += len(snapshot.churn_signals) * 5
+    
+    # Regulatory exposure increases risk
+    if snapshot.regulatory_exposure:
+        risk_score += len(snapshot.regulatory_exposure) * 4
+    
+    # Leadership instability increases risk
+    if snapshot.leadership_stability == "High turnover":
+        risk_score += 15
+    elif snapshot.leadership_stability and "turnover" in snapshot.leadership_stability.lower():
+        risk_score += 10
+    
+    # High leadership changes increase risk
+    if snapshot.leadership_changes_last_12m and snapshot.leadership_changes_last_12m > 3:
+        risk_score += 10
+    
+    # Positive signals reduce risk
+    if snapshot.positive_events_count:
+        risk_score -= min(snapshot.positive_events_count * 2, 20)  # Up to -20 for positive events
+    
+    # Strong customers reduce risk
+    if snapshot.notable_customers and len(snapshot.notable_customers) >= 3:
+        risk_score -= 5
+    if snapshot.customer_quality_score == "Enterprise":
+        risk_score -= 5
+    
+    # Growth indicators reduce risk
+    if snapshot.headcount_velocity == "Rapid":
+        risk_score -= 5
+    if snapshot.funding_cadence_months and snapshot.funding_cadence_months < 12:
+        risk_score -= 5  # Frequent funding is positive
+    
+    # Clamp risk score between 0 and 100
+    risk_score = max(0, min(100, risk_score))
+    snapshot.risk_score = round(risk_score, 1)
+    
+    # Determine risk level
+    if risk_score >= 70:
+        snapshot.risk_level = "Critical"
+    elif risk_score >= 50:
+        snapshot.risk_level = "High"
+    elif risk_score >= 30:
+        snapshot.risk_level = "Medium"
+    else:
+        snapshot.risk_level = "Low"
+    
+    # Build key challenges list
+    challenges = []
+    if snapshot.layoffs_mentioned:
+        challenges.append("Workforce reduction/Layoffs")
+    if snapshot.churn_signals:
+        challenges.append("Customer retention issues")
+    if snapshot.regulatory_exposure:
+        challenges.append(f"Regulatory exposure: {', '.join(snapshot.regulatory_exposure[:3])}")
+    if snapshot.leadership_stability == "High turnover":
+        challenges.append("Leadership instability")
+    if snapshot.negative_events_count and snapshot.negative_events_count > snapshot.positive_events_count:
+        challenges.append("Negative news outweighs positive")
+    if not snapshot.notable_customers or len(snapshot.notable_customers) < 2:
+        challenges.append("Limited enterprise customer base")
+    
+    if not snapshot.key_challenges:
+        snapshot.key_challenges = challenges
+    
+    # Calculate Transparency Score (0-100, higher is better)
+    transparency_score = 50.0  # Start at neutral
+    
+    # Positive transparency indicators
+    if snapshot.headcount_total:  # Disclosing team size
+        transparency_score += 10
+    if company.total_raised_usd:  # Disclosing funding
+        transparency_score += 10
+    if snapshot.notable_customers and len(snapshot.notable_customers) >= 3:  # Naming customers
+        transparency_score += 15
+    if snapshot.actual_case_studies and len(snapshot.actual_case_studies) >= 2:  # Case studies
+        transparency_score += 15
+    if snapshot.pricing_tiers and len(snapshot.pricing_tiers) > 0:  # Pricing transparency
+        transparency_score += 10
+    if snapshot.geo_presence and len(snapshot.geo_presence) > 0:  # Location transparency
+        transparency_score += 5
+    if company.founded_year:  # Founding date disclosed
+        transparency_score += 5
+    
+    # Negative transparency indicators (disclosure gaps)
+    missing_info_penalty = len(snapshot.missing_key_info) * 5  # -5 per missing key info
+    transparency_score -= missing_info_penalty
+    
+    if snapshot.disclosure_gaps and len(snapshot.disclosure_gaps) > 0:
+        transparency_score -= len(snapshot.disclosure_gaps) * 8  # -8 per disclosure gap
+    
+    # Marketing vs reality gap penalty
+    if snapshot.marketing_vs_reality_gap:
+        if "large" in snapshot.marketing_vs_reality_gap.lower() or "significant" in snapshot.marketing_vs_reality_gap.lower():
+            transparency_score -= 15
+        elif "gap" in snapshot.marketing_vs_reality_gap.lower() or "mismatch" in snapshot.marketing_vs_reality_gap.lower():
+            transparency_score -= 10
+    
+    # Lack of case studies when marketing claims exist
+    if snapshot.marketed_info_available and len(snapshot.marketed_info_available) > 0:
+        if not snapshot.actual_case_studies or len(snapshot.actual_case_studies) == 0:
+            transparency_score -= 10  # Marketing without proof
+    
+    # Clamp transparency score between 0 and 100
+    transparency_score = max(0, min(100, transparency_score))
+    snapshot.transparency_score = round(transparency_score, 1)
+    
+    # Determine transparency level
+    if transparency_score >= 80:
+        snapshot.transparency_level = "High"
+    elif transparency_score >= 60:
+        snapshot.transparency_level = "Medium"
+    elif transparency_score >= 40:
+        snapshot.transparency_level = "Low"
+    else:
+        snapshot.transparency_level = "Poor"
+    
+    # Assess marketing vs reality gap if not already extracted
+    if not snapshot.marketing_vs_reality_gap:
+        if snapshot.marketed_info_available and snapshot.actual_case_studies:
+            if len(snapshot.actual_case_studies) >= len(snapshot.marketed_info_available) * 0.5:
+                snapshot.marketing_vs_reality_gap = "Well-supported (claims backed by proof)"
+            elif len(snapshot.actual_case_studies) >= len(snapshot.marketed_info_available) * 0.25:
+                snapshot.marketing_vs_reality_gap = "Moderate gap (some claims supported)"
+            else:
+                snapshot.marketing_vs_reality_gap = "Significant gap (claims lack proof)"
+        elif snapshot.marketed_info_available and not snapshot.actual_case_studies:
+            snapshot.marketing_vs_reality_gap = "Large gap (marketing claims without case studies)"
+        else:
+            snapshot.marketing_vs_reality_gap = "Limited information available"
+    
+    # Enhance disclosure_gaps if not already extracted
+    if not snapshot.disclosure_gaps:
+        gaps = []
+        if not snapshot.headcount_total:
+            gaps.append("Team size not disclosed")
+        if not snapshot.pricing_tiers or len(snapshot.pricing_tiers) == 0:
+            gaps.append("Pricing information not disclosed")
+        if not snapshot.notable_customers or len(snapshot.notable_customers) == 0:
+            gaps.append("Customer names/references not disclosed")
+        if snapshot.marketed_info_available and not snapshot.actual_case_studies:
+            gaps.append("Marketing claims lack supporting case studies")
+        if not company.total_raised_usd:
+            gaps.append("Funding information not disclosed")
+        snapshot.disclosure_gaps = gaps
     
     # Create payload
     payload = Payload(

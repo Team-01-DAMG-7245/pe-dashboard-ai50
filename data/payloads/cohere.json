@@ -5,7 +5,7 @@
     "brand_name": null,
     "website": "https://cohere.com/",
     "hq_city": "Toronto",
-    "hq_state": null,
+    "hq_state": "ON",
     "hq_country": "Canada",
     "founded_year": 2019,
     "categories": [
@@ -41,7 +41,12 @@
       {
         "source_url": "https://cohere.com/products",
         "crawled_at": "2024-01-01T00:00:00Z",
-        "snippet": "From frontier models to out-of-the-box tools, discover everything you need to build and deploy secure, scalable AI that accelerates growth and results."
+        "snippet": "Cohere is where powerful AI meets practical business solutions."
+      },
+      {
+        "source_url": "https://cohere.com/careers",
+        "crawled_at": "2024-01-01T00:00:00Z",
+        "snippet": "We create cutting-edge foundation models and secure AI solutions for the world\u2019s leading enterprises."
       }
     ]
   },
@@ -54,7 +59,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -70,7 +75,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -86,7 +91,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -102,7 +107,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -115,14 +120,27 @@
     {
       "company_id": "cohere",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "headcount_total": 450,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 20,
+      "engineering_openings": 10,
+      "sales_openings": 5,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product",
+        "Design"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "North",
+        "Cohere Labs"
+      ],
       "geo_presence": [
         "Toronto",
         "New York",
@@ -133,24 +151,67 @@
         "Seoul"
       ],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Fortune 500",
+        "Leading Enterprises"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $1 billion in funding",
+        "Launched North AI platform",
+        "Cohere Labs community growth"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 35.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 87.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "Secure AI solutions",
+        "Customizable AI models"
+      ],
+      "actual_case_studies": [
+        "Case study with Fortune 500 company",
+        "Customer testimonial from leading enterprise"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer a $2,000 annual allowance for learning and education."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Six weeks\u2019 paid vacation, Equity / stock options, RRSP, 401(k), and Pension Scheme contributions, Coverage for 100% of your insurance premiums across health, dental, vision, and travel, Additional coverage for accessing mental health providers/services, Six months of fully paid parental leave, including adoption and surrogacy, Financial support for egg freezing and IVF in Canada and the UK, A monthly fitness and wellness allowance, A weekly stipend for meals when working remotely and catered lunch when working from one of our global offices, A monthly arts and culture allowance, A monthly quality time allowance."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [

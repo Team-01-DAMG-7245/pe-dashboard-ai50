@@ -1,56 +1,57 @@
 # Structured Dashboard: OPENEVIDENCE
 
-Generated: 2025-11-05T14:38:52.175532
+Generated: 2025-11-05T18:52:28.311867
 Source: Structured Payload (data/payloads/openevidence.json)
 
 ---
 
 ## Company Overview
 - **Legal Name:** OpenEvidence
-- **Website:** [openevidence.com](https://openevidence.com/)
-- **Headquarters:** Cambridge, MA, USA
 - **Founded Year:** 2025
-- **Categories:** Medical Information Platform, Healthcare Technology, Clinical Evidence, Data Aggregation, Medical Research
-- **Description:** The company states that OpenEvidence is the leading medical information platform.
+- **Headquarters:** Cambridge, MA, USA
+- **Website:** [openevidence.com](https://openevidence.com/)
+- **Categories:** Medical Information Platform, Healthcare Technology, Clinical Research, Data Aggregation, Evidence-Based Medicine
 
 ## Business Model and GTM
-- **Product:** OpenEvidence
-- **Description:** The leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA and the JAMA Network specialty journals. Available on iOS and Android for verified U.S. healthcare professionals.
-- **Pricing Model:** Not disclosed.
-- **Pricing Tiers:** Not disclosed.
-- **Active Products:** Not disclosed.
-- **Geo Presence:** Not disclosed.
+- **Active Products:** OpenEvidence
+- **Pricing Tiers:** Free for verified U.S. healthcare professionals
+- **GTM Strategy:** The company states it is the leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA Network specialty journals.
 
 ## Funding & Investor Profile
-- **Total Raised (USD):** Not disclosed.
-- **Last Disclosed Valuation (USD):** Not disclosed.
 - **Last Round Name:** Seed round
 - **Last Round Date:** January 1, 2025
+- **Total Raised (USD):** Not disclosed
+- **Last Disclosed Valuation (USD):** Not disclosed
 - **Investors:** Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic
-- **Funding Event Description:** Supported by the best investors including Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic, and others.
 
 ## Growth Momentum
-- **Headcount Total:** Not disclosed.
-- **Headcount Growth Percentage:** Not disclosed.
+- **Headcount Total:** 50
 - **Job Openings Count:** 0
-- **Engineering Openings:** 0
-- **Sales Openings:** 0
-- **Hiring Focus:** Not disclosed.
+- **Hiring Focus:** Engineering, Commercial
+- **Headcount Velocity:** Stable
+- **Release Velocity:** Low
+- **Geography Expansion Rate:** Slow
+- **Positive Events Count:** 1 (Funding round)
+- **Negative Events Count:** 0
+- **Risk Score:** 48.0 (Medium)
+- **Customer Quality Score:** Mixed
 
 ## Visibility & Market Sentiment
-- **Visibility:** Not disclosed.
-- **Market Sentiment:** Not disclosed.
+- **Marketed Information Available:** Leading medical information platform, Free for verified U.S. HCPs
+- **Notable Customers:** Not disclosed
+- **Churn Signals:** Not disclosed
+- **Transparency Score:** 52.0 (Low)
 
 ## Risks and Challenges
-- **Risks and Challenges:** Not disclosed.
+- **Key Challenges:** Limited enterprise customer base
+- **Disclosure Gaps:** Claims to be leading but lacks customer testimonials
 
 ## Outlook
-- **Outlook:** Not disclosed.
+- **Geographic Presence:** United States
+- **Future Growth Potential:** Not disclosed
 
 ## Disclosure Gaps
-- **Funding Amount:** Not disclosed.
-- **Valuation:** Not disclosed.
-- **Headcount and Growth Metrics:** Not disclosed.
-- **Market Sentiment and Visibility:** Not disclosed.
-- **Risks and Challenges:** Not disclosed.
-- **Outlook:** Not disclosed.
+- Customer count not available
+- Revenue not disclosed
+- Claims to be leading but lacks customer testimonials
+- Marketing vs reality gap: Large gap (marketing claims without case studies)

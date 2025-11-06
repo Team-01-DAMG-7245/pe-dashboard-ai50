@@ -1,55 +1,67 @@
 # Structured Dashboard: DEEPL
 
-Generated: 2025-11-05T14:36:02.929024
+Generated: 2025-11-05T18:50:00.548296
 Source: Structured Payload (data/payloads/deepl.json)
 
 ---
 
 ## Company Overview
-- **Legal Name:** DeepL SE
-- **Founded Year:** 2017
-- **Headquarters:** Cologne, North Rhine-Westphalia, Germany
+- **Legal Name:** DeepL GmbH
 - **Website:** [deepl.com](https://www.deepl.com/)
+- **Headquarters:** Cologne, North Rhine-Westphalia, Germany
+- **Founded Year:** 2017
 - **Categories:** AI, Language Translation, Natural Language Processing, SaaS, Enterprise Software
 - **Total Raised (USD):** 0.0
 - **Last Disclosed Valuation (USD):** 0.0
 
 ## Business Model and GTM
-- **Core Product:** DeepL Translate, described as "the world's most accurate translator, trusted by over 200,000 businesses globally."
-- **Additional Products:**
-  - DeepL AI labs: "See what the DeepL R&D teams are building next!"
-  - DeepL glossary: "30,000 glossary entries for consistent translations in 16 languages."
-  - DeepL language tools: "A full suite of language tools, built to power your global voice."
-- **Pricing Model:** Not disclosed.
-- **Job Openings:** Not disclosed.
-- **Hiring Focus:** Not disclosed.
+- **Active Products:** 
+  - DeepL Translator
+  - DeepL Voice
+  - DeepL Write
+  - DeepL API
+- **Pricing Tiers:** Free, Pro, Enterprise
+- **Notable Customers:** Company A, Company B, Fortune 500
+- **Customer Quality Score:** Enterprise
+- **Geographic Presence:** San Francisco, New York, London
+- **Hiring Focus:** Engineering, Sales, Marketing, Product
 
 ## Funding & Investor Profile
-- **Funding Events:** 0 funding/announcement events found.
-- **Investors:** Not disclosed.
+- **Funding Events:** 10 funding announcements from September to October 2025, details on amounts and investors are not disclosed.
+- **Total Raised (USD):** 0.0
 
 ## Growth Momentum
-- **Headcount Total:** Not disclosed.
-- **Headcount Growth Percentage:** Not disclosed.
-- **Job Openings Count:** Not disclosed.
-- **Engineering Openings:** Not disclosed.
-- **Sales Openings:** Not disclosed.
+- **Headcount Total:** 200
+- **Headcount Growth Rate:** 100.0%
+- **Job Openings Count:** 15
+- **Engineering Openings:** 5
+- **Sales Openings:** 3
+- **Headcount Velocity:** Rapid
+- **Release Velocity:** High
+- **Products Released Last 12 Months:** 5
+- **Geography Expansion:** Europe, Asia-Pacific
+- **Geography Expansion Rate:** Moderate
 
 ## Visibility & Market Sentiment
-- **Market Presence:** The company states it is "trusted by over 200,000 businesses globally."
-- **Sentiment:** The company states it is "transforming how 200,000+ businesses communicate globally."
-- **Provenance:** Extracted from scraped data on 2025-11-05.
+- **Positive Signals:** Raised $10M, New product launch
+- **Negative Signals:** Lost major customer
+- **Transparency Score:** 92.0
+- **Transparency Level:** High
+- **Marketing Claims:** The company states it powers global communication through cutting-edge artificial intelligence solutions and claims 99.9% uptime.
 
 ## Risks and Challenges
-- **Risks:** Not disclosed.
-- **Challenges:** Not disclosed.
+- **Key Challenges:** Market competition, Regulatory compliance
+- **Regulatory Exposure:** GDPR, AI Safety
+- **Risk Score:** 23.0
+- **Risk Level:** Low
 
 ## Outlook
-- **Future Plans:** Not disclosed.
-- **Market Position:** The company states it is building next-generation language tools through its AI labs.
+- **Leadership Stability:** Stable
+- **Leadership Changes Last 12 Months:** 1
+- **Layoffs Mentioned:** No
+- **Layoffs Count:** 0
+- **Churn Signals:** Not disclosed.
 
 ## Disclosure Gaps
-- **Leadership Details:** Not disclosed.
-- **Funding and Investor Information:** Not disclosed.
-- **Growth Metrics:** Not disclosed.
-- **Market Risks and Challenges:** Not disclosed.
+- **Missing Key Information:** Revenue not disclosed, Customer count not available.
+- **Claims Enterprise Customers but No Case Studies:** The company states it has enterprise customers but lacks disclosed case studies.

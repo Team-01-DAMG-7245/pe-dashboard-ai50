@@ -1,34 +1,22 @@
 {
   "company_record": {
     "company_id": "perplexity_ai",
-    "legal_name": "Atom.com",
-    "brand_name": "Perplexity AI",
-    "website": "https://perplexity-ai.com/",
-    "hq_city": "San Francisco",
-    "hq_state": "CA",
-    "hq_country": "USA",
-    "founded_year": 2025,
-    "categories": [
-      "Domain Marketplace",
-      "Branding Services",
-      "AI Tools",
-      "Domain Services",
-      "E-commerce"
-    ],
+    "legal_name": "Perplexity Ai",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
-    "last_disclosed_valuation_usd": 2500000000.0,
+    "last_disclosed_valuation_usd": 1600000000.0,
     "last_round_name": "Series D",
     "last_round_date": "2028-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
-    "provenance": [
-      {
-        "source_url": "https://perplexity-ai.com",
-        "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "Perplexity-Ai.com is for sale, part of Atom.com, which offers domain services and branding."
-      }
-    ]
+    "provenance": []
   },
   "events": [
     {
@@ -36,15 +24,15 @@
       "company_id": "perplexity_ai",
       "occurred_on": "2025-01-01",
       "event_type": "funding",
-      "title": "Series A funding round",
+      "title": "Funding round",
       "description": null,
       "round_name": "Series A",
       "investors": [
         "Investor A",
         "Investor B"
       ],
-      "amount_usd": 250000000.0,
-      "valuation_usd": 1000000000.0,
+      "amount_usd": 100000000.0,
+      "valuation_usd": 500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -55,14 +43,14 @@
       "company_id": "perplexity_ai",
       "occurred_on": "2026-01-01",
       "event_type": "funding",
-      "title": "Series B funding round",
+      "title": "Funding round",
       "description": null,
       "round_name": "Series B",
       "investors": [
         "Investor C"
       ],
-      "amount_usd": 250000000.0,
-      "valuation_usd": 1500000000.0,
+      "amount_usd": 200000000.0,
+      "valuation_usd": 800000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -73,15 +61,15 @@
       "company_id": "perplexity_ai",
       "occurred_on": "2027-01-01",
       "event_type": "funding",
-      "title": "Series C funding round",
+      "title": "Funding round",
       "description": null,
       "round_name": "Series C",
       "investors": [
         "Investor D",
         "Investor E"
       ],
-      "amount_usd": 250000000.0,
-      "valuation_usd": 2000000000.0,
+      "amount_usd": 300000000.0,
+      "valuation_usd": 1200000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -92,14 +80,14 @@
       "company_id": "perplexity_ai",
       "occurred_on": "2028-01-01",
       "event_type": "funding",
-      "title": "Series D funding round",
+      "title": "Funding round",
       "description": null,
       "round_name": "Series D",
       "investors": [
         "Investor F"
       ],
-      "amount_usd": 250000000.0,
-      "valuation_usd": 2500000000.0,
+      "amount_usd": 400000000.0,
+      "valuation_usd": 1600000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -116,26 +104,62 @@
       "engineering_openings": 0,
       "sales_openings": 0,
       "hiring_focus": [],
-      "pricing_tiers": null,
-      "active_products": null,
+      "pricing_tiers": [],
+      "active_products": [],
       "geo_presence": [],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Stable",
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Funding round",
+        "Funding round",
+        "Funding round",
+        "Funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 37.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 60.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics found for perplexity_ai."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
     {
       "product_id": "perplexity_ai_product_1",
       "company_id": "perplexity_ai",
-      "name": "Squadhelp",
-      "description": "Now known as Atom, where everything starts!",
+      "name": "Perplexity-AI",
+      "description": "The domain name perplexity-Ai.com is for sale.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -149,8 +173,8 @@
     {
       "product_id": "perplexity_ai_product_2",
       "company_id": "perplexity_ai",
-      "name": "AtomPay",
-      "description": "A service for domain transactions and purchases in the Atom.com marketplace.",
+      "name": "Atom",
+      "description": "Squadhelp is now Atom - where everything starts!",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -163,6 +187,21 @@
     },
     {
       "product_id": "perplexity_ai_product_3",
+      "company_id": "perplexity_ai",
+      "name": "AtomPay",
+      "description": "Find your perfect domain today and buy instantly in the Atom.com marketplace.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "perplexity_ai_product_4",
       "company_id": "perplexity_ai",
       "name": "AI Domain Name Generator",
       "description": "Get hundreds of smart domain ideas in seconds.",
@@ -177,7 +216,7 @@
       "provenance": []
     },
     {
-      "product_id": "perplexity_ai_product_4",
+      "product_id": "perplexity_ai_product_5",
       "company_id": "perplexity_ai",
       "name": "AI Domain Appraisal Tool",
       "description": "Instantly check your domain\u2019s market value.",

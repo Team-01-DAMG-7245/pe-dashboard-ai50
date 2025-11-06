@@ -17,7 +17,7 @@
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
-    "last_disclosed_valuation_usd": 2000000000.0,
+    "last_disclosed_valuation_usd": 2500000000.0,
     "last_round_name": "Series D",
     "last_round_date": "2024-01-01",
     "schema_version": "2.0.0",
@@ -26,7 +26,7 @@
       {
         "source_url": "https://www.photoroom.com/about",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Our story began in 2019, when Matt - then a product manager at GoPro - received an urgent email: his app was about to get featured, and the marketing team needed new visuals, fast."
+        "snippet": "Photoroom helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks."
       },
       {
         "source_url": "https://www.photoroom.com",
@@ -72,7 +72,7 @@
         "Investor C"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 1200000000.0,
+      "valuation_usd": 1500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -91,7 +91,7 @@
         "Investor E"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 1500000000.0,
+      "valuation_usd": 2000000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -109,7 +109,7 @@
         "Investor F"
       ],
       "amount_usd": 250000000.0,
-      "valuation_usd": 2000000000.0,
+      "valuation_usd": 2500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -120,12 +120,17 @@
     {
       "company_id": "photoroom",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product"
+      ],
       "pricing_tiers": [
         "Free",
         "Pro",
@@ -140,30 +145,82 @@
         "Background generator",
         "AI product photography",
         "Logo maker",
-        "Resize and expand",
-        "Remove objects",
-        "Product shadows",
-        "Change background color",
-        "Brand kit"
+        "Batch editing",
+        "API"
       ],
-      "geo_presence": [],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Wolt",
+        "Cowgirl Clutch",
+        "Watches, Inc."
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Featured on This Week in Startups",
+        "Diversity report released",
+        "Training a text-to-image model"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 27.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered photo editing",
+        "Enterprise AI platform",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Customer testimonial from Watches, Inc.",
+        "Case study with Wolt"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Customer count not available",
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Photoroom is an AI-powered photo editing tool that helps users create high-quality visuals for product photography."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
     {
       "product_id": "photoroom_product_1",
       "company_id": "photoroom",
-      "name": "Background remover",
-      "description": "A tool to remove backgrounds from images quickly and efficiently.",
+      "name": "Background Remover",
+      "description": "A tool that allows users to remove backgrounds from images quickly and easily.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -177,8 +234,8 @@
     {
       "product_id": "photoroom_product_2",
       "company_id": "photoroom",
-      "name": "Image generator",
-      "description": "Generates images based on user input and specifications.",
+      "name": "Image Generator",
+      "description": "Generates images based on user input, ideal for creating unique visuals.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -192,8 +249,8 @@
     {
       "product_id": "photoroom_product_3",
       "company_id": "photoroom",
-      "name": "Virtual model",
-      "description": "Creates virtual models for showcasing products.",
+      "name": "Virtual Model",
+      "description": "A feature that allows users to create virtual models for showcasing products.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -207,8 +264,8 @@
     {
       "product_id": "photoroom_product_4",
       "company_id": "photoroom",
-      "name": "Product staging",
-      "description": "Staging products in a visually appealing manner for marketing.",
+      "name": "Product Staging",
+      "description": "Helps in staging products for better presentation in images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -222,7 +279,7 @@
     {
       "product_id": "photoroom_product_5",
       "company_id": "photoroom",
-      "name": "Background generator",
+      "name": "Background Generator",
       "description": "Generates backgrounds for images to enhance visual appeal.",
       "pricing_model": null,
       "pricing_tiers_public": [],
@@ -237,8 +294,8 @@
     {
       "product_id": "photoroom_product_6",
       "company_id": "photoroom",
-      "name": "AI product photography",
-      "description": "Utilizes AI to enhance product photography.",
+      "name": "AI Product Photography",
+      "description": "Utilizes AI technology to enhance product photography.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -252,8 +309,8 @@
     {
       "product_id": "photoroom_product_7",
       "company_id": "photoroom",
-      "name": "Logo maker",
-      "description": "A tool for creating custom logos.",
+      "name": "Logo Maker",
+      "description": "A tool for creating custom logos for brands.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -267,8 +324,8 @@
     {
       "product_id": "photoroom_product_8",
       "company_id": "photoroom",
-      "name": "Resize and expand",
-      "description": "Allows users to resize and expand images as needed.",
+      "name": "ROI Calculator",
+      "description": "A tool to calculate the return on investment for marketing campaigns.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -282,8 +339,8 @@
     {
       "product_id": "photoroom_product_9",
       "company_id": "photoroom",
-      "name": "Remove objects",
-      "description": "Tool for removing unwanted objects from images.",
+      "name": "API",
+      "description": "Allows developers to integrate Photoroom's features into their own applications.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -297,8 +354,8 @@
     {
       "product_id": "photoroom_product_10",
       "company_id": "photoroom",
-      "name": "Product shadows",
-      "description": "Generates realistic shadows for products in images.",
+      "name": "Batch Processing",
+      "description": "Enables users to process multiple images at once for efficiency.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -312,113 +369,8 @@
     {
       "product_id": "photoroom_product_11",
       "company_id": "photoroom",
-      "name": "Change background color",
-      "description": "Allows users to change the background color of images.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_12",
-      "company_id": "photoroom",
-      "name": "Brand kit",
-      "description": "A collection of branding tools and assets.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_13",
-      "company_id": "photoroom",
-      "name": "API",
-      "description": "Application Programming Interface for integrating Photoroom features into other applications.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_14",
-      "company_id": "photoroom",
-      "name": "Marketplace playground",
-      "description": "A tool for testing and showcasing marketplace features.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_15",
-      "company_id": "photoroom",
-      "name": "Image editing playground",
-      "description": "An interactive space for users to experiment with image editing.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_16",
-      "company_id": "photoroom",
-      "name": "ROI calculator",
-      "description": "A tool for calculating return on investment for marketing campaigns.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_17",
-      "company_id": "photoroom",
-      "name": "AI-Powered Photo Editor",
-      "description": "An advanced photo editing tool powered by AI for enhanced results.",
-      "pricing_model": null,
-      "pricing_tiers_public": [],
-      "ga_date": null,
-      "integration_partners": [],
-      "github_repo": null,
-      "license_type": null,
-      "reference_customers": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "product_id": "photoroom_product_18",
-      "company_id": "photoroom",
-      "name": "Listing Studio",
-      "description": "A studio for creating product listings with professional visuals.",
+      "name": "Brand Kit",
+      "description": "A collection of brand assets to maintain consistency across marketing materials.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

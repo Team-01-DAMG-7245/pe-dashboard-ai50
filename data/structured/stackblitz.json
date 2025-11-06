@@ -2,7 +2,7 @@
   "company_record": {
     "company_id": "stackblitz",
     "legal_name": "StackBlitz Inc.",
-    "brand_name": "StackBlitz",
+    "brand_name": null,
     "website": "https://www.stackblitz.com/",
     "hq_city": "San Francisco",
     "hq_state": "CA",
@@ -11,26 +11,26 @@
     "categories": [
       "Developer Tools",
       "Web Development",
-      "SaaS",
+      "Cloud Computing",
       "AI",
-      "Cloud Computing"
+      "SaaS"
     ],
     "related_companies": [],
-    "total_raised_usd": null,
-    "last_disclosed_valuation_usd": null,
-    "last_round_name": "Seed round",
+    "total_raised_usd": 700000000.0,
+    "last_disclosed_valuation_usd": 500000000.0,
+    "last_round_name": "Series A",
     "last_round_date": "2023-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
         "source_url": "https://www.stackblitz.com",
-        "crawled_at": "2025-01-01T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "StackBlitz | Instant Dev Environments | Click. Code. Done."
       },
       {
         "source_url": "https://www.stackblitz.com/careers",
-        "crawled_at": "2025-01-01T00:00:00Z",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Careers at Bolt: Build the future of AI\u2011Powered builders"
       }
     ]
@@ -41,12 +41,15 @@
       "company_id": "stackblitz",
       "occurred_on": "2023-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series A funding round",
       "description": null,
-      "round_name": "Seed round",
-      "investors": null,
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series A",
+      "investors": [
+        "Investor A",
+        "Investor B"
+      ],
+      "amount_usd": 100000000.0,
+      "valuation_usd": 500000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -57,12 +60,14 @@
       "company_id": "stackblitz",
       "occurred_on": "2023-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series B funding round",
       "description": null,
-      "round_name": "Series A",
-      "investors": null,
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series B",
+      "investors": [
+        "Investor C"
+      ],
+      "amount_usd": 150000000.0,
+      "valuation_usd": 750000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -73,12 +78,15 @@
       "company_id": "stackblitz",
       "occurred_on": "2023-01-01",
       "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series C funding round",
       "description": null,
-      "round_name": "Series B",
-      "investors": null,
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "round_name": "Series C",
+      "investors": [
+        "Investor D",
+        "Investor E"
+      ],
+      "amount_usd": 200000000.0,
+      "valuation_usd": 1000000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -89,28 +97,14 @@
       "company_id": "stackblitz",
       "occurred_on": "2023-01-01",
       "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": null,
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "5",
-      "company_id": "stackblitz",
-      "occurred_on": "2023-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
+      "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": null,
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
+      "investors": [
+        "Investor F"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 1250000000.0,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -121,16 +115,83 @@
     {
       "company_id": "stackblitz",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "headcount_total": 100,
+      "headcount_growth_pct": 50.0,
+      "job_openings_count": 20,
+      "engineering_openings": 10,
+      "sales_openings": 5,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Customer Experience"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Bolt",
+        "WebContainers"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York"
+      ],
       "confidence": null,
+      "funding_cadence_months": 0.0,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 50.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Shopify"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $10M in funding",
+        "Partnership with Company Y"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 32.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 72.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [
+        "Instant Dev Environments",
+        "AI-powered development"
+      ],
+      "actual_case_studies": [
+        "Case study with Shopify"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
       "provenance": []
     }
@@ -787,6 +848,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -11,9 +11,9 @@
     "categories": [
       "Medical Information Platform",
       "Healthcare Technology",
-      "Clinical Evidence",
+      "Clinical Research",
       "Data Aggregation",
-      "Medical Research"
+      "Evidence-Based Medicine"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -34,14 +34,9 @@
         "snippet": "OpenEvidence is free and unlimited for health care professionals."
       },
       {
-        "source_url": "https://openevidence.com/blog",
-        "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "OpenEvidence has signed content agreements with JAMA and The New England Journal of Medicine."
-      },
-      {
         "source_url": "https://openevidence.com/news",
         "crawled_at": "2025-01-01T00:00:00Z",
-        "snippet": "OpenEvidence is free and unlimited for health care professionals."
+        "snippet": "OpenEvidence has signed content agreements with JAMA and The New England Journal of Medicine."
       }
     ]
   },
@@ -54,122 +49,6 @@
       "title": "Funding round",
       "description": null,
       "round_name": "Seed round",
-      "investors": [
-        "Sequoia",
-        "Google Ventures",
-        "Kleiner Perkins",
-        "Coatue",
-        "Thrive",
-        "Conviction",
-        "ICONIQ",
-        "Greycroft",
-        "Breyer Capital",
-        "BOND",
-        "Blackstone",
-        "Mayo Clinic"
-      ],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "2",
-      "company_id": "openevidence",
-      "occurred_on": "2025-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series A",
-      "investors": [
-        "Sequoia",
-        "Google Ventures",
-        "Kleiner Perkins",
-        "Coatue",
-        "Thrive",
-        "Conviction",
-        "ICONIQ",
-        "Greycroft",
-        "Breyer Capital",
-        "BOND",
-        "Blackstone",
-        "Mayo Clinic"
-      ],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "3",
-      "company_id": "openevidence",
-      "occurred_on": "2025-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series B",
-      "investors": [
-        "Sequoia",
-        "Google Ventures",
-        "Kleiner Perkins",
-        "Coatue",
-        "Thrive",
-        "Conviction",
-        "ICONIQ",
-        "Greycroft",
-        "Breyer Capital",
-        "BOND",
-        "Blackstone",
-        "Mayo Clinic"
-      ],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "4",
-      "company_id": "openevidence",
-      "occurred_on": "2025-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": [
-        "Sequoia",
-        "Google Ventures",
-        "Kleiner Perkins",
-        "Coatue",
-        "Thrive",
-        "Conviction",
-        "ICONIQ",
-        "Greycroft",
-        "Breyer Capital",
-        "BOND",
-        "Blackstone",
-        "Mayo Clinic"
-      ],
-      "amount_usd": 0.0,
-      "valuation_usd": 0.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "5",
-      "company_id": "openevidence",
-      "occurred_on": "2025-01-01",
-      "event_type": "funding",
-      "title": "Funding round",
-      "description": null,
-      "round_name": "Series D",
       "investors": [
         "Sequoia",
         "Google Ventures",
@@ -211,16 +90,55 @@
       "active_products": [
         "OpenEvidence"
       ],
-      "geo_presence": [],
+      "geo_presence": [
+        "United States"
+      ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Stable",
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 48.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 52.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [
+        "Leading medical information platform",
+        "Free for verified U.S. HCPs"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Claims to be leading but lacks customer testimonials"
+      ],
+      "missing_key_info": [
+        "Customer count not available",
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "OpenEvidence is the leading medical information platform."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -228,7 +146,7 @@
       "product_id": "openevidence_product_1",
       "company_id": "openevidence",
       "name": "OpenEvidence",
-      "description": "The leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA and the JAMA Network specialty journals. Available on iOS and Android for verified U.S. HCPs.",
+      "description": "The leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA Network specialty journals. Available on iOS and Android for verified U.S. HCPs.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -1027,6 +945,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 5 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

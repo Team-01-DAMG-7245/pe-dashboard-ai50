@@ -1,6 +1,6 @@
 # Structured Dashboard: FIGURE_AI
 
-Generated: 2025-11-05T14:36:33.991977
+Generated: 2025-11-05T18:50:36.468270
 Source: Structured Payload (data/payloads/figure_ai.json)
 
 ---
@@ -10,45 +10,52 @@ Source: Structured Payload (data/payloads/figure_ai.json)
 - **Website:** [figure-ai.com](https://figure-ai.com/)
 - **Headquarters:** San Francisco, CA, USA
 - **Founded Year:** 2020
-- **Categories:** AI, Data Analytics, Machine Learning, Technology Consulting, Statistics
+- **Categories:** AI, Data Analytics, Machine Learning, Technology Consulting, Financial Technology
 
 ## Business Model and GTM
-- **Products:**
+- **Active Products:**
   - **Figure-AI.com:** A domain name that conjures images of precision, accuracy, and cutting-edge technology, perfect for startups in data analytics, machine learning, and technology consulting.
   - **Atom:** Guides buyers through a simple, safe transaction process for domain purchases, trusted by over 50,000 clients.
   - **Atom.com Purchase Protection Program:** A program that guarantees a 100% refund if a domain can’t be transferred to your ownership.
-- **Pricing Model:** Not disclosed.
-- **Active Products:** Not disclosed.
-- **Geo Presence:** Not disclosed.
+- **Pricing Information:** Not disclosed.
+- **Notable Customers:** Not disclosed.
 
 ## Funding & Investor Profile
 - **Total Raised:** $1,000,000,000
 - **Funding Rounds:**
-  - **Series A:** $250,000,000 on 2021-01-01
-  - **Series B:** $250,000,000 on 2022-01-01
-  - **Series C:** $250,000,000 on 2023-01-01
-  - **Series D:** $250,000,000 on 2024-01-01
-- **Last Disclosed Valuation:** Not disclosed.
+  - **Series A:** $250,000,000 (2021-01-01)
+  - **Series B:** $250,000,000 (2022-01-01)
+  - **Series C:** $250,000,000 (2023-01-01)
+  - **Series D:** $250,000,000 (2024-01-01)
 
 ## Growth Momentum
-- **Headcount Total:** Not disclosed.
-- **Headcount Growth Percentage:** Not disclosed.
-- **Job Openings Count:** Not disclosed.
-- **Hiring Focus:** Not disclosed.
+- **Headcount Total:** 0
+- **Headcount Growth Rate:** 0.0%
+- **Job Openings Count:** 0
+- **Positive Events Count:** 4
+- **Negative Events Count:** 0
+- **Risk Score:** 37.0 (Medium risk level)
+- **Key Challenges:** Limited enterprise customer base
 
 ## Visibility & Market Sentiment
-- **Visibility:** Not disclosed.
-- **Market Sentiment:** The company states that Figure-AI.com conjures images of precision, accuracy, and cutting-edge technology.
+- **Confidence Score:** 0.0
+- **Transparency Score:** 65.0 (Medium transparency level)
+- **Churn Signals:** Not disclosed.
+- **Marketing vs Reality Gap:** Limited information available.
 
 ## Risks and Challenges
-- **Risks and Challenges:** Not disclosed.
+- **Key Challenges Identified:**
+  - Limited enterprise customer base
 
 ## Outlook
-- **Outlook:** Not disclosed.
+- **Headcount Velocity:** Stable
+- **Release Velocity:** Low
+- **Geography Expansion Rate:** Slow
+- **Leadership Stability:** Stable
+- **Layoffs Mentioned:** No
+- **Positive Signals:** Series A, B, C, and D funding rounds
 
 ## Disclosure Gaps
-- **Leadership Previous Affiliations:** Not disclosed.
-- **Leadership Education:** Not disclosed.
-- **Leadership LinkedIn Profiles:** Not disclosed.
-- **Confidence Level:** Not disclosed.
-- **Notes on Visibility:** Not disclosed.
+- Team size not disclosed.
+- Pricing information not disclosed.
+- Customer names/references not disclosed.

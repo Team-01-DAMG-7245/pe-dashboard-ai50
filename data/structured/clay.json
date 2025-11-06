@@ -3,17 +3,17 @@
     "company_id": "clay",
     "legal_name": "Clay",
     "brand_name": null,
-    "website": "https://clay.com/",
+    "website": "https://www.clay.com/",
     "hq_city": "New York",
     "hq_state": "NY",
     "hq_country": "USA",
     "founded_year": 2017,
     "categories": [
-      "Data Enrichment",
       "Sales Automation",
-      "AI",
-      "CRM",
-      "Marketing Technology"
+      "Data Enrichment",
+      "AI Tools",
+      "Customer Relationship Management (CRM)",
+      "Go-To-Market Strategies"
     ],
     "related_companies": [],
     "total_raised_usd": 1678000000.0,
@@ -24,12 +24,12 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://clay.com",
+        "source_url": "https://www.clay.com",
         "crawled_at": "2025-01-01T00:00:00Z",
         "snippet": "Clay raised $100M Series C at a $3.1B valuation."
       },
       {
-        "source_url": "https://forbes.com",
+        "source_url": "https://www.forbes.com",
         "crawled_at": "2025-01-01T00:00:00Z",
         "snippet": "Clay, A Secret Weapon For Anthropic And OpenAI, Boosts Valuation To $1.3 Billion."
       },
@@ -102,7 +102,7 @@
     {
       "event_id": "4",
       "company_id": "clay",
-      "occurred_on": "2024-06-26",
+      "occurred_on": "2024-06-27",
       "event_type": "funding",
       "title": "Series A funding round",
       "description": null,
@@ -120,7 +120,7 @@
     {
       "event_id": "5",
       "company_id": "clay",
-      "occurred_on": "2024-01-01",
+      "occurred_on": "2024-06-27",
       "event_type": "funding",
       "title": "Seed funding round",
       "description": null,
@@ -166,24 +166,67 @@
         "New York City"
       ],
       "confidence": null,
+      "funding_cadence_months": 1.5440210249671484,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 6,
+      "geography_expansion": [
+        "North America",
+        "Europe"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "OpenAI",
+        "Vanta",
+        "Intercom",
+        "Ramp",
+        "Anthropic",
+        "Verkada"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $100M Series C at a $3.1B valuation",
+        "Clay named #1 mid-stage company on ENT30 list",
+        "Clay named to 2025 Forbes Cloud 100"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 22.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Scaling challenges"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Creative tools for business growth",
+        "AI-powered data enrichment"
+      ],
+      "actual_case_studies": [
+        "Case study with OpenAI",
+        "Customer testimonial from Vanta"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.clay.com/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We care about helping people grow businesses. Growing a business means finding and reaching customers who need your product."
-        },
-        {
-          "source_url": "https://www.clay.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Join the Clay crew | Clay.com. We\u2019re looking for help in these areas."
-        },
-        {
-          "source_url": "https://www.clay.com/newsroom",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Clay raises $100M Series C at a $3.1B valuation."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -191,7 +234,7 @@
       "product_id": "clay_product_1",
       "company_id": "clay",
       "name": "Clay",
-      "description": "Go to market with unique data and the ability to act on it, bringing AI agents, enrichment, and intent data together to turn insights into relevant, timely action.",
+      "description": "Go to market with unique data and the ability to act on it. Bring AI agents, enrichment, and intent data together and turn insights into relevant, timely action.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -221,7 +264,7 @@
       "product_id": "clay_product_3",
       "company_id": "clay",
       "name": "OpenAI",
-      "description": "Clay enables our team to rapidly experiment with trigger driven workflows, and 3rd party enrichment data, allowing us to move fast and drive outsized impact on GTM execution.",
+      "description": "Clay enables our team to rapidly experiment with trigger driven workflows, and 3rd party enrichment data.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -291,10 +334,10 @@
       "provenance": []
     },
     {
-      "person_id": "clay_kellen_casebeer",
+      "person_id": "clay_shvevyah_hogue",
       "company_id": "clay",
-      "name": "Kellen Casebeer",
-      "role": "Founder",
+      "name": "Shvevyah Hogue",
+      "role": "Sales Assistant",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -421,20 +464,6 @@
       "company_id": "clay",
       "name": "Stevie Case",
       "role": "CRO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "clay_scotty_huhn",
-      "company_id": "clay",
-      "name": "Scotty Huhn",
-      "role": "Revenue Strategy & Data",
       "is_founder": false,
       "start_date": null,
       "end_date": null,

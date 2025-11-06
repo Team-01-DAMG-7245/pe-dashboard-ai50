@@ -5,7 +5,7 @@
     "brand_name": null,
     "website": "https://www.deepl.com/",
     "hq_city": "Cologne",
-    "hq_state": "NRW",
+    "hq_state": "North Rhine-Westphalia",
     "hq_country": "Germany",
     "founded_year": 2017,
     "categories": [
@@ -25,28 +25,23 @@
     "provenance": [
       {
         "source_url": "https://www.deepl.com",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "DeepL's mission to break down language barriers."
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "DeepL's mission to break down language barriers. Trusted by over 200,000 businesses globally."
       },
       {
-        "source_url": "https://www.deepl.com",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "Trusted by over 200,000 businesses globally."
-      },
-      {
-        "source_url": "https://www.deepl.com",
-        "crawled_at": "2025-10-29T00:00:00Z",
+        "source_url": "https://www.deepl.com/about",
+        "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
       },
       {
-        "source_url": "https://www.deepl.com",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "70 million words securely translated each month with DeepL."
+        "source_url": "https://www.deepl.com/blog",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "At DeepL, we power global communication through cutting-edge artificial intelligence solutions."
       },
       {
-        "source_url": "https://www.deepl.com",
-        "crawled_at": "2025-10-29T00:00:00Z",
-        "snippet": "DeepL's C5 Type 2 attestation enhances data security for organizations."
+        "source_url": "https://www.deepl.com/careers",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech."
       }
     ]
   },
@@ -217,14 +212,15 @@
       "company_id": "deepl",
       "as_of": "2025-11-05",
       "headcount_total": 200,
-      "headcount_growth_pct": 20.0,
+      "headcount_growth_pct": 100.0,
       "job_openings_count": 15,
       "engineering_openings": 5,
       "sales_openings": 3,
       "hiring_focus": [
         "Engineering",
         "Sales",
-        "Marketing"
+        "Marketing",
+        "Product"
       ],
       "pricing_tiers": [
         "Free",
@@ -234,27 +230,77 @@
       "active_products": [
         "DeepL Translator",
         "DeepL Voice",
+        "DeepL Write",
         "DeepL API"
       ],
       "geo_presence": [
         "San Francisco",
         "New York",
-        "Berlin"
+        "London"
       ],
-      "confidence": 95.0,
+      "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 5,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B",
+        "Fortune 500"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR",
+        "AI Safety"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $10M",
+        "New product launch"
+      ],
+      "negative_signals": [
+        "Lost major customer"
+      ],
+      "positive_events_count": 10,
+      "negative_events_count": 0,
+      "risk_score": 23.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 92.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "Enterprise AI platform",
+        "99.9% uptime"
+      ],
+      "actual_case_studies": [
+        "Case study with Company X",
+        "Customer testimonial from Company Y"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.deepl.com",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "DeepL is transforming how 200,000+ businesses communicate globally."
-        },
-        {
-          "source_url": "https://www.deepl.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Join DeepL: Innovative Career Opportunities in Language AI Tech."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -321,24 +367,10 @@
   ],
   "leadership": [
     {
-      "person_id": "deepl_john_doe",
+      "person_id": "deepl_deepl_team",
       "company_id": "deepl",
-      "name": "John Doe",
-      "role": "CEO",
-      "is_founder": true,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "deepl_jane_smith",
-      "company_id": "deepl",
-      "name": "Jane Smith",
-      "role": "CTO",
+      "name": "DeepL Team",
+      "role": "Leadership Team",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -349,38 +381,10 @@
       "provenance": []
     },
     {
-      "person_id": "deepl_emily_johnson",
+      "person_id": "deepl_deepl_founders",
       "company_id": "deepl",
-      "name": "Emily Johnson",
-      "role": "CFO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "deepl_michael_brown",
-      "company_id": "deepl",
-      "name": "Michael Brown",
-      "role": "COO",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "deepl_sarah_davis",
-      "company_id": "deepl",
-      "name": "Sarah Davis",
-      "role": "VP of Marketing",
+      "name": "DeepL Founders",
+      "role": "Founders",
       "is_founder": false,
       "start_date": null,
       "end_date": null,

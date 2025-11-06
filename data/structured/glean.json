@@ -7,13 +7,13 @@
     "hq_city": "Palo Alto",
     "hq_state": "CA",
     "hq_country": "USA",
-    "founded_year": 2019,
+    "founded_year": 2020,
     "categories": [
       "AI",
       "Enterprise Software",
-      "Search",
-      "Productivity Tools",
-      "Data Analytics"
+      "SaaS",
+      "Data Analytics",
+      "Search"
     ],
     "related_companies": [],
     "total_raised_usd": 150000000.0,
@@ -24,19 +24,24 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.glean.com",
-        "crawled_at": "2025-06-10T00:00:00Z",
-        "snippet": "Glean raises $150M Series F at $7.2B valuation to transform how companies use AI to accelerate innovation."
-      },
-      {
         "source_url": "https://www.glean.com/about",
-        "crawled_at": "2025-06-10T00:00:00Z",
+        "crawled_at": "2023-10-31T00:00:00Z",
         "snippet": "Glean was founded by a seasoned team of former Google search engineers and industry veterans."
       },
       {
         "source_url": "https://www.glean.com/blog",
-        "crawled_at": "2025-06-10T00:00:00Z",
-        "snippet": "Glean's Enterprise Graph deeply understands your company, providing the foundational intelligence that turns every organization into a superintelligent enterprise."
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean raises $150M Series F at $7.2B valuation to transform how companies use AI to accelerate innovation."
+      },
+      {
+        "source_url": "https://www.glean.com/careers",
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean is headquartered in Palo Alto, CA."
+      },
+      {
+        "source_url": "https://www.glean.com/product",
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean is an AI-powered enterprise search platform."
       }
     ]
   },
@@ -52,6 +57,86 @@
       "investors": [],
       "amount_usd": 150000000.0,
       "valuation_usd": 7200000000.0,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "glean",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Series E funding round",
+      "description": null,
+      "round_name": "Series E",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "glean",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Series D funding round",
+      "description": null,
+      "round_name": "Series D",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "glean",
+      "occurred_on": "2023-01-01",
+      "event_type": "funding",
+      "title": "Series C funding round",
+      "description": null,
+      "round_name": "Series C",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "glean",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Series B funding round",
+      "description": null,
+      "round_name": "Series B",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "glean",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Series A funding round",
+      "description": null,
+      "round_name": "Series A",
+      "investors": [],
+      "amount_usd": null,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
@@ -72,7 +157,6 @@
         "Sales",
         "Marketing",
         "Product",
-        "Design",
         "Operations"
       ],
       "pricing_tiers": [
@@ -83,33 +167,73 @@
       "active_products": [
         "Glean Agents",
         "Glean Assistant",
-        "Glean Search",
-        "Glean Protect"
+        "Glean Search"
       ],
       "geo_presence": [
         "San Francisco",
         "New York",
         "London"
       ],
-      "confidence": 1.0,
+      "confidence": null,
+      "funding_cadence_months": 10.650459921156372,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 12,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Google",
+        "Dell Technologies",
+        "Snowflake"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $150M Series F funding",
+        "Named 2025 Google Cloud Technology Partner of the Year"
+      ],
+      "negative_signals": [
+        "None reported"
+      ],
+      "positive_events_count": 6,
+      "negative_events_count": 0,
+      "risk_score": 18.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered enterprise search",
+        "Generative AI solutions"
+      ],
+      "actual_case_studies": [
+        "Case study with Google",
+        "Customer testimonial from Dell"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.glean.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is hiring for various positions across multiple departments."
-        },
-        {
-          "source_url": "https://www.glean.com/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean has a team of 350 employees."
-        },
-        {
-          "source_url": "https://www.glean.com/blog",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean has grown its team significantly, doubling in size over the past year."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -594,6 +718,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 6 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

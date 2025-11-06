@@ -1,6 +1,6 @@
 # Structured Dashboard: MERCOR
 
-Generated: 2025-11-05T14:38:17.161913
+Generated: 2025-11-05T18:51:58.372502
 Source: Structured Payload (data/payloads/mercor.json)
 
 ---
@@ -17,35 +17,57 @@ Source: Structured Payload (data/payloads/mercor.json)
 - **Last Round Date:** October 27, 2025
 
 ## Business Model and GTM
-- **Products:**
-  - **Mercor:** Find top-tier, remote, AI roles for your expertise. Available only on Mercor.
-  - **APEX:** The AI Productivity Index.
-- **Hiring Focus:** Legal, Consulting, Video Captioning, Video Annotation, Photography, Evaluation, Chemistry Labeling, Physics Labeling.
+- **Active Products:**
+  - APEX: The AI Productivity Index
+  - Various roles for expertise in legal, consulting, video captioning, video annotation, photography, and evaluation.
+- **Pricing Tiers:** 
+  - $20-$30/hr
+  - $35/hr
+  - $40/hr
+  - $45/hr
+  - $80-$120/hr
+  - $110-$130/hr
+- **Hiring Focus:** Legal, Consulting, Video Captioning, Video Annotation, Photography, Evaluation
 
 ## Funding & Investor Profile
 - **Funding Events:**
-  - **Series C:** $350,000,000 on October 27, 2025 at a $10 billion valuation.
-  - **Series B:** $100,000,000 on February 20, 2025.
-  - **Seed Round:** $3,600,000 with investors including General Catalyst and Scott Sandell.
+  - **Seed Round:** $3.6M (January 10, 2024)
+  - **Series B Round:** $100M (February 20, 2025)
+  - **Series C Round:** $350M (October 27, 2025)
 
 ## Growth Momentum
-- **Total Headcount:** 2,040
-- **Job Openings Count:** 204
-- **Engineering Openings:** 0
-- **Sales Openings:** 0
+- **Total Headcount:** 350
+- **Headcount Growth Rate:** 100%
+- **Job Openings Count:** 10
+- **Headcount Velocity:** Rapid
+- **Release Velocity:** High
+- **Products Released in Last 12 Months:** 1
+- **Geography Expansion Rate:** Slow
+- **Customer Quality Score:** Mixed
+- **Risk Score:** 34.0 (Medium)
+- **Positive Signals:** 
+  - Announced $350 million Series C funding
+  - Raised $100M Series B funding
+  - Launched fully-automated platform
 
 ## Visibility & Market Sentiment
-- The company states that it is "the global allocator for extraordinary human talent in the AI economy."
-- The company states that it connects graduate-level experts with meaningful, well-paid work.
+- **Transparency Score:** 80.0 (High)
+- **Marketing Claims:** 
+  - The company states it offers an AI-powered hiring platform.
+  - The company states it is unlocking human potential in the AI economy.
+- **Negative Signals:** Not disclosed.
 
 ## Risks and Challenges
-- **Leadership Information:** Roles of leadership team members (Matt, Angela, Jared) are unknown.
-- **Market Competition:** Not disclosed.
+- **Key Challenges:** Limited enterprise customer base
+- **Churn Signals:** Not disclosed
+- **Regulatory Exposure:** Not disclosed
+- **Leadership Stability:** Stable
+- **Leadership Changes in Last 12 Months:** 0
+- **Layoffs Mentioned:** No
 
 ## Outlook
-- The company appears to be in a strong position with significant funding and a clear focus on connecting talent with opportunities in the AI sector. However, the lack of disclosed leadership roles may pose challenges in investor confidence.
+- The company is positioned for growth with significant funding and a strong product offering in the AI and remote work sectors. However, it faces challenges related to its limited enterprise customer base.
 
 ## Disclosure Gaps
-- Leadership roles and backgrounds are not disclosed.
-- Specific details on market competition are not disclosed.
-- Information on pricing models and active products is not disclosed.
+- Customer names/references not disclosed.
+- Marketing claims lack supporting case studies.

@@ -1,6 +1,6 @@
 # Structured Dashboard: COHERE
 
-Generated: 2025-11-05T14:35:19.340478
+Generated: 2025-11-05T18:49:13.123120
 Source: Structured Payload (data/payloads/cohere.json)
 
 ---
@@ -8,53 +8,49 @@ Source: Structured Payload (data/payloads/cohere.json)
 ## Company Overview
 - **Legal Name:** Cohere Inc.
 - **Founded Year:** 2019
-- **Headquarters:** Toronto, Canada
+- **Headquarters:** Toronto, ON, Canada
 - **Website:** [cohere.com](https://cohere.com/)
 - **Categories:** AI, Machine Learning, Enterprise Software, Natural Language Processing, Data Analytics
-- **Company Vision:** The company states, "Cohere was founded in 2019 in Toronto with a bold vision: to do whatever it takes to scale intelligence to serve humanity."
+- **Total Raised:** $1 billion
+- **Last Round:** Series D
+- **Last Round Date:** January 1, 2024
 
 ## Business Model and GTM
-Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact. The company offers a range of products including:
-- **Go North:** An intelligent enterprise search system designed for performance at scale.
-- **Command:** A family of high-performance generative models for natural language interactions.
-- **Embed:** A model for semantic text representation for accurate document comparison.
+Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact. The company states that it creates cutting-edge foundation models and secure AI solutions for the world’s leading enterprises. Its products include:
+- **Go North:** An intelligent enterprise search system.
+- **Command:** A family of high-performance generative models.
+- **Embed:** A model for semantic text representation.
 - **Rerank:** A model for relevance-based result refinement.
-- **North:** A turnkey AI platform that integrates various workflows.
+- **North:** A turnkey AI platform.
+
+Cohere offers pricing tiers including Free, Pro, and Enterprise.
 
 ## Funding & Investor Profile
-- **Total Raised:** $1 billion
-- **Funding Rounds:**
-  - **Series A:** $250 million (2021-01-01)
-  - **Series B:** $250 million (2022-01-01)
-  - **Series C:** $250 million (2023-01-01)
-  - **Series D:** $250 million (2024-01-01)
-- **Last Disclosed Valuation:** Not disclosed.
+Cohere has secured four major funding rounds (Series A through D) between 2021 and 2024, raising nearly $1 billion. The specific investors for each round are not disclosed.
 
 ## Growth Momentum
-- **Headcount:** Not disclosed.
-- **Headcount Growth Percentage:** Not disclosed.
-- **Job Openings Count:** Not disclosed.
-- **Geographic Presence:** Toronto, New York, London, San Francisco, Montreal, Paris, Seoul.
+- **Total Headcount:** 450
+- **Headcount Growth Rate:** 100%
+- **Job Openings:** 20 (10 in Engineering, 5 in Sales)
+- **Products Released in Last 12 Months:** 5
+- **Geographic Presence:** Toronto, New York, London, San Francisco, Montreal, Paris, Seoul
+- **Geography Expansion Rate:** Moderate (Europe, Asia-Pacific)
+- **Positive Signals:** Raised $1 billion in funding, launched North AI platform, and growth in Cohere Labs community.
 
 ## Visibility & Market Sentiment
-Not disclosed.
+Cohere has a high transparency score of 87.0 and is perceived positively in the market. The company claims to have enterprise customers, including Fortune 500 companies, but specific case studies are not disclosed.
 
 ## Risks and Challenges
-Not disclosed.
+Key challenges include:
+- Market competition
+- Regulatory compliance (GDPR, AI Safety)
+
+The company has a medium risk score of 35.0, indicating some level of concern but not critical.
 
 ## Outlook
-The company states that it offers a $2,000 annual allowance for learning and education, along with various employee benefits including six weeks of paid vacation, equity options, and comprehensive health coverage.
+Cohere is positioned for continued growth with a strong funding history and a stable leadership team. The company states that it aims to scale intelligence to serve humanity, suggesting a long-term vision for impact in the AI sector.
 
 ## Disclosure Gaps
-- Brand name: Not disclosed.
-- Last disclosed valuation: Not disclosed.
-- Headcount total: Not disclosed.
-- Headcount growth percentage: Not disclosed.
-- Job openings count: Not disclosed.
-- Engineering openings: Not disclosed.
-- Sales openings: Not disclosed.
-- Hiring focus: Not disclosed.
-- Pricing tiers: Not disclosed.
-- Active products: Not disclosed.
-- Visibility: Not disclosed.
-- Risks and challenges: Not disclosed.
+- Revenue not disclosed.
+- Customer count not available.
+- Claims enterprise customers but no case studies.

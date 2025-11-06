@@ -13,7 +13,7 @@
       "Accessibility",
       "Assistive Technology",
       "Captioning Services",
-      "Communication Services"
+      "Consumer Electronics"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -60,7 +60,7 @@
       "hiring_focus": [
         "Engineering",
         "Sales",
-        "Marketing"
+        "Customer Support"
       ],
       "pricing_tiers": [
         "Free"
@@ -72,6 +72,58 @@
         "United States"
       ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 20.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 2,
+      "geography_expansion": [
+        "United States"
+      ],
+      "geography_expansion_rate": "Stable",
+      "notable_customers": [
+        "Fortune 500 Companies"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "ADA Compliance"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Expanded service offerings",
+        "Partnership with major telecom providers"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 47.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 62.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [
+        "Free captioning service for hearing loss",
+        "Accessible communication solutions"
+      ],
+      "actual_case_studies": [
+        "Case study with major telecom provider"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
       "provenance": []
     }

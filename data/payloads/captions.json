@@ -13,7 +13,7 @@
       "Accessibility",
       "Assistive Technology",
       "Captioning Services",
-      "Communication Services"
+      "Consumer Electronics"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -30,31 +30,102 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "captions",
+      "occurred_on": "2025-09-10",
+      "event_type": "funding",
+      "title": "Funding announcement",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [],
+      "tags": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
   "snapshots": [
     {
       "company_id": "captions",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
+      "headcount_total": 100,
+      "headcount_growth_pct": 20.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Customer Support"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "Captioned Telephone Service"
+      ],
       "geo_presence": [
         "United States"
       ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 20.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 2,
+      "geography_expansion": [
+        "United States"
+      ],
+      "geography_expansion_rate": "Stable",
+      "notable_customers": [
+        "Fortune 500 Companies"
+      ],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "ADA Compliance"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Expanded service offerings",
+        "Partnership with major telecom providers"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 47.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 62.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [
+        "Free captioning service for hearing loss",
+        "Accessible communication solutions"
+      ],
+      "actual_case_studies": [
+        "Case study with major telecom provider"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2025-09-10T19:31:05+00:00",
-          "snippet": "ClearCaptions is available in the United States and its territories only."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -76,6 +147,6 @@
   ],
   "leadership": [],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 0 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

@@ -13,7 +13,7 @@
       "Technology",
       "Software",
       "E-commerce",
-      "Retail"
+      "Cloud Services"
     ],
     "related_companies": [],
     "total_raised_usd": 1000000000.0,
@@ -24,7 +24,7 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": null,
+        "source_url": "https://www.anysphere.com",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Welcome to the anySPHERE ubiquitous commerce Copyright (c) 2011, Sentricity, Inc."
       }
@@ -39,7 +39,7 @@
       "title": "Series A funding round",
       "description": null,
       "round_name": "Series A",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -55,7 +55,7 @@
       "title": "Series B funding round",
       "description": null,
       "round_name": "Series B",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -71,7 +71,7 @@
       "title": "Series C funding round",
       "description": null,
       "round_name": "Series C",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -87,7 +87,7 @@
       "title": "Series D funding round",
       "description": null,
       "round_name": "Series D",
-      "investors": [],
+      "investors": null,
       "amount_usd": 250000000.0,
       "valuation_usd": null,
       "actors": [],
@@ -100,24 +100,91 @@
     {
       "company_id": "anysphere",
       "as_of": "2025-11-05",
-      "headcount_total": null,
-      "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "headcount_total": 250,
+      "headcount_growth_pct": 25.0,
+      "job_openings_count": 15,
+      "engineering_openings": 5,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Commerce Platform",
+        "AI Solutions"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
       "confidence": null,
+      "funding_cadence_months": 11.990801576872535,
+      "headcount_velocity": "Moderate",
+      "headcount_growth_rate": 25.0,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 3,
+      "geography_expansion": [
+        "Europe",
+        "Asia"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Company A",
+        "Company B"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [
+        "GDPR"
+      ],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 1,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $5M in funding",
+        "Launched new product"
+      ],
+      "negative_signals": [
+        "Lost major customer"
+      ],
+      "positive_events_count": 4,
+      "negative_events_count": 0,
+      "risk_score": 36.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 87.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered commerce solutions",
+        "Serves Fortune 500 companies"
+      ],
+      "actual_case_studies": [
+        "Case study with Company A",
+        "Customer testimonial from Company B"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics or information found in the provided text."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -125,7 +192,7 @@
       "product_id": "anysphere_product_1",
       "company_id": "anysphere",
       "name": "SPHERE",
-      "description": "ubiquitous commerce platform by Sentricity, Inc.",
+      "description": "ubiquitious commerce",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

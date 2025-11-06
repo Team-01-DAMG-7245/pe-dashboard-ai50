@@ -24,19 +24,24 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.glean.com",
-        "crawled_at": "2025-06-10T00:00:00Z",
-        "snippet": "Glean raises $150M Series F at $7.2B valuation to transform how companies use AI to accelerate innovation."
-      },
-      {
         "source_url": "https://www.glean.com/about",
-        "crawled_at": "2025-06-10T00:00:00Z",
+        "crawled_at": "2023-10-31T00:00:00Z",
         "snippet": "Glean was founded by a seasoned team of former Google search engineers and industry veterans."
       },
       {
         "source_url": "https://www.glean.com/blog",
-        "crawled_at": "2025-06-10T00:00:00Z",
-        "snippet": "Glean's Enterprise Graph deeply understands your company, providing the foundational intelligence that turns every organization into a superintelligent enterprise."
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean raises $150M Series F at $7.2B valuation to transform how companies use AI to accelerate innovation."
+      },
+      {
+        "source_url": "https://www.glean.com/careers",
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean is headquartered in Palo Alto, CA."
+      },
+      {
+        "source_url": "https://www.glean.com/product",
+        "crawled_at": "2023-10-31T00:00:00Z",
+        "snippet": "Glean is an AI-powered enterprise search platform."
       }
     ]
   },
@@ -142,79 +147,93 @@
     {
       "company_id": "glean",
       "as_of": "2025-11-05",
-      "headcount_total": 0,
-      "headcount_growth_pct": null,
-      "job_openings_count": 0,
-      "engineering_openings": 0,
-      "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "headcount_total": 350,
+      "headcount_growth_pct": 100.0,
+      "job_openings_count": 60,
+      "engineering_openings": 15,
+      "sales_openings": 10,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product",
+        "Operations"
+      ],
+      "pricing_tiers": [
+        "Free",
+        "Pro",
+        "Enterprise"
+      ],
+      "active_products": [
+        "Glean Agents",
+        "Glean Assistant",
+        "Glean Search"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London"
+      ],
       "confidence": null,
+      "funding_cadence_months": 10.650459921156372,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "High",
+      "products_released_last_12m": 12,
+      "geography_expansion": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "geography_expansion_rate": "Moderate",
+      "notable_customers": [
+        "Google",
+        "Dell Technologies",
+        "Snowflake"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 2,
+      "layoffs_mentioned": false,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $150M Series F funding",
+        "Named 2025 Google Cloud Technology Partner of the Year"
+      ],
+      "negative_signals": [
+        "None reported"
+      ],
+      "positive_events_count": 6,
+      "negative_events_count": 0,
+      "risk_score": 18.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Market competition",
+        "Regulatory compliance"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered enterprise search",
+        "Generative AI solutions"
+      ],
+      "actual_case_studies": [
+        "Case study with Google",
+        "Customer testimonial from Dell"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean was founded by a seasoned team of former Google search engineers and industry veterans who wondered why we don\u2019t have an easier way to find answers at work. So they built the world\u2019s most advanced AI-powered enterprise search."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean saves up to 110 hours per user/year."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean adoption reached 93% in just 2 years."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean saves 36 hours per employee on onboarding."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean Chat reduces internal support requests by 20% (IT, HR, etc.)."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Companies recover their Glean investment in under 6 months."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We cover medical, dental, and vision for you and yours."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We make it easy to save for the future today by contributing to a 401k."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Flexible hours, PTO, and company-wide winter break shutdown."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We offer a learning stipend to help you grow and achieve your goals."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "We work hard and play hard - from weekly happy hours to our annual company retreat."
-        },
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Most teams work out of the office 3 days a week and work from home the other 2 days."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [

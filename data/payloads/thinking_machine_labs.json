@@ -1,7 +1,7 @@
 {
   "company_record": {
     "company_id": "thinking_machine_labs",
-    "legal_name": "Thinking Machine Labs",
+    "legal_name": "thinking_machine_labs",
     "brand_name": null,
     "website": "https://www.thinkingmachinelabs.com/",
     "hq_city": "San Francisco",
@@ -11,22 +11,27 @@
     "categories": [
       "AI",
       "Machine Learning",
-      "Data Analytics",
-      "SaaS",
-      "Cloud Computing"
+      "Data Science",
+      "Software Development",
+      "Technology"
     ],
     "related_companies": [],
-    "total_raised_usd": 700000000.0,
-    "last_disclosed_valuation_usd": 1250000000.0,
-    "last_round_name": "Series D",
-    "last_round_date": "2024-09-01",
+    "total_raised_usd": 5000000.0,
+    "last_disclosed_valuation_usd": 20000000.0,
+    "last_round_name": "Seed",
+    "last_round_date": "2023-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.thinkingmachinelabs.com",
+        "source_url": "https://www.thinkingmachinelabs.com/about",
         "crawled_at": "2023-10-01T00:00:00Z",
-        "snippet": "Thinking Machine Labs is an AI and Machine Learning company based in San Francisco, CA."
+        "snippet": "thinking_machine_labs is an AI and Machine Learning company based in San Francisco, CA, founded in 2023."
+      },
+      {
+        "source_url": "https://www.thinkingmachinelabs.com/news",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "We raised $5 million in our Seed round on September 15, 2023, with a post-money valuation of $20 million."
       }
     ]
   },
@@ -36,74 +41,25 @@
       "company_id": "thinking_machine_labs",
       "occurred_on": "2023-01-01",
       "event_type": "funding",
-      "title": "Series A funding round",
+      "title": "Seed funding round",
       "description": null,
-      "round_name": "Series A",
+      "round_name": "Seed",
       "investors": [
         "Investor A",
         "Investor B"
       ],
-      "amount_usd": 100000000.0,
-      "valuation_usd": 500000000.0,
+      "amount_usd": 5000000.0,
+      "valuation_usd": null,
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "2",
-      "company_id": "thinking_machine_labs",
-      "occurred_on": "2023-06-01",
-      "event_type": "funding",
-      "title": "Series B funding round",
-      "description": null,
-      "round_name": "Series B",
-      "investors": [
-        "Investor C"
-      ],
-      "amount_usd": 150000000.0,
-      "valuation_usd": 750000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "3",
-      "company_id": "thinking_machine_labs",
-      "occurred_on": "2024-01-01",
-      "event_type": "funding",
-      "title": "Series C funding round",
-      "description": null,
-      "round_name": "Series C",
-      "investors": [
-        "Investor D",
-        "Investor E"
-      ],
-      "amount_usd": 200000000.0,
-      "valuation_usd": 1000000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "event_id": "4",
-      "company_id": "thinking_machine_labs",
-      "occurred_on": "2024-09-01",
-      "event_type": "funding",
-      "title": "Series D funding round",
-      "description": null,
-      "round_name": "Series D",
-      "investors": [
-        "Investor F"
-      ],
-      "amount_usd": 250000000.0,
-      "valuation_usd": 1250000000.0,
-      "actors": [],
-      "tags": [],
-      "schema_version": "2.0.0",
-      "provenance": []
+      "provenance": [
+        {
+          "source_url": null,
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Thinking Machine Labs raised $5 million in a Seed round led by Investor A and Investor B."
+        }
+      ]
     }
   ],
   "snapshots": [
@@ -112,22 +68,55 @@
       "as_of": "2025-11-05",
       "headcount_total": null,
       "headcount_growth_pct": null,
-      "job_openings_count": null,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [],
       "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": null,
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [],
+      "customer_quality_score": null,
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Seed funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 48.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 65.0,
+      "transparency_level": "Medium",
+      "marketed_info_available": [],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Team size not disclosed",
+        "Pricing information not disclosed",
+        "Customer names/references not disclosed"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Limited information available",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "No specific metrics or information found in the provided text."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -135,7 +124,7 @@
       "product_id": "thinking_machine_labs_product_1",
       "company_id": "thinking_machine_labs",
       "name": "DataMonk",
-      "description": "Creating something special in the data space.",
+      "description": "A platform that is currently in development, promising to offer unique features and services.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -208,7 +197,7 @@
       "person_id": "thinking_machine_labs_sarah_davis",
       "company_id": "thinking_machine_labs",
       "name": "Sarah Davis",
-      "role": "Founder",
+      "role": "VP of Marketing",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -220,6 +209,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-05. Events: 4 funding/announcement events found.",
+  "notes": "Extracted from scraped data on 2025-11-05. Events: 1 funding/announcement events found.",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

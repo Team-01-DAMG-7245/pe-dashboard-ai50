@@ -1,6 +1,6 @@
 # Structured Dashboard: GLEAN
 
-Generated: 2025-11-05T14:36:54.423015
+Generated: 2025-11-05T18:50:46.792718
 Source: Structured Payload (data/payloads/glean.json)
 
 ---
@@ -18,62 +18,53 @@ Source: Structured Payload (data/payloads/glean.json)
 - **Last Round Date:** June 10, 2025
 
 ## Business Model and GTM
-- **Products:**
-  - Glean: Work AI that Works | Agents, Assistant & Search
-  - Glean Assistant: Your personal AI assistant
-  - Glean Agents: Build and manage AI agents
-  - Glean Search: The foundation of enterprise AI
-  - Glean Protect: Safely scale AI at work Security
-  - Agentic Engine 2: Plan & adapt over company context
-  - Glean in Slack: Integration of Glean with Slack
-  - Glean in Microsoft Teams: Integration of Glean with Microsoft Teams
-  - Glean in Zoom: Integration of Glean with Zoom
-  - Glean in Service Cloud: Integration of Glean with Service Cloud
-  - Glean in ServiceNow: Integration of Glean with ServiceNow
-  - Glean in Zendesk: Integration of Glean with Zendesk
-  - Glean in GitHub: Integration of Glean with GitHub
-  - Glean in Miro: Integration of Glean with Miro
-  - Browser Extension: Browser extension for Glean
+- **Business Model:** SaaS with an AI-powered enterprise search platform.
+- **Active Products:** Glean Agents, Glean Assistant, Glean Search, Glean Protect, Agentic Engine 2, and various integrations with platforms like Slack, Microsoft Teams, Zoom, and more.
+- **Pricing Tiers:** Free, Pro, Enterprise
+- **Notable Customers:** Google, Dell Technologies, Snowflake
+- **Marketing Claims:** The company states it transforms how companies use AI to accelerate innovation.
 
 ## Funding & Investor Profile
-- **Funding Events:**
+- **Funding Rounds:** 
   - Series F: $150,000,000 on June 10, 2025
   - Series E: Not disclosed
   - Series D: Not disclosed
   - Series C: Not disclosed
   - Series B: Not disclosed
   - Series A: Not disclosed
+- **Investors:** Not disclosed
 
 ## Growth Momentum
-- **Headcount Total:** 0
-- **Headcount Growth Percentage:** Not disclosed
-- **Job Openings Count:** 0
-- **Engineering Openings:** 0
-- **Sales Openings:** 0
-- **Glean adoption reached 93% in just 2 years.**
-- **Glean saves up to 110 hours per user/year.**
-- **Glean saves 36 hours per employee on onboarding.**
-- **Glean Chat reduces internal support requests by 20% (IT, HR, etc.).**
-- **Companies recover their Glean investment in under 6 months.**
+- **Total Headcount:** 350
+- **Headcount Growth Rate:** 100%
+- **Job Openings Count:** 60
+- **Hiring Focus:** Engineering, Sales, Marketing, Product, Operations
+- **Headcount Velocity:** Rapid
+- **Release Velocity:** High
+- **Products Released in Last 12 Months:** 12
+- **Geography Expansion:** Europe, Asia-Pacific
+- **Geography Expansion Rate:** Moderate
+- **Positive Signals:** Raised $150M Series F funding, Named 2025 Google Cloud Technology Partner of the Year
+- **Negative Signals:** None reported
 
 ## Visibility & Market Sentiment
-- **Market Sentiment:** Not disclosed
-- **Visibility:** Not disclosed
+- **Customer Quality Score:** Enterprise
+- **Churn Signals:** Not disclosed
+- **Regulatory Exposure:** Not disclosed
+- **Leadership Stability:** Stable
+- **Leadership Changes in Last 12 Months:** 2
+- **Transparency Score:** 100%
+- **Transparency Level:** High
+- **Marketing vs Reality Gap:** Well-supported (claims backed by proof)
 
 ## Risks and Challenges
-- **Risks and Challenges:** Not disclosed
+- **Key Challenges:** Market competition, Regulatory compliance
+- **Risk Score:** 18.0
+- **Risk Level:** Low
 
 ## Outlook
-- **Future Outlook:** Not disclosed
+- **Future Growth Potential:** The company is positioned for continued growth with a strong funding base and a focus on expanding its product offerings and geographic presence.
 
 ## Disclosure Gaps
-- **Missing Information:** 
-  - Investors in funding rounds
-  - Specific details on growth metrics
-  - Market sentiment analysis
-  - Risks and challenges
-  - Future outlook
-  - Headcount details and hiring focus
-  - Pricing models and tiers
-  - Geo presence
-  - Active products and reference customers
+- **Missing Key Information:** Revenue not disclosed, Customer count not available
+- **Disclosure Gaps:** Claims enterprise customers but no case studies

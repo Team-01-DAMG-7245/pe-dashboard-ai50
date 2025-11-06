@@ -11,8 +11,8 @@
     "categories": [
       "Language Learning",
       "AI",
-      "EdTech",
-      "Mobile Applications",
+      "Education Technology",
+      "Mobile Apps",
       "SaaS"
     ],
     "related_companies": [],
@@ -26,22 +26,17 @@
       {
         "source_url": "https://www.speak.com",
         "crawled_at": "2025-06-17T00:00:00Z",
-        "snippet": "Speak - The language learning app that gets you speaking"
+        "snippet": "Speak - The language learning app that gets you speaking. The most effective way to learn a language."
       },
       {
         "source_url": "https://www.speak.com/blog",
         "crawled_at": "2025-06-17T00:00:00Z",
-        "snippet": "Speak named Google Play\u2019s \u201cBest App of 2024\u201d in Hong Kong, Korea and Taiwan"
+        "snippet": "Speak named Google Play\u2019s \u201cBest App of 2024\u201d in Hong Kong, Korea and Taiwan."
       },
       {
         "source_url": "https://www.speak.com/careers",
         "crawled_at": "2025-06-17T00:00:00Z",
         "snippet": "Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation."
-      },
-      {
-        "source_url": "https://www.speak.com/blog",
-        "crawled_at": "2025-06-17T00:00:00Z",
-        "snippet": "A new milestone as we bring language learning to all: Raising $78M Series C at a $1B valuation."
       }
     ]
   },
@@ -104,17 +99,24 @@
       "headcount_total": 130,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
-      "engineering_openings": null,
-      "sales_openings": null,
+      "engineering_openings": 0,
+      "sales_openings": 0,
       "hiring_focus": [
-        "Marketing",
-        "Operations",
         "Engineering",
+        "Sales",
+        "Marketing",
         "Product",
-        "Design"
+        "Design",
+        "Operations"
       ],
-      "pricing_tiers": [],
-      "active_products": [],
+      "pricing_tiers": [
+        "Free",
+        "Premium"
+      ],
+      "active_products": [
+        "AI-powered language tutor",
+        "Language learning app"
+      ],
       "geo_presence": [
         "San Francisco",
         "Seoul",
@@ -122,7 +124,54 @@
         "Taipei",
         "Ljubljana"
       ],
-      "confidence": 0.9,
+      "confidence": null,
+      "funding_cadence_months": 12.368593955321945,
+      "headcount_velocity": "Moderate",
+      "headcount_growth_rate": null,
+      "release_velocity": "Medium",
+      "products_released_last_12m": 0,
+      "geography_expansion": [
+        "South Korea",
+        "30 countries"
+      ],
+      "geography_expansion_rate": "Rapid",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $78M Series C at a $1B valuation",
+        "Speak named Google Play's 'Best App of 2024' in Hong Kong, Korea and Taiwan",
+        "Speak Hits $500M Valuation, Expands Rapidly Across Markets"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 3,
+      "negative_events_count": 0,
+      "risk_score": 44.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 80.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI-powered language tutor",
+        "Serves hundreds of thousands of subscribers",
+        "#1 English app in South Korea"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Customer names/references not disclosed",
+        "Marketing claims lack supporting case studies"
+      ],
+      "missing_key_info": [],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
       "provenance": []
     }
@@ -132,7 +181,7 @@
       "product_id": "speak_product_1",
       "company_id": "speak",
       "name": "Speak",
-      "description": "The language learning app that gets you speaking. The most effective way to learn a language with instant feedback and advanced AI language tutoring.",
+      "description": "The language learning app that gets you speaking. The most effective way to learn a language with instant feedback and advanced AI language tutor.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -147,7 +196,7 @@
       "product_id": "speak_product_2",
       "company_id": "speak",
       "name": "Speak Tutor",
-      "description": "Your very own language tutor, dedicated to helping you improve 24/7 with unique abilities.",
+      "description": "The world\u2019s best language teacher, dedicated to helping you improve 24/7 with unique abilities.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,

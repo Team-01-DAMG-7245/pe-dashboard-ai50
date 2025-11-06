@@ -68,14 +68,17 @@ OPENAI_API_KEY=your-api-key-here
 
 ### Prerequisites
 
-```powershell
-# Activate virtual environment
-.\.venv\Scripts\Activate.ps1
+1. **Create `.env` file** in project root with:
+   ```
+   OPENAI_API_KEY=your-api-key-here
+   ```
 
-# Set environment variables
-$env:PYTHONPATH = ".;src"
-$env:OPENAI_API_KEY = (Get-Content .env | Select-String "OPENAI_API_KEY" | ForEach-Object { $_.Line -replace '.*=', '' }).Trim()
-```
+2. **Install dependencies:**
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+**Note:** All scripts automatically load API keys from `.env` file. No need to set environment variables manually.
 
 ### Step 1: Lab 4 - Vector DB & RAG Index
 
@@ -105,60 +108,92 @@ python src\lab5\structured_extraction.py
 Get-ChildItem data\structured -Filter *.json | Measure-Object
 ```
 
-### Step 3: Lab 6 - Payload Validation
+### Step 3: Lab 6 - Payload Assembly
 
-**Validate Payloads:**
+**Assemble Payloads:**
 ```powershell
-python src\lab6\test_validation.py
+python src\lab6\assemble_payloads.py
 ```
 
-**Expected Output:** 5/5 payloads validate successfully.
+**Expected Output:** Payloads assembled for all companies with structured data in `data/payloads/`.
+
+**Verify:**
+```powershell
+Get-ChildItem data\payloads -Filter *.json | Measure-Object
+```
 
 ### Step 4: Lab 7 & 8 - Dashboard API
 
 **Start API Server:**
 ```powershell
-python src\lab7\rag_dashboard.py
+.\start_api_server.ps1
 ```
+
+**Note:** Make sure you have a `.env` file in the project root with:
+```
+OPENAI_API_KEY=your-api-key-here
+```
+
+The server will start on `http://localhost:8002`
 
 **Access API:**
-- Health: http://localhost:8002/health
-- Swagger UI: http://localhost:8002/docs
-- RAG Dashboard: `POST http://localhost:8002/dashboard/rag`
-- Structured Dashboard: `POST http://localhost:8002/dashboard/structured`
+- **Swagger UI**: http://localhost:8002/docs (Interactive API testing)
+- **Health Check**: http://localhost:8002/health
+- **RAG Dashboard**: `POST http://localhost:8002/dashboard/rag`
+- **Structured Dashboard**: `POST http://localhost:8002/dashboard/structured`
 
-**Test Lab 7 (RAG Dashboard):**
-```powershell
-$body = @{company_id="anthropic"; top_k=10} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://localhost:8002/dashboard/rag" -Method Post -Body $body -ContentType "application/json"
-```
+**Test API Endpoints in Swagger UI:**
 
-**Test Lab 8 (Structured Dashboard):**
-```powershell
-$body = @{company_id="anthropic"} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://localhost:8002/dashboard/structured" -Method Post -Body $body -ContentType "application/json"
-```
+1. **Lab 7 - RAG Dashboard** (`POST /dashboard/rag`):
+   - Open http://localhost:8002/docs in your browser
+   - Click on `POST /dashboard/rag` endpoint
+   - Click "Try it out"
+   - Enter JSON:
+   ```json
+   {
+     "company_id": "anthropic",
+     "top_k": 10
+   }
+   ```
+   - Click "Execute"
+
+2. **Lab 8 - Structured Dashboard** (`POST /dashboard/structured`):
+   - Click on `POST /dashboard/structured` endpoint
+   - Click "Try it out"
+   - Enter JSON:
+   ```json
+   {
+     "company_id": "anthropic"
+   }
+   ```
+   - Click "Execute"
 
 **Expected Output:**
 - Lab 7: Generates 8-section dashboard using RAG pipeline with "Not disclosed." for missing data
-- Lab 8: Generates 8-section dashboard using structured payload (more precise)
+- Lab 8: Generates 8-section dashboard using structured payload (more precise, no "Missing Key Information" in Disclosure Gaps)
 
 ### Step 5: Lab 9 - Evaluation & Comparison
 
 **Generate Evaluation Dashboards:**
+
+Open a **NEW** PowerShell terminal (keep the API server running) and run:
+
 ```powershell
-# Ensure Lab 7/8 API is running first
-python src\lab9\evaluate_comparison.py
+.\run_lab9.ps1
 ```
 
-**Output:** Dashboards saved in `evaluation_output/` directory.
+**Note:** Make sure you have a `.env` file in the project root with your `OPENAI_API_KEY`.
+
+**Output:** 
+- Dashboards saved in `src/lab9/evaluation_output/` directory
+- Generates both RAG and Structured dashboards for all companies with payloads
 
 **Fill Evaluation:**
-- Review dashboards in `evaluation_output/`
-- Fill out `EVAL.md` with rubric scores (0-10 points per company)
+- Review dashboards in `src/lab9/evaluation_output/`
+- Fill out `src/lab9/EVAL.md` with rubric scores (0-10 points per company)
 - Complete comparison of RAG vs Structured methods
 
-**Expected Output:** `EVAL.md` with rubric and scores for 5+ companies.
+**Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
 
 ---
 
@@ -240,19 +275,20 @@ aws s3 ls s3://quanta-ai50-data/ai50/raw/
 ls data/raw/ | wc -l           # Count companies scraped
 
 # Labs 4-9 - Complete Sequence
-.\.venv\Scripts\Activate.ps1
-$env:PYTHONPATH = ".;src"
-$env:OPENAI_API_KEY = (Get-Content .env | Select-String "OPENAI_API_KEY" | ForEach-Object { $_.Line -replace '.*=', '' }).Trim()
-# Step 1: Lab 4
+# Step 1: Lab 4 - Vector DB Index
 python src\lab4\index_for_rag_all.py
-# Step 2: Lab 5
+
+# Step 2: Lab 5 - Structured Extraction
 python src\lab5\structured_extraction.py
-# Step 3: Lab 6
-python src\lab6\test_validation.py
-# Step 4: Lab 7/8 (run in separate terminal)
-python src\lab7\rag_dashboard.py
-# Step 5: Lab 9 (after API is running)
-python src\lab9\evaluate_comparison.py
+
+# Step 3: Lab 6 - Payload Assembly
+python src\lab6\assemble_payloads.py
+
+# Step 4: Lab 7/8 - Start API Server (run in separate terminal)
+.\start_api_server.ps1
+
+# Step 5: Lab 9 - Evaluation (in new terminal, after API is running)
+.\run_lab9.ps1
 ```
 
 ---

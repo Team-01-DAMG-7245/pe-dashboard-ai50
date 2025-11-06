@@ -13,10 +13,10 @@
       "Machine Learning",
       "AI Safety",
       "Natural Language Processing",
-      "Cloud Computing"
+      "Software Development"
     ],
     "related_companies": [],
-    "total_raised_usd": 13574000000.0,
+    "total_raised_usd": 13698000000.0,
     "last_disclosed_valuation_usd": 183000000000.0,
     "last_round_name": "Series F",
     "last_round_date": "2025-09-02",
@@ -24,12 +24,12 @@
     "as_of": "2025-11-05",
     "provenance": [
       {
-        "source_url": "https://www.anthropic.com/about",
+        "source_url": "https://www.anthropic.com",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Anthropic is dedicated to building systems that people can rely on and generating research about the opportunities and risks of AI."
       },
       {
-        "source_url": "https://www.anthropic.com/news",
+        "source_url": "https://www.anthropic.com/newsroom",
         "crawled_at": "2023-10-01T00:00:00Z",
         "snippet": "Anthropic raises $13B Series F at $183B post-money valuation on September 2, 2025."
       },
@@ -98,7 +98,7 @@
       "description": null,
       "round_name": "Series B",
       "investors": [],
-      "amount_usd": null,
+      "amount_usd": 124000000.0,
       "valuation_usd": null,
       "actors": [],
       "tags": [],
@@ -129,7 +129,7 @@
       "headcount_total": 350,
       "headcount_growth_pct": 100.0,
       "job_openings_count": 60,
-      "engineering_openings": 30,
+      "engineering_openings": 20,
       "sales_openings": 15,
       "hiring_focus": [
         "Engineering",
@@ -154,19 +154,64 @@
         "India"
       ],
       "confidence": null,
+      "funding_cadence_months": 12.795663600525623,
+      "headcount_velocity": "Rapid",
+      "headcount_growth_rate": 100.0,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": null,
+      "notable_customers": [
+        "Deloitte",
+        "Salesforce",
+        "Lyft"
+      ],
+      "customer_quality_score": "Enterprise",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": null,
+      "layoffs_count": null,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Raised $13B Series F",
+        "Opened Tokyo office",
+        "Expanded to Seoul",
+        "New product launches"
+      ],
+      "negative_signals": [
+        "None"
+      ],
+      "positive_events_count": 5,
+      "negative_events_count": 0,
+      "risk_score": 25.0,
+      "risk_level": "Low",
+      "key_challenges": [
+        "Regulatory compliance",
+        "Market competition"
+      ],
+      "transparency_score": 100.0,
+      "transparency_level": "High",
+      "marketed_info_available": [
+        "AI for safe and reliable systems",
+        "Enterprise AI solutions"
+      ],
+      "actual_case_studies": [
+        "Deloitte will make Claude available to 470,000 people",
+        "Claude for Financial Services"
+      ],
+      "disclosure_gaps": [
+        "Claims enterprise customers but no case studies"
+      ],
+      "missing_key_info": [
+        "Revenue not disclosed",
+        "Customer count not available"
+      ],
+      "marketing_vs_reality_gap": "Well-supported (claims backed by proof)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://www.linkedin.com/company/anthropic",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Anthropic has 350 employees and is hiring in various departments."
-        },
-        {
-          "source_url": "https://www.anthropic.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Anthropic has 60 job openings across Engineering, Sales, and Product."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [

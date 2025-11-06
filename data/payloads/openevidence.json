@@ -11,9 +11,9 @@
     "categories": [
       "Medical Information Platform",
       "Healthcare Technology",
-      "Clinical Evidence",
+      "Clinical Research",
       "Data Aggregation",
-      "Medical Research"
+      "Evidence-Based Medicine"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -68,37 +68,77 @@
       "actors": [],
       "tags": [],
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01",
-          "snippet": "Supported by the Best Investors include Sequoia, Google Ventures, Kleiner Perkins, Coatue, Thrive, Conviction, ICONIQ, Greycroft, Breyer Capital, BOND, Blackstone, Mayo Clinic, and others"
-        }
-      ]
+      "provenance": []
     }
   ],
   "snapshots": [
     {
       "company_id": "openevidence",
       "as_of": "2025-11-05",
-      "headcount_total": null,
+      "headcount_total": 50,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
       "engineering_openings": 0,
       "sales_openings": 0,
-      "hiring_focus": [],
-      "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [],
+      "hiring_focus": [
+        "Engineering",
+        "Commercial"
+      ],
+      "pricing_tiers": [
+        "Free"
+      ],
+      "active_products": [
+        "OpenEvidence"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
       "confidence": null,
+      "funding_cadence_months": null,
+      "headcount_velocity": "Stable",
+      "headcount_growth_rate": null,
+      "release_velocity": "Low",
+      "products_released_last_12m": 0,
+      "geography_expansion": [],
+      "geography_expansion_rate": "Slow",
+      "notable_customers": [],
+      "customer_quality_score": "Mixed",
+      "churn_signals": [],
+      "regulatory_exposure": [],
+      "leadership_stability": "Stable",
+      "leadership_changes_last_12m": 0,
+      "layoffs_mentioned": false,
+      "layoffs_count": 0,
+      "layoffs_date": null,
+      "layoffs_percentage": null,
+      "positive_signals": [
+        "Funding round"
+      ],
+      "negative_signals": [],
+      "positive_events_count": 1,
+      "negative_events_count": 0,
+      "risk_score": 48.0,
+      "risk_level": "Medium",
+      "key_challenges": [
+        "Limited enterprise customer base"
+      ],
+      "transparency_score": 52.0,
+      "transparency_level": "Low",
+      "marketed_info_available": [
+        "Leading medical information platform",
+        "Free for verified U.S. HCPs"
+      ],
+      "actual_case_studies": [],
+      "disclosure_gaps": [
+        "Claims to be leading but lacks customer testimonials"
+      ],
+      "missing_key_info": [
+        "Customer count not available",
+        "Revenue not disclosed"
+      ],
+      "marketing_vs_reality_gap": "Large gap (marketing claims without case studies)",
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": null,
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "OpenEvidence is the leading medical information platform."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
@@ -106,7 +146,7 @@
       "product_id": "openevidence_product_1",
       "company_id": "openevidence",
       "name": "OpenEvidence",
-      "description": "The leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA and the JAMA Network specialty journals. Available on iOS and Android for verified U.S. HCPs.",
+      "description": "The leading medical information platform featuring multimedia and clinical findings from The New England Journal of Medicine and JAMA Network specialty journals. Available on iOS and Android for verified U.S. HCPs.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
