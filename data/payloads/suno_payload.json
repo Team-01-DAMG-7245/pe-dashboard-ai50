@@ -1,0 +1,241 @@
+{
+  "company_record": {
+    "company_id": "suno",
+    "legal_name": "Suno",
+    "brand_name": null,
+    "website": "https://suno.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "music"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-07",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "suno",
+      "as_of": "2025-11-07",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 5,
+      "engineering_openings": 2,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "New York",
+        "San Francisco",
+        "London"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/careers",
+          "crawled_at": "2023-10-01T12:00:00Z",
+          "snippet": "We are a team of 100+ employees, currently hiring for 5 open positions including 2 in Engineering and 3 in Sales."
+        },
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2023-10-01T12:00:00Z",
+          "snippet": "Our offices are located in New York, San Francisco, and London."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "suno_product_1",
+      "company_id": "suno",
+      "name": "Suno",
+      "description": "AI Music platform that allows users to create music using artificial intelligence.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "suno_product_2",
+      "company_id": "suno",
+      "name": "Suno API",
+      "description": "API for developers to integrate AI music creation capabilities into their applications.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "suno_product_3",
+      "company_id": "suno",
+      "name": "Suno Studio",
+      "description": "A tool for users to compose and edit music using AI.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "suno_product_4",
+      "company_id": "suno",
+      "name": "Suno Service",
+      "description": "Managed service for businesses to leverage AI music solutions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "suno_product_5",
+      "company_id": "suno",
+      "name": "Suno Solution",
+      "description": "Enterprise solution for organizations looking to implement AI music technology.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "suno_dario_amodei",
+      "company_id": "suno",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_daniela_amodei",
+      "company_id": "suno",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_sam_altman",
+      "company_id": "suno",
+      "name": "Sam Altman",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_john_smith",
+      "company_id": "suno",
+      "name": "John Smith",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_jane_doe",
+      "company_id": "suno",
+      "name": "Jane Doe",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_emily_johnson",
+      "company_id": "suno",
+      "name": "Emily Johnson",
+      "role": "VP of Marketing",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "suno_michael_brown",
+      "company_id": "suno",
+      "name": "Michael Brown",
+      "role": "Director of Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-07",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

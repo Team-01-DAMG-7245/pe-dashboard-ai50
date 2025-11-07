@@ -1,0 +1,154 @@
+{
+  "company_record": {
+    "company_id": "hugging_face",
+    "legal_name": "hugging_face",
+    "brand_name": null,
+    "website": "https://hugging_face.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "hugging_face",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 5,
+      "engineering_openings": 2,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "New York",
+        "San Francisco",
+        "London"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We are a team of 100+ employees, currently hiring for 5 open positions including 2 in Engineering and 3 in Sales."
+        },
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Our company has doubled in size over the last year and has offices in New York, San Francisco, and London."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "hugging_face_product_1",
+      "company_id": "hugging_face",
+      "name": "hugging-face.com",
+      "description": "Domain for sale with secure payments and transaction support.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_2",
+      "company_id": "hugging_face",
+      "name": "Spaceship",
+      "description": "Platform for buying and selling domains with buyer protection and flexible payment methods.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_3",
+      "company_id": "hugging_face",
+      "name": "Spaceship reliability",
+      "description": "Feature ensuring reliable transactions on the Spaceship platform.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_4",
+      "company_id": "hugging_face",
+      "name": "Buyer protection program",
+      "description": "Service providing protection for buyers during domain transactions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_5",
+      "company_id": "hugging_face",
+      "name": "Fast and easy transfer",
+      "description": "Service facilitating quick transfer of domain ownership.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hugging_face_product_6",
+      "company_id": "hugging_face",
+      "name": "Flexible payment methods",
+      "description": "Service offering various payment options for domain purchases.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,254 @@
+{
+  "company_record": {
+    "company_id": "mercor",
+    "legal_name": "Mercor",
+    "brand_name": null,
+    "website": "https://mercor.com/",
+    "hq_city": "San Francisco",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2025,
+    "categories": [
+      "AI",
+      "machine learning",
+      "artificial intelligence",
+      "enterprise software",
+      "SaaS",
+      "platform",
+      "cloud"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "mercor",
+      "as_of": "2025-11-07",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": 0,
+      "sales_openings": 0,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "mercor_product_1",
+      "company_id": "mercor",
+      "name": "MercorAPEX",
+      "description": "A platform for finding top-tier, remote AI roles.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_2",
+      "company_id": "mercor",
+      "name": "APEX",
+      "description": "The AI Productivity Index.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_3",
+      "company_id": "mercor",
+      "name": "Generalist Video Captioning Expert",
+      "description": "Expert role for captioning videos.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$45/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_4",
+      "company_id": "mercor",
+      "name": "Consulting Expert",
+      "description": "Expert role for consulting services.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$80-$120/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_5",
+      "company_id": "mercor",
+      "name": "Legal Expert",
+      "description": "Expert role for legal consulting.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$110-$130/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_6",
+      "company_id": "mercor",
+      "name": "Generalist Video Annotators",
+      "description": "Expert role for video annotation.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$45/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_7",
+      "company_id": "mercor",
+      "name": "Photography Experts",
+      "description": "Expert role for photography services.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$45/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_8",
+      "company_id": "mercor",
+      "name": "Visual Annotation Expert",
+      "description": "Expert role for visual annotation tasks.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$40/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_9",
+      "company_id": "mercor",
+      "name": "Generalist Evaluator Expert",
+      "description": "Expert role for evaluation tasks.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$35-$40/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_10",
+      "company_id": "mercor",
+      "name": "Short Video Captioning / Description Expert",
+      "description": "Expert role for short video captioning and descriptions.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$35/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_11",
+      "company_id": "mercor",
+      "name": "Chemistry Labeling Experts - India",
+      "description": "Expert role for chemistry labeling tasks in India.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$20-$30/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "mercor_product_12",
+      "company_id": "mercor",
+      "name": "Physics Labeling Expert - India",
+      "description": "Expert role for physics labeling tasks in India.",
+      "pricing_model": "Hourly",
+      "pricing_tiers_public": [
+        "$20-$30/hr"
+      ],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-07",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

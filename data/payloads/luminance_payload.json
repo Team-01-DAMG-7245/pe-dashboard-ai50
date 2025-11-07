@@ -1,0 +1,232 @@
+{
+  "company_record": {
+    "company_id": "luminance",
+    "legal_name": "Luminance",
+    "brand_name": null,
+    "website": "https://luminance.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2015,
+    "categories": [
+      "AI",
+      "machine learning",
+      "artificial intelligence",
+      "enterprise software",
+      "SaaS",
+      "platform",
+      "cloud"
+    ],
+    "related_companies": [],
+    "total_raised_usd": 75000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-01-01",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "luminance",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Product"
+      ],
+      "pricing_tiers": [],
+      "active_products": [
+        "Legal-Grade\u2122 AI Technology"
+      ],
+      "geo_presence": [
+        "70 countries"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.luminance.com/",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Luminance has spent nearly a decade developing the most legally accurate AI on the market."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "luminance_product_1",
+      "company_id": "luminance",
+      "name": "Luminance",
+      "description": "A platform that uses Legal-Grade\u2122 agents to automate, expedite, and enhance contract activity across businesses.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_2",
+      "company_id": "luminance",
+      "name": "Legal-Grade\u2122 AI",
+      "description": "AI technology designed for legal compliance, built to enhance contract management processes.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_3",
+      "company_id": "luminance",
+      "name": "AI-Powered Checklists",
+      "description": "A feature that helps teams navigate negotiations more quickly and confidently by focusing on core business positions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_4",
+      "company_id": "luminance",
+      "name": "Word Plugin",
+      "description": "A tool that integrates with Microsoft Word to automate and augment negotiations with AI-powered review.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_5",
+      "company_id": "luminance",
+      "name": "Lumi Summary",
+      "description": "A feature that provides a summary of proposed clauses in contracts.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_6",
+      "company_id": "luminance",
+      "name": "Lumi Generate",
+      "description": "A feature that generates suggested alternative language for contract clauses.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_7",
+      "company_id": "luminance",
+      "name": "Mark-Up Options",
+      "description": "Various options for marking up contract clauses, including preferred and fallback positions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "luminance_product_8",
+      "company_id": "luminance",
+      "name": "Contract Touchpoints",
+      "description": "End-to-end AI solutions for every touchpoint in the contract lifecycle, including drafting, negotiating, analyzing, complying, and investigating.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "luminance_eleanor_lightbody",
+      "company_id": "luminance",
+      "name": "Eleanor Lightbody",
+      "role": "Chief Executive Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Darktrace",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "luminance_daniel_lumby",
+      "company_id": "luminance",
+      "name": "Daniel Lumby",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Macquarie Group",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "luminance_eleanor_lightbody",
+      "company_id": "luminance",
+      "name": "Eleanor Lightbody",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

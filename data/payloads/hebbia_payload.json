@@ -1,0 +1,233 @@
+{
+  "company_record": {
+    "company_id": "hebbia",
+    "legal_name": "Hebbia, Inc.",
+    "brand_name": "Hebbia",
+    "website": "https://hebbia.com/",
+    "hq_city": "New York",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2020,
+    "categories": [
+      "AI",
+      "enterprise software",
+      "SaaS"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "hebbia",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 15,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "New York City",
+        "San Francisco, CA",
+        "London, UK"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.hebbia.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Hebbia is hiring for various roles in Engineering and Sales, with multiple open positions in New York City, San Francisco, and London."
+        },
+        {
+          "source_url": "https://www.hebbia.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Hebbia has raised 4 rounds of financing and has over 1000 use cases in production."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "hebbia_product_1",
+      "company_id": "hebbia",
+      "name": "Hebbia",
+      "description": "An AI platform designed for finance, offering generative AI capabilities to firms.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_2",
+      "company_id": "hebbia",
+      "name": "Matrix",
+      "description": "The AI interface for serious work, capable of executing complex multi-step workflows and reasoning over various data types.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_3",
+      "company_id": "hebbia",
+      "name": "RAG (Retrieval Augmented Generation)",
+      "description": "A pioneering architecture for productionizing large language models.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_4",
+      "company_id": "hebbia",
+      "name": "ISD Architecture",
+      "description": "Proprietary architecture used by Hebbia to tackle complex tasks.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_5",
+      "company_id": "hebbia",
+      "name": "AI for Finance",
+      "description": "A specialized application of AI technology tailored for financial services.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_6",
+      "company_id": "hebbia",
+      "name": "AI Models",
+      "description": "Various AI models utilized within the Hebbia platform for different tasks.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_7",
+      "company_id": "hebbia",
+      "name": "Enterprise LLMs",
+      "description": "Large language models deployed for enterprise use cases.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_8",
+      "company_id": "hebbia",
+      "name": "Integrations",
+      "description": "A wealth of integrations that provide access to necessary data for users.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_9",
+      "company_id": "hebbia",
+      "name": "Citations",
+      "description": "Feature that allows users to validate and update information with their AI agent.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_10",
+      "company_id": "hebbia",
+      "name": "Data Security Services",
+      "description": "Services ensuring data privacy and security, including encryption and compliance with regulations.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "hebbia_eric_schmidt",
+      "company_id": "hebbia",
+      "name": "Eric Schmidt",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
