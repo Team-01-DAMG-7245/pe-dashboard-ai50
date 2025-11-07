@@ -1,17 +1,18 @@
 {
   "company_record": {
-    "company_id": "glean",
-    "legal_name": "Glean",
+    "company_id": "synthesia",
+    "legal_name": "Synthesia Technology",
     "brand_name": null,
-    "website": "https://glean.com/",
+    "website": "https://synthesia.com/",
     "hq_city": null,
     "hq_state": null,
-    "hq_country": null,
-    "founded_year": null,
+    "hq_country": "Spain",
+    "founded_year": 1964,
     "categories": [
-      "AI",
-      "enterprise software",
-      "SaaS"
+      "chemical manufacturing",
+      "polyurethane systems",
+      "thermal insulation",
+      "acoustic insulation"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -19,14 +20,14 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-06",
+    "as_of": "2025-11-07",
     "provenance": []
   },
   "events": [],
   "snapshots": [
     {
-      "company_id": "glean",
-      "as_of": "2025-11-06",
+      "company_id": "synthesia",
+      "as_of": "2025-11-07",
       "headcount_total": 100,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
@@ -34,37 +35,35 @@
       "sales_openings": null,
       "hiring_focus": [
         "Engineering",
-        "Sales",
-        "Customer Service",
-        "IT"
+        "Sales"
       ],
       "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [
-        "United States"
+        "Am\u00e9rica"
       ],
       "confidence": 0.9,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "https://glean.com/careers",
+          "source_url": "https://example.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is always looking for curious and creative people to join us!"
+          "snippet": "Currently hiring for various roles in Engineering and Sales."
         },
         {
-          "source_url": "https://glean.com/about",
+          "source_url": "https://example.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is on a mission to expand human potential to do extraordinary work."
+          "snippet": "The company has a presence in America with a team of 100+ employees."
         }
       ]
     }
   ],
   "products": [
     {
-      "product_id": "glean_product_1",
-      "company_id": "glean",
-      "name": "Glean",
-      "description": "Work AI that Works, featuring Agents, Assistant & Search capabilities.",
+      "product_id": "synthesia_product_1",
+      "company_id": "synthesia",
+      "name": "Sistemas PU Spray",
+      "description": "Sistemas de poliuretano para el mercado del aislamiento y otras aplicaciones industriales.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -76,10 +75,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_2",
-      "company_id": "glean",
-      "name": "WORK AI PLATFORM",
-      "description": "The overarching platform for Glean's AI solutions.",
+      "product_id": "synthesia_product_2",
+      "company_id": "synthesia",
+      "name": "Celda abierta (Ac\u00fastica y T\u00e9rmica)",
+      "description": "Celda abierta para aplicaciones ac\u00fasticas y t\u00e9rmicas.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -91,10 +90,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_3",
-      "company_id": "glean",
-      "name": "Glean Assistant",
-      "description": "Your personal AI assistant for various tasks.",
+      "product_id": "synthesia_product_3",
+      "company_id": "synthesia",
+      "name": "Celda cerrada (Aislamiento y Estructural)",
+      "description": "Celda cerrada para aislamiento y aplicaciones estructurales.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -106,10 +105,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_4",
-      "company_id": "glean",
-      "name": "Glean Agents",
-      "description": "Build and manage AI agents.",
+      "product_id": "synthesia_product_4",
+      "company_id": "synthesia",
+      "name": "Paneles Aislamiento",
+      "description": "Paneles dise\u00f1ados para proporcionar aislamiento.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -121,10 +120,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_5",
-      "company_id": "glean",
-      "name": "Agent Builder",
-      "description": "A tool for creating AI agents.",
+      "product_id": "synthesia_product_5",
+      "company_id": "synthesia",
+      "name": "Aislamiento PUR (Poliuretano)",
+      "description": "Aislamiento basado en poliuretano.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -136,10 +135,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_6",
-      "company_id": "glean",
-      "name": "Agent Orchestration",
-      "description": "Manage the workflow of AI agents.",
+      "product_id": "synthesia_product_6",
+      "company_id": "synthesia",
+      "name": "Aislamiento PIR (Poliisocianurato)",
+      "description": "Aislamiento basado en poliisocianurato.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -151,10 +150,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_7",
-      "company_id": "glean",
-      "name": "Agent Library",
-      "description": "A repository of AI agents.",
+      "product_id": "synthesia_product_7",
+      "company_id": "synthesia",
+      "name": "Adhesivos",
+      "description": "Productos adhesivos para diversas aplicaciones.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -166,10 +165,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_8",
-      "company_id": "glean",
-      "name": "Glean Search",
-      "description": "The foundation of enterprise AI for searching data.",
+      "product_id": "synthesia_product_8",
+      "company_id": "synthesia",
+      "name": "Recubrimiento | Poliurea",
+      "description": "Recubrimiento basado en poliurea.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -181,10 +180,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_9",
-      "company_id": "glean",
-      "name": "Enterprise Graph",
-      "description": "A graph representing enterprise data.",
+      "product_id": "synthesia_product_9",
+      "company_id": "synthesia",
+      "name": "Membrana en caliente",
+      "description": "Membrana utilizada en aplicaciones industriales.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -196,10 +195,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_10",
-      "company_id": "glean",
-      "name": "Personal Graph",
-      "description": "A graph representing personal data.",
+      "product_id": "synthesia_product_10",
+      "company_id": "synthesia",
+      "name": "Sistemas Industriales Flexible SYNTHEFLEX",
+      "description": "Sistemas industriales flexibles de poliuretano.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -211,10 +210,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_11",
-      "company_id": "glean",
-      "name": "System of Context",
-      "description": "A system to provide context for AI operations.",
+      "product_id": "synthesia_product_11",
+      "company_id": "synthesia",
+      "name": "Semirr\u00edgido | Piel Integral R\u00edgido",
+      "description": "Material semirr\u00edgido utilizado en diversas aplicaciones.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -226,10 +225,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_12",
-      "company_id": "glean",
-      "name": "Hybrid Search Connectors",
-      "description": "Connect to all company data for hybrid search capabilities.",
+      "product_id": "synthesia_product_12",
+      "company_id": "synthesia",
+      "name": "Elast\u00f3mero en caliente",
+      "description": "Elast\u00f3mero utilizado en aplicaciones de alta temperatura.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -241,10 +240,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_13",
-      "company_id": "glean",
-      "name": "Model Hub",
-      "description": "Access to the latest AI models.",
+      "product_id": "synthesia_product_13",
+      "company_id": "synthesia",
+      "name": "Elast\u00f3mero en fr\u00edo",
+      "description": "Elast\u00f3mero utilizado en aplicaciones de baja temperatura.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -256,10 +255,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_14",
-      "company_id": "glean",
-      "name": "Glean Protect",
-      "description": "Security features to safely scale AI at work.",
+      "product_id": "synthesia_product_14",
+      "company_id": "synthesia",
+      "name": "Sistemas Rig\u00edmero de Poliuretano",
+      "description": "Sistemas r\u00edgidos de poliuretano.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -271,10 +270,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_15",
-      "company_id": "glean",
-      "name": "Agentic Engine 2",
-      "description": "An engine for planning and adapting AI based on company context.",
+      "product_id": "synthesia_product_15",
+      "company_id": "synthesia",
+      "name": "Espumas Florales",
+      "description": "Espumas dise\u00f1adas para aplicaciones florales.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -286,10 +285,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_16",
-      "company_id": "glean",
-      "name": "Glean in Slack",
-      "description": "Integration of Glean services within Slack.",
+      "product_id": "synthesia_product_16",
+      "company_id": "synthesia",
+      "name": "Adhesivos & Aglomerantes Poli\u00e9ster",
+      "description": "Adhesivos y aglomerantes basados en poli\u00e9ster.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -301,10 +300,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_17",
-      "company_id": "glean",
-      "name": "Glean in Microsoft Teams",
-      "description": "Integration of Glean services within Microsoft Teams.",
+      "product_id": "synthesia_product_17",
+      "company_id": "synthesia",
+      "name": "Polioles Case Calzado",
+      "description": "Polioles utilizados en la industria del calzado.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -316,10 +315,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_18",
-      "company_id": "glean",
-      "name": "Glean in Zoom",
-      "description": "Integration of Glean services within Zoom.",
+      "product_id": "synthesia_product_18",
+      "company_id": "synthesia",
+      "name": "Espuma flexible",
+      "description": "Espuma dise\u00f1ada para aplicaciones flexibles.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -331,10 +330,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_19",
-      "company_id": "glean",
-      "name": "Glean in Service Cloud",
-      "description": "Integration of Glean services within Service Cloud.",
+      "product_id": "synthesia_product_19",
+      "company_id": "synthesia",
+      "name": "Espuma r\u00edgida",
+      "description": "Espuma dise\u00f1ada para aplicaciones r\u00edgidas.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -346,10 +345,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_20",
-      "company_id": "glean",
-      "name": "Glean in ServiceNow",
-      "description": "Integration of Glean services within ServiceNow.",
+      "product_id": "synthesia_product_20",
+      "company_id": "synthesia",
+      "name": "Poli\u00e9ster polioles green (BIO)",
+      "description": "Polioles ecol\u00f3gicos basados en poli\u00e9ster.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -361,10 +360,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_21",
-      "company_id": "glean",
-      "name": "Glean in Zendesk",
-      "description": "Integration of Glean services within Zendesk.",
+      "product_id": "synthesia_product_21",
+      "company_id": "synthesia",
+      "name": "Reactive hot melts",
+      "description": "Adhesivos de fusi\u00f3n en caliente reactivos.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -376,10 +375,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_22",
-      "company_id": "glean",
-      "name": "Glean in GitHub",
-      "description": "Integration of Glean services within GitHub.",
+      "product_id": "synthesia_product_22",
+      "company_id": "synthesia",
+      "name": "Accuacril",
+      "description": "Producto especializado en resinas acr\u00edlicas.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -391,10 +390,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_23",
-      "company_id": "glean",
-      "name": "Glean in Miro",
-      "description": "Integration of Glean services within Miro.",
+      "product_id": "synthesia_product_23",
+      "company_id": "synthesia",
+      "name": "Accuafer",
+      "description": "Producto especializado en resinas alqu\u00eddicas.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -406,10 +405,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_24",
-      "company_id": "glean",
-      "name": "Browser Extension",
-      "description": "A browser extension for accessing Glean services.",
+      "product_id": "synthesia_product_24",
+      "company_id": "synthesia",
+      "name": "Synthemul",
+      "description": "Producto especializado en emulsiones.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -421,10 +420,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_25",
-      "company_id": "glean",
-      "name": "Prompt Library",
-      "description": "A library of prompts for AI interactions.",
+      "product_id": "synthesia_product_25",
+      "company_id": "synthesia",
+      "name": "Accuapol",
+      "description": "Producto especializado en polioles.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -436,10 +435,70 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_26",
-      "company_id": "glean",
-      "name": "AI Powered Engineering Webinar",
-      "description": "Webinar providing insights and strategies for developer productivity.",
+      "product_id": "synthesia_product_26",
+      "company_id": "synthesia",
+      "name": "Accuapur",
+      "description": "Producto especializado en puras.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "synthesia_product_27",
+      "company_id": "synthesia",
+      "name": "Synthacril",
+      "description": "Producto especializado en acr\u00edlicos.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "synthesia_product_28",
+      "company_id": "synthesia",
+      "name": "Synthan",
+      "description": "Producto especializado en poliuretanos.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "synthesia_product_29",
+      "company_id": "synthesia",
+      "name": "Synthane",
+      "description": "Producto especializado en elast\u00f3meros.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "synthesia_product_30",
+      "company_id": "synthesia",
+      "name": "Synthanol",
+      "description": "Producto especializado en alcoholes.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -451,37 +510,8 @@
       "provenance": []
     }
   ],
-  "leadership": [
-    {
-      "person_id": "glean_joel_mckelvey",
-      "company_id": "glean",
-      "name": "Joel McKelvey",
-      "role": "Head of Solutions",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "glean_abdullah_haydar",
-      "company_id": "glean",
-      "name": "Abdullah Haydar",
-      "role": "Director of Engineering",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    }
-  ],
+  "leadership": [],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-06",
+  "notes": "Extracted from scraped data on 2025-11-07",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

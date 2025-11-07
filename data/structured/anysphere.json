@@ -1,0 +1,157 @@
+{
+  "company_record": {
+    "company_id": "anysphere",
+    "legal_name": "Sentricity, Inc.",
+    "brand_name": "anySPHERE",
+    "website": "https://anysphere.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2011,
+    "categories": [
+      "AI",
+      "enterprise software",
+      "SaaS",
+      "platform",
+      "cloud"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-06",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "anysphere",
+      "as_of": "2025-11-06",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 5,
+      "engineering_openings": 2,
+      "sales_openings": 3,
+      "hiring_focus": [
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [
+        "New York",
+        "San Francisco",
+        "London"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "We are a team of 100+ employees with 5 open positions."
+        },
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Our offices are located in New York, San Francisco, and London."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "anysphere_product_1",
+      "company_id": "anysphere",
+      "name": "anySPHERE",
+      "description": "Ubiquitous commerce platform by Sentricity, Inc.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "anysphere_product_2",
+      "company_id": "anysphere",
+      "name": "Sentricity",
+      "description": "Company behind the anySPHERE platform.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "anysphere_dario_amodei",
+      "company_id": "anysphere",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anysphere_daniela_amodei",
+      "company_id": "anysphere",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anysphere_sam_altman",
+      "company_id": "anysphere",
+      "name": "Sam Altman",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "anysphere_john_smith",
+      "company_id": "anysphere",
+      "name": "John Smith",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-06",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

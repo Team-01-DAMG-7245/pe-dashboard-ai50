@@ -1,9 +1,9 @@
 {
   "company_record": {
-    "company_id": "glean",
-    "legal_name": "Glean",
+    "company_id": "clay",
+    "legal_name": "Clay",
     "brand_name": null,
-    "website": "https://glean.com/",
+    "website": "https://clay.com/",
     "hq_city": null,
     "hq_state": null,
     "hq_country": null,
@@ -11,7 +11,9 @@
     "categories": [
       "AI",
       "enterprise software",
-      "SaaS"
+      "SaaS",
+      "platform",
+      "cloud"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -25,7 +27,7 @@
   "events": [],
   "snapshots": [
     {
-      "company_id": "glean",
+      "company_id": "clay",
       "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": null,
@@ -35,36 +37,24 @@
       "hiring_focus": [
         "Engineering",
         "Sales",
-        "Customer Service",
-        "IT"
+        "Marketing"
       ],
       "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [
         "United States"
       ],
-      "confidence": 0.9,
+      "confidence": null,
       "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "https://glean.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is always looking for curious and creative people to join us!"
-        },
-        {
-          "source_url": "https://glean.com/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is on a mission to expand human potential to do extraordinary work."
-        }
-      ]
+      "provenance": []
     }
   ],
   "products": [
     {
-      "product_id": "glean_product_1",
-      "company_id": "glean",
-      "name": "Glean",
-      "description": "Work AI that Works, featuring Agents, Assistant & Search capabilities.",
+      "product_id": "clay_product_1",
+      "company_id": "clay",
+      "name": "Clay",
+      "description": "A platform for go-to-market strategies that leverages unique data and actionable insights.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -76,10 +66,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_2",
-      "company_id": "glean",
-      "name": "WORK AI PLATFORM",
-      "description": "The overarching platform for Glean's AI solutions.",
+      "product_id": "clay_product_2",
+      "company_id": "clay",
+      "name": "Claygent",
+      "description": "Research target companies and people with AI.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -91,10 +81,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_3",
-      "company_id": "glean",
-      "name": "Glean Assistant",
-      "description": "Your personal AI assistant for various tasks.",
+      "product_id": "clay_product_3",
+      "company_id": "clay",
+      "name": "Sculptor",
+      "description": "Build go-to-market workflows with natural language.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -106,10 +96,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_4",
-      "company_id": "glean",
-      "name": "Glean Agents",
-      "description": "Build and manage AI agents.",
+      "product_id": "clay_product_4",
+      "company_id": "clay",
+      "name": "Signals",
+      "description": "Track job changes, news, social mentions, and more.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -121,10 +111,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_5",
-      "company_id": "glean",
-      "name": "Agent Builder",
-      "description": "A tool for creating AI agents.",
+      "product_id": "clay_product_5",
+      "company_id": "clay",
+      "name": "Audiences",
+      "description": "Combine signals, enrichment, and CRM data in Clay.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -136,10 +126,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_6",
-      "company_id": "glean",
-      "name": "Agent Orchestration",
-      "description": "Manage the workflow of AI agents.",
+      "product_id": "clay_product_6",
+      "company_id": "clay",
+      "name": "Integrations",
+      "description": "Connect to 150+ providers and your favorite tools.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -151,10 +141,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_7",
-      "company_id": "glean",
-      "name": "Agent Library",
-      "description": "A repository of AI agents.",
+      "product_id": "clay_product_7",
+      "company_id": "clay",
+      "name": "Sequencer",
+      "description": "Automate and launch personalized email outreach.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -166,10 +156,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_8",
-      "company_id": "glean",
-      "name": "Glean Search",
-      "description": "The foundation of enterprise AI for searching data.",
+      "product_id": "clay_product_8",
+      "company_id": "clay",
+      "name": "Recurring workflows",
+      "description": "Automate repetitive tasks and processes.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -181,10 +171,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_9",
-      "company_id": "glean",
-      "name": "Enterprise Graph",
-      "description": "A graph representing enterprise data.",
+      "product_id": "clay_product_9",
+      "company_id": "clay",
+      "name": "CRM enrichment & hygiene",
+      "description": "Prospect, enrich, and clean your CRM automatically.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -196,10 +186,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_10",
-      "company_id": "glean",
-      "name": "Personal Graph",
-      "description": "A graph representing personal data.",
+      "product_id": "clay_product_10",
+      "company_id": "clay",
+      "name": "TAM sourcing",
+      "description": "Source Total Addressable Market data.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -211,10 +201,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_11",
-      "company_id": "glean",
-      "name": "System of Context",
-      "description": "A system to provide context for AI operations.",
+      "product_id": "clay_product_11",
+      "company_id": "clay",
+      "name": "Waterfall enrichment",
+      "description": "Enhance data quality through a structured process.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -226,10 +216,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_12",
-      "company_id": "glean",
-      "name": "Hybrid Search Connectors",
-      "description": "Connect to all company data for hybrid search capabilities.",
+      "product_id": "clay_product_12",
+      "company_id": "clay",
+      "name": "Account & lead scoring",
+      "description": "Evaluate and prioritize leads and accounts.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -241,10 +231,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_13",
-      "company_id": "glean",
-      "name": "Model Hub",
-      "description": "Access to the latest AI models.",
+      "product_id": "clay_product_13",
+      "company_id": "clay",
+      "name": "Automated inbound",
+      "description": "Streamline inbound lead processes.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -256,10 +246,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_14",
-      "company_id": "glean",
-      "name": "Glean Protect",
-      "description": "Security features to safely scale AI at work.",
+      "product_id": "clay_product_14",
+      "company_id": "clay",
+      "name": "Automated outbound",
+      "description": "Streamline outbound lead processes.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -271,10 +261,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_15",
-      "company_id": "glean",
-      "name": "Agentic Engine 2",
-      "description": "An engine for planning and adapting AI based on company context.",
+      "product_id": "clay_product_15",
+      "company_id": "clay",
+      "name": "AI formula generator",
+      "description": "Generate formulas using AI for various applications.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -286,10 +276,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_16",
-      "company_id": "glean",
-      "name": "Glean in Slack",
-      "description": "Integration of Glean services within Slack.",
+      "product_id": "clay_product_16",
+      "company_id": "clay",
+      "name": "Salesforce package",
+      "description": "Integration package for Salesforce users.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -301,10 +291,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_17",
-      "company_id": "glean",
-      "name": "Glean in Microsoft Teams",
-      "description": "Integration of Glean services within Microsoft Teams.",
+      "product_id": "clay_product_17",
+      "company_id": "clay",
+      "name": "RevOps Solutions",
+      "description": "Solutions tailored for Revenue Operations teams.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -316,10 +306,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_18",
-      "company_id": "glean",
-      "name": "Glean in Zoom",
-      "description": "Integration of Glean services within Zoom.",
+      "product_id": "clay_product_18",
+      "company_id": "clay",
+      "name": "Sales Solutions",
+      "description": "Automate prospecting and research for sales teams.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -331,10 +321,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_19",
-      "company_id": "glean",
-      "name": "Glean in Service Cloud",
-      "description": "Integration of Glean services within Service Cloud.",
+      "product_id": "clay_product_19",
+      "company_id": "clay",
+      "name": "Growth marketing",
+      "description": "Targeted campaigns across every channel.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -346,10 +336,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_20",
-      "company_id": "glean",
-      "name": "Glean in ServiceNow",
-      "description": "Integration of Glean services within ServiceNow.",
+      "product_id": "clay_product_20",
+      "company_id": "clay",
+      "name": "Enterprise Solutions",
+      "description": "Build the data foundation for any go-to-market workflow.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -361,10 +351,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_21",
-      "company_id": "glean",
-      "name": "Glean in Zendesk",
-      "description": "Integration of Glean services within Zendesk.",
+      "product_id": "clay_product_21",
+      "company_id": "clay",
+      "name": "Startups Solutions",
+      "description": "Launch growth campaigns quickly without adding headcount.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -376,10 +366,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_22",
-      "company_id": "glean",
-      "name": "Glean in GitHub",
-      "description": "Integration of Glean services within GitHub.",
+      "product_id": "clay_product_22",
+      "company_id": "clay",
+      "name": "Claybooks",
+      "description": "Build powerful workflows with Clay and other tools.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -391,10 +381,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_23",
-      "company_id": "glean",
-      "name": "Glean in Miro",
-      "description": "Integration of Glean services within Miro.",
+      "product_id": "clay_product_23",
+      "company_id": "clay",
+      "name": "Cohorts",
+      "description": "Live training sessions for mastering Clay.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -406,10 +396,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_24",
-      "company_id": "glean",
-      "name": "Browser Extension",
-      "description": "A browser extension for accessing Glean services.",
+      "product_id": "clay_product_24",
+      "company_id": "clay",
+      "name": "Email finder",
+      "description": "Tool for finding email addresses.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -421,10 +411,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_25",
-      "company_id": "glean",
-      "name": "Prompt Library",
-      "description": "A library of prompts for AI interactions.",
+      "product_id": "clay_product_25",
+      "company_id": "clay",
+      "name": "WHOIS lookup",
+      "description": "Tool for looking up domain registration information.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -436,10 +426,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_26",
-      "company_id": "glean",
-      "name": "AI Powered Engineering Webinar",
-      "description": "Webinar providing insights and strategies for developer productivity.",
+      "product_id": "clay_product_26",
+      "company_id": "clay",
+      "name": "GTM job board",
+      "description": "Job board for go-to-market professionals.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -453,10 +443,10 @@
   ],
   "leadership": [
     {
-      "person_id": "glean_joel_mckelvey",
-      "company_id": "glean",
-      "name": "Joel McKelvey",
-      "role": "Head of Solutions",
+      "person_id": "clay_dario_amodei",
+      "company_id": "clay",
+      "name": "Dario Amodei",
+      "role": "Board Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
@@ -467,10 +457,10 @@
       "provenance": []
     },
     {
-      "person_id": "glean_abdullah_haydar",
-      "company_id": "glean",
-      "name": "Abdullah Haydar",
-      "role": "Director of Engineering",
+      "person_id": "clay_daniela_amodei",
+      "company_id": "clay",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
       "is_founder": false,
       "start_date": null,
       "end_date": null,

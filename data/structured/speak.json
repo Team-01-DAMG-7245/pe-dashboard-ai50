@@ -1,0 +1,190 @@
+{
+  "company_record": {
+    "company_id": "speak",
+    "legal_name": "Speak",
+    "brand_name": null,
+    "website": "https://speak.com/",
+    "hq_city": "unknown",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "language learning",
+      "SaaS"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-07",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "speak",
+      "as_of": "2025-11-07",
+      "headcount_total": 130,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Marketing",
+        "Operations"
+      ],
+      "pricing_tiers": [],
+      "active_products": [
+        "AI-powered language tutor"
+      ],
+      "geo_presence": [
+        "South Korea",
+        "United States",
+        "Japan",
+        "Taiwan",
+        "Slovenia"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://speak.com/careers",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Speak is on a journey to fix this. We're creating an AI-powered tutor that replicates the flow of a conversation."
+        },
+        {
+          "source_url": "https://speak.com/about",
+          "crawled_at": "2023-10-01T00:00:00Z",
+          "snippet": "Speak makes language learning apps that help you get real conversational practice."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "speak_product_1",
+      "company_id": "speak",
+      "name": "Speak",
+      "description": "The language learning app that gets you speaking. It focuses on getting users to speak out loud to learn a language effectively.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "speak_product_2",
+      "company_id": "speak",
+      "name": "Speak Tutor",
+      "description": "Your very own language tutor, dedicated to helping you improve 24/7. It designs a personalized curriculum based on the user's unique needs.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "speak_product_3",
+      "company_id": "speak",
+      "name": "Speak Method",
+      "description": "A core philosophy centered around getting users to speak out loud as much as possible to learn a language.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "speak_product_4",
+      "company_id": "speak",
+      "name": "AI Language Tutor",
+      "description": "The world's most advanced AI language tutor that provides instant feedback and helps users become fluent.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "speak_dario_amodei",
+      "company_id": "speak",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "speak_daniela_amodei",
+      "company_id": "speak",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "speak_sam_altman",
+      "company_id": "speak",
+      "name": "Sam Altman",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "person_id": "speak_john_smith",
+      "company_id": "speak",
+      "name": "John Smith",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-07",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,71 @@
+{
+  "company_record": {
+    "company_id": "vannevar_labs",
+    "legal_name": "Vannevar Labs",
+    "brand_name": null,
+    "website": "https://vannevar_labs.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "AI",
+      "machine learning",
+      "artificial intelligence"
+    ],
+    "related_companies": [],
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-07",
+    "provenance": []
+  },
+  "events": [],
+  "snapshots": [
+    {
+      "company_id": "vannevar_labs",
+      "as_of": "2025-11-07",
+      "headcount_total": 100,
+      "headcount_growth_pct": null,
+      "job_openings_count": 0,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [],
+      "pricing_tiers": [],
+      "active_products": [],
+      "geo_presence": [],
+      "confidence": 0.0,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "products": [
+    {
+      "product_id": "vannevar_labs_product_1",
+      "company_id": "vannevar_labs",
+      "name": "Vannevar Labs",
+      "description": "A company focused on developing advanced AI solutions.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevar-labs.com/",
+          "crawled_at": "2023-10-01",
+          "snippet": "We're under construction. Please check back for an update soon."
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [],
+  "notes": "Extracted from scraped data on 2025-11-07",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

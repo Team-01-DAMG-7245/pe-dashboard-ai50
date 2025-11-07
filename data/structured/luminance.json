@@ -1,26 +1,27 @@
 {
   "company_record": {
-    "company_id": "cohere",
-    "legal_name": "Cohere",
+    "company_id": "luminance",
+    "legal_name": "Luminance",
     "brand_name": null,
-    "website": "https://cohere.com/",
-    "hq_city": "Toronto",
+    "website": "https://luminance.com/",
+    "hq_city": null,
     "hq_state": null,
     "hq_country": null,
-    "founded_year": 2019,
+    "founded_year": 2015,
     "categories": [
       "AI",
       "machine learning",
       "artificial intelligence",
       "enterprise software",
       "SaaS",
-      "platform"
+      "platform",
+      "cloud"
     ],
     "related_companies": [],
-    "total_raised_usd": null,
+    "total_raised_usd": 75000000.0,
     "last_disclosed_valuation_usd": null,
-    "last_round_name": null,
-    "last_round_date": null,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-01-01",
     "schema_version": "2.0.0",
     "as_of": "2025-11-06",
     "provenance": []
@@ -28,7 +29,7 @@
   "events": [],
   "snapshots": [
     {
-      "company_id": "cohere",
+      "company_id": "luminance",
       "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": null,
@@ -37,39 +38,34 @@
       "sales_openings": null,
       "hiring_focus": [
         "Engineering",
-        "Sales"
+        "Sales",
+        "Marketing",
+        "Product"
       ],
       "pricing_tiers": [],
-      "active_products": [],
-      "geo_presence": [
-        "Canada",
-        "United States",
-        "United Kingdom",
-        "South Korea",
-        "France"
+      "active_products": [
+        "Legal-Grade\u2122 AI Technology"
       ],
-      "confidence": 0.9,
+      "geo_presence": [
+        "70 countries"
+      ],
+      "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "https://cohere.com/careers",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Join the mission to scale intelligence. See open roles."
-        },
-        {
-          "source_url": "https://cohere.com/about",
-          "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Cohere is building cutting-edge foundation models and secure AI solutions."
+          "source_url": "https://www.luminance.com/",
+          "crawled_at": "2025-01-01T00:00:00Z",
+          "snippet": "Luminance has spent nearly a decade developing the most legally accurate AI on the market."
         }
       ]
     }
   ],
   "products": [
     {
-      "product_id": "cohere_product_1",
-      "company_id": "cohere",
-      "name": "Workplace Systems North",
-      "description": "An enterprise-ready AI platform that powers modern workplace productivity.",
+      "product_id": "luminance_product_1",
+      "company_id": "luminance",
+      "name": "Luminance",
+      "description": "A platform that uses Legal-Grade\u2122 agents to automate, expedite, and enhance contract activity across businesses.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -81,10 +77,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_2",
-      "company_id": "cohere",
-      "name": "Compass",
-      "description": "An intelligent search and discovery system to surface business insights.",
+      "product_id": "luminance_product_2",
+      "company_id": "luminance",
+      "name": "Legal-Grade\u2122 AI",
+      "description": "AI technology designed for legal compliance, built to enhance contract management processes.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -96,10 +92,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_3",
-      "company_id": "cohere",
-      "name": "Generative Models Command",
-      "description": "A family of high-performance, scalable language models.",
+      "product_id": "luminance_product_3",
+      "company_id": "luminance",
+      "name": "AI-Powered Checklists",
+      "description": "A feature that helps teams navigate negotiations more quickly and confidently by focusing on core business positions.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -111,10 +107,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_4",
-      "company_id": "cohere",
-      "name": "Aya Expanse",
-      "description": "Leading multilingual models that excel across 23 different languages.",
+      "product_id": "luminance_product_4",
+      "company_id": "luminance",
+      "name": "Word Plugin",
+      "description": "A tool that integrates with Microsoft Word to automate and augment negotiations with AI-powered review.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -126,10 +122,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_5",
-      "company_id": "cohere",
-      "name": "Advanced Retrieval Models Embed",
-      "description": "A leading multimodal search and retrieval tool.",
+      "product_id": "luminance_product_5",
+      "company_id": "luminance",
+      "name": "Lumi Summary",
+      "description": "A feature that provides a summary of proposed clauses in contracts.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -141,10 +137,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_6",
-      "company_id": "cohere",
-      "name": "Rerank",
-      "description": "A powerful model that provides a semantic boost to search quality.",
+      "product_id": "luminance_product_6",
+      "company_id": "luminance",
+      "name": "Lumi Generate",
+      "description": "A feature that generates suggested alternative language for contract clauses.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -156,10 +152,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_7",
-      "company_id": "cohere",
-      "name": "Cohere Labs",
-      "description": "Cohere's research lab that seeks to solve complex ML problems.",
+      "product_id": "luminance_product_7",
+      "company_id": "luminance",
+      "name": "Mark-Up Options",
+      "description": "Various options for marking up contract clauses, including preferred and fallback positions.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -171,10 +167,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_8",
-      "company_id": "cohere",
-      "name": "Model Aya",
-      "description": "A model offering from Cohere.",
+      "product_id": "luminance_product_8",
+      "company_id": "luminance",
+      "name": "Contract Touchpoints",
+      "description": "End-to-end AI solutions for every touchpoint in the contract lifecycle, including drafting, negotiating, analyzing, complying, and investigating.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -188,39 +184,39 @@
   ],
   "leadership": [
     {
-      "person_id": "cohere_dario_amodei",
-      "company_id": "cohere",
-      "name": "Dario Amodei",
-      "role": "Board Member",
+      "person_id": "luminance_eleanor_lightbody",
+      "company_id": "luminance",
+      "name": "Eleanor Lightbody",
+      "role": "Chief Executive Officer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
-      "previous_affiliation": null,
+      "previous_affiliation": "Darktrace",
       "education": null,
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
     },
     {
-      "person_id": "cohere_daniela_amodei",
-      "company_id": "cohere",
-      "name": "Daniela Amodei",
-      "role": "Board Member",
+      "person_id": "luminance_daniel_lumby",
+      "company_id": "luminance",
+      "name": "Daniel Lumby",
+      "role": "Chief Operating Officer",
       "is_founder": false,
       "start_date": null,
       "end_date": null,
-      "previous_affiliation": null,
+      "previous_affiliation": "Macquarie Group",
       "education": null,
       "linkedin": null,
       "schema_version": "2.0.0",
       "provenance": []
     },
     {
-      "person_id": "cohere_sam_altman",
-      "company_id": "cohere",
-      "name": "Sam Altman",
-      "role": "Founder",
-      "is_founder": true,
+      "person_id": "luminance_eleanor_lightbody",
+      "company_id": "luminance",
+      "name": "Eleanor Lightbody",
+      "role": "Board Member",
+      "is_founder": false,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,

@@ -1,20 +1,17 @@
 {
   "company_record": {
-    "company_id": "cohere",
-    "legal_name": "Cohere",
-    "brand_name": null,
-    "website": "https://cohere.com/",
-    "hq_city": "Toronto",
+    "company_id": "hebbia",
+    "legal_name": "Hebbia, Inc.",
+    "brand_name": "Hebbia",
+    "website": "https://hebbia.com/",
+    "hq_city": "New York",
     "hq_state": null,
     "hq_country": null,
-    "founded_year": 2019,
+    "founded_year": 2020,
     "categories": [
       "AI",
-      "machine learning",
-      "artificial intelligence",
       "enterprise software",
-      "SaaS",
-      "platform"
+      "SaaS"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -28,11 +25,11 @@
   "events": [],
   "snapshots": [
     {
-      "company_id": "cohere",
+      "company_id": "hebbia",
       "as_of": "2025-11-06",
       "headcount_total": 100,
       "headcount_growth_pct": null,
-      "job_openings_count": 0,
+      "job_openings_count": 15,
       "engineering_openings": null,
       "sales_openings": null,
       "hiring_focus": [
@@ -42,34 +39,32 @@
       "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [
-        "Canada",
-        "United States",
-        "United Kingdom",
-        "South Korea",
-        "France"
+        "New York City",
+        "San Francisco, CA",
+        "London, UK"
       ],
       "confidence": 0.9,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "https://cohere.com/careers",
+          "source_url": "https://www.hebbia.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Join the mission to scale intelligence. See open roles."
+          "snippet": "Hebbia is hiring for various roles in Engineering and Sales, with multiple open positions in New York City, San Francisco, and London."
         },
         {
-          "source_url": "https://cohere.com/about",
+          "source_url": "https://www.hebbia.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Cohere is building cutting-edge foundation models and secure AI solutions."
+          "snippet": "Hebbia has raised 4 rounds of financing and has over 1000 use cases in production."
         }
       ]
     }
   ],
   "products": [
     {
-      "product_id": "cohere_product_1",
-      "company_id": "cohere",
-      "name": "Workplace Systems North",
-      "description": "An enterprise-ready AI platform that powers modern workplace productivity.",
+      "product_id": "hebbia_product_1",
+      "company_id": "hebbia",
+      "name": "Hebbia",
+      "description": "An AI platform designed for finance, offering generative AI capabilities to firms.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -81,10 +76,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_2",
-      "company_id": "cohere",
-      "name": "Compass",
-      "description": "An intelligent search and discovery system to surface business insights.",
+      "product_id": "hebbia_product_2",
+      "company_id": "hebbia",
+      "name": "Matrix",
+      "description": "The AI interface for serious work, capable of executing complex multi-step workflows and reasoning over various data types.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -96,10 +91,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_3",
-      "company_id": "cohere",
-      "name": "Generative Models Command",
-      "description": "A family of high-performance, scalable language models.",
+      "product_id": "hebbia_product_3",
+      "company_id": "hebbia",
+      "name": "RAG (Retrieval Augmented Generation)",
+      "description": "A pioneering architecture for productionizing large language models.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -111,10 +106,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_4",
-      "company_id": "cohere",
-      "name": "Aya Expanse",
-      "description": "Leading multilingual models that excel across 23 different languages.",
+      "product_id": "hebbia_product_4",
+      "company_id": "hebbia",
+      "name": "ISD Architecture",
+      "description": "Proprietary architecture used by Hebbia to tackle complex tasks.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -126,10 +121,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_5",
-      "company_id": "cohere",
-      "name": "Advanced Retrieval Models Embed",
-      "description": "A leading multimodal search and retrieval tool.",
+      "product_id": "hebbia_product_5",
+      "company_id": "hebbia",
+      "name": "AI for Finance",
+      "description": "A specialized application of AI technology tailored for financial services.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -141,10 +136,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_6",
-      "company_id": "cohere",
-      "name": "Rerank",
-      "description": "A powerful model that provides a semantic boost to search quality.",
+      "product_id": "hebbia_product_6",
+      "company_id": "hebbia",
+      "name": "AI Models",
+      "description": "Various AI models utilized within the Hebbia platform for different tasks.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -156,10 +151,10 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_7",
-      "company_id": "cohere",
-      "name": "Cohere Labs",
-      "description": "Cohere's research lab that seeks to solve complex ML problems.",
+      "product_id": "hebbia_product_7",
+      "company_id": "hebbia",
+      "name": "Enterprise LLMs",
+      "description": "Large language models deployed for enterprise use cases.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -171,10 +166,40 @@
       "provenance": []
     },
     {
-      "product_id": "cohere_product_8",
-      "company_id": "cohere",
-      "name": "Model Aya",
-      "description": "A model offering from Cohere.",
+      "product_id": "hebbia_product_8",
+      "company_id": "hebbia",
+      "name": "Integrations",
+      "description": "A wealth of integrations that provide access to necessary data for users.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_9",
+      "company_id": "hebbia",
+      "name": "Citations",
+      "description": "Feature that allows users to validate and update information with their AI agent.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "hebbia_product_10",
+      "company_id": "hebbia",
+      "name": "Data Security Services",
+      "description": "Services ensuring data privacy and security, including encryption and compliance with regulations.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -188,39 +213,11 @@
   ],
   "leadership": [
     {
-      "person_id": "cohere_dario_amodei",
-      "company_id": "cohere",
-      "name": "Dario Amodei",
-      "role": "Board Member",
+      "person_id": "hebbia_eric_schmidt",
+      "company_id": "hebbia",
+      "name": "Eric Schmidt",
+      "role": "Chief Technology Officer",
       "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "cohere_daniela_amodei",
-      "company_id": "cohere",
-      "name": "Daniela Amodei",
-      "role": "Board Member",
-      "is_founder": false,
-      "start_date": null,
-      "end_date": null,
-      "previous_affiliation": null,
-      "education": null,
-      "linkedin": null,
-      "schema_version": "2.0.0",
-      "provenance": []
-    },
-    {
-      "person_id": "cohere_sam_altman",
-      "company_id": "cohere",
-      "name": "Sam Altman",
-      "role": "Founder",
-      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,

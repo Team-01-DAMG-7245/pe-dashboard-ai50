@@ -1,17 +1,18 @@
 {
   "company_record": {
-    "company_id": "glean",
-    "legal_name": "Glean",
+    "company_id": "photoroom",
+    "legal_name": "Photoroom",
     "brand_name": null,
-    "website": "https://glean.com/",
+    "website": "https://photoroom.com/",
     "hq_city": null,
     "hq_state": null,
     "hq_country": null,
-    "founded_year": null,
+    "founded_year": 2019,
     "categories": [
       "AI",
-      "enterprise software",
-      "SaaS"
+      "photo editing",
+      "SaaS",
+      "platform"
     ],
     "related_companies": [],
     "total_raised_usd": null,
@@ -19,14 +20,20 @@
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
-    "as_of": "2025-11-06",
-    "provenance": []
+    "as_of": "2025-11-07",
+    "provenance": [
+      {
+        "source_url": "https://photoroom.com/",
+        "crawled_at": "2023-10-01T00:00:00Z",
+        "snippet": "Photoroom helps entrepreneurs, marketers, and global teams produce high-quality content without the traditional bottlenecks."
+      }
+    ]
   },
   "events": [],
   "snapshots": [
     {
-      "company_id": "glean",
-      "as_of": "2025-11-06",
+      "company_id": "photoroom",
+      "as_of": "2025-11-07",
       "headcount_total": 100,
       "headcount_growth_pct": null,
       "job_openings_count": 0,
@@ -34,37 +41,35 @@
       "sales_openings": null,
       "hiring_focus": [
         "Engineering",
-        "Sales",
-        "Customer Service",
-        "IT"
+        "Sales"
       ],
       "pricing_tiers": [],
       "active_products": [],
       "geo_presence": [
-        "United States"
+        "Global"
       ],
       "confidence": 0.9,
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "https://glean.com/careers",
+          "source_url": "https://photoroom.com/careers",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is always looking for curious and creative people to join us!"
+          "snippet": "Photoroom is hiring for various roles."
         },
         {
-          "source_url": "https://glean.com/about",
+          "source_url": "https://photoroom.com/about",
           "crawled_at": "2023-10-01T00:00:00Z",
-          "snippet": "Glean is on a mission to expand human potential to do extraordinary work."
+          "snippet": "Photoroom has a team of 100+ employees."
         }
       ]
     }
   ],
   "products": [
     {
-      "product_id": "glean_product_1",
-      "company_id": "glean",
-      "name": "Glean",
-      "description": "Work AI that Works, featuring Agents, Assistant & Search capabilities.",
+      "product_id": "photoroom_product_1",
+      "company_id": "photoroom",
+      "name": "AI Image Editing Solutions",
+      "description": "Customized image editing solutions crafted for your business needs.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -76,10 +81,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_2",
-      "company_id": "glean",
-      "name": "WORK AI PLATFORM",
-      "description": "The overarching platform for Glean's AI solutions.",
+      "product_id": "photoroom_product_2",
+      "company_id": "photoroom",
+      "name": "Background Remover",
+      "description": "AI tool that removes backgrounds from images with precision.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -91,10 +96,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_3",
-      "company_id": "glean",
-      "name": "Glean Assistant",
-      "description": "Your personal AI assistant for various tasks.",
+      "product_id": "photoroom_product_3",
+      "company_id": "photoroom",
+      "name": "Image Generator",
+      "description": "Generates images based on user input and specifications.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -106,10 +111,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_4",
-      "company_id": "glean",
-      "name": "Glean Agents",
-      "description": "Build and manage AI agents.",
+      "product_id": "photoroom_product_4",
+      "company_id": "photoroom",
+      "name": "Virtual Model",
+      "description": "Creates virtual representations of products for marketing.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -121,10 +126,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_5",
-      "company_id": "glean",
-      "name": "Agent Builder",
-      "description": "A tool for creating AI agents.",
+      "product_id": "photoroom_product_5",
+      "company_id": "photoroom",
+      "name": "Product Staging",
+      "description": "Tools for staging products in images to enhance appeal.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -136,10 +141,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_6",
-      "company_id": "glean",
-      "name": "Agent Orchestration",
-      "description": "Manage the workflow of AI agents.",
+      "product_id": "photoroom_product_6",
+      "company_id": "photoroom",
+      "name": "Background Generator",
+      "description": "Generates backgrounds for images to improve aesthetics.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -151,10 +156,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_7",
-      "company_id": "glean",
-      "name": "Agent Library",
-      "description": "A repository of AI agents.",
+      "product_id": "photoroom_product_7",
+      "company_id": "photoroom",
+      "name": "AI Product Photography",
+      "description": "Automated photography solutions using AI to enhance product images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -166,10 +171,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_8",
-      "company_id": "glean",
-      "name": "Glean Search",
-      "description": "The foundation of enterprise AI for searching data.",
+      "product_id": "photoroom_product_8",
+      "company_id": "photoroom",
+      "name": "Logo Maker",
+      "description": "Tool for creating custom logos for brands.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -181,10 +186,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_9",
-      "company_id": "glean",
-      "name": "Enterprise Graph",
-      "description": "A graph representing enterprise data.",
+      "product_id": "photoroom_product_9",
+      "company_id": "photoroom",
+      "name": "Resize and Expand",
+      "description": "Tools for resizing and expanding images as needed.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -196,10 +201,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_10",
-      "company_id": "glean",
-      "name": "Personal Graph",
-      "description": "A graph representing personal data.",
+      "product_id": "photoroom_product_10",
+      "company_id": "photoroom",
+      "name": "Remove Objects",
+      "description": "AI tool that removes unwanted objects from images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -211,10 +216,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_11",
-      "company_id": "glean",
-      "name": "System of Context",
-      "description": "A system to provide context for AI operations.",
+      "product_id": "photoroom_product_11",
+      "company_id": "photoroom",
+      "name": "Product Shadows",
+      "description": "Generates realistic shadows for products in images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -226,10 +231,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_12",
-      "company_id": "glean",
-      "name": "Hybrid Search Connectors",
-      "description": "Connect to all company data for hybrid search capabilities.",
+      "product_id": "photoroom_product_12",
+      "company_id": "photoroom",
+      "name": "Change Background Color",
+      "description": "Allows users to change the background color of images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -241,10 +246,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_13",
-      "company_id": "glean",
-      "name": "Model Hub",
-      "description": "Access to the latest AI models.",
+      "product_id": "photoroom_product_13",
+      "company_id": "photoroom",
+      "name": "Brand Kit",
+      "description": "A collection of branding tools and assets for businesses.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -256,10 +261,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_14",
-      "company_id": "glean",
-      "name": "Glean Protect",
-      "description": "Security features to safely scale AI at work.",
+      "product_id": "photoroom_product_14",
+      "company_id": "photoroom",
+      "name": "API",
+      "description": "Developer API for integrating Photoroom's functionalities into other applications.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -271,10 +276,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_15",
-      "company_id": "glean",
-      "name": "Agentic Engine 2",
-      "description": "An engine for planning and adapting AI based on company context.",
+      "product_id": "photoroom_product_15",
+      "company_id": "photoroom",
+      "name": "Marketplace Playground",
+      "description": "A tool for testing and showcasing image editing capabilities.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -286,10 +291,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_16",
-      "company_id": "glean",
-      "name": "Glean in Slack",
-      "description": "Integration of Glean services within Slack.",
+      "product_id": "photoroom_product_16",
+      "company_id": "photoroom",
+      "name": "Image Editing Playground",
+      "description": "Interactive platform for users to experiment with image editing.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -301,10 +306,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_17",
-      "company_id": "glean",
-      "name": "Glean in Microsoft Teams",
-      "description": "Integration of Glean services within Microsoft Teams.",
+      "product_id": "photoroom_product_17",
+      "company_id": "photoroom",
+      "name": "ROI Calculator",
+      "description": "Tool for calculating return on investment for marketing campaigns.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -316,10 +321,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_18",
-      "company_id": "glean",
-      "name": "Glean in Zoom",
-      "description": "Integration of Glean services within Zoom.",
+      "product_id": "photoroom_product_18",
+      "company_id": "photoroom",
+      "name": "AI Backgrounds",
+      "description": "AI-generated backgrounds for images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -331,10 +336,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_19",
-      "company_id": "glean",
-      "name": "Glean in Service Cloud",
-      "description": "Integration of Glean services within Service Cloud.",
+      "product_id": "photoroom_product_19",
+      "company_id": "photoroom",
+      "name": "AI Shadows",
+      "description": "AI-generated shadows for product images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -346,10 +351,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_20",
-      "company_id": "glean",
-      "name": "Glean in ServiceNow",
-      "description": "Integration of Glean services within ServiceNow.",
+      "product_id": "photoroom_product_20",
+      "company_id": "photoroom",
+      "name": "AI Expand",
+      "description": "AI tool for expanding images intelligently.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -361,10 +366,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_21",
-      "company_id": "glean",
-      "name": "Glean in Zendesk",
-      "description": "Integration of Glean services within Zendesk.",
+      "product_id": "photoroom_product_21",
+      "company_id": "photoroom",
+      "name": "Magic Retouch",
+      "description": "Tool for retouching images automatically.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -376,10 +381,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_22",
-      "company_id": "glean",
-      "name": "Glean in GitHub",
-      "description": "Integration of Glean services within GitHub.",
+      "product_id": "photoroom_product_22",
+      "company_id": "photoroom",
+      "name": "Background Remover",
+      "description": "AI tool that removes backgrounds from images with precision.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -391,10 +396,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_23",
-      "company_id": "glean",
-      "name": "Glean in Miro",
-      "description": "Integration of Glean services within Miro.",
+      "product_id": "photoroom_product_23",
+      "company_id": "photoroom",
+      "name": "Blur Background",
+      "description": "Tool for blurring backgrounds in images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -406,10 +411,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_24",
-      "company_id": "glean",
-      "name": "Browser Extension",
-      "description": "A browser extension for accessing Glean services.",
+      "product_id": "photoroom_product_24",
+      "company_id": "photoroom",
+      "name": "Add Text to Image",
+      "description": "Feature that allows users to add text to images.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -421,10 +426,10 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_25",
-      "company_id": "glean",
-      "name": "Prompt Library",
-      "description": "A library of prompts for AI interactions.",
+      "product_id": "photoroom_product_25",
+      "company_id": "photoroom",
+      "name": "Outline Image",
+      "description": "Tool for outlining images for emphasis.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -436,10 +441,55 @@
       "provenance": []
     },
     {
-      "product_id": "glean_product_26",
-      "company_id": "glean",
-      "name": "AI Powered Engineering Webinar",
-      "description": "Webinar providing insights and strategies for developer productivity.",
+      "product_id": "photoroom_product_26",
+      "company_id": "photoroom",
+      "name": "Free Templates",
+      "description": "Collection of free templates for various design needs.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_27",
+      "company_id": "photoroom",
+      "name": "Free Background Images",
+      "description": "A library of free background images for use.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_28",
+      "company_id": "photoroom",
+      "name": "iOS App",
+      "description": "Mobile application for iOS devices to access Photoroom features.",
+      "pricing_model": null,
+      "pricing_tiers_public": [],
+      "ga_date": null,
+      "integration_partners": [],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [],
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "product_id": "photoroom_product_29",
+      "company_id": "photoroom",
+      "name": "Android App",
+      "description": "Mobile application for Android devices to access Photoroom features.",
       "pricing_model": null,
       "pricing_tiers_public": [],
       "ga_date": null,
@@ -453,11 +503,11 @@
   ],
   "leadership": [
     {
-      "person_id": "glean_joel_mckelvey",
-      "company_id": "glean",
-      "name": "Joel McKelvey",
-      "role": "Head of Solutions",
-      "is_founder": false,
+      "person_id": "photoroom_matt",
+      "company_id": "photoroom",
+      "name": "Matt",
+      "role": "Co-Founder",
+      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -467,11 +517,11 @@
       "provenance": []
     },
     {
-      "person_id": "glean_abdullah_haydar",
-      "company_id": "glean",
-      "name": "Abdullah Haydar",
-      "role": "Director of Engineering",
-      "is_founder": false,
+      "person_id": "photoroom_eliot",
+      "company_id": "photoroom",
+      "name": "Eliot",
+      "role": "Co-Founder",
+      "is_founder": true,
       "start_date": null,
       "end_date": null,
       "previous_affiliation": null,
@@ -482,6 +532,6 @@
     }
   ],
   "visibility": [],
-  "notes": "Extracted from scraped data on 2025-11-06",
+  "notes": "Extracted from scraped data on 2025-11-07",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }
