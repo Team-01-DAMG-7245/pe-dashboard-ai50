@@ -2,85 +2,94 @@ import streamlit as st
 import requests
 import os
 
-# FastAPI base URL
-API_BASE = os.getenv("FASTAPI_URL", "http://localhost:8000")
+API_BASE = "http://localhost:8002"
 
 st.set_page_config(page_title="PE Dashboard (AI 50)", layout="wide")
 st.title("Project ORBIT – PE Dashboard for Forbes AI 50")
 
-# Fetch companies
+# Get list of companies from API
 try:
-    companies = requests.get(f"{API_BASE}/companies", timeout=5).json()
+    response = requests.get(f"{API_BASE}/companies", timeout=5)
+    if response.status_code == 200:
+        companies_data = response.json()
+        company_list = companies_data.get("companies", [])
+    else:
+        company_list = []
+        st.warning("Could not fetch companies from API. Please ensure the API server is running.")
 except Exception as e:
-    st.error(f"Could not connect to API: {e}")
-    companies = []
+    company_list = []
+    st.error(f"Error connecting to API: {e}. Please ensure the API server is running at {API_BASE}")
 
-if not companies:
-    st.warning("No companies available. Please run the Airflow DAG first.")
-    st.stop()
+# Company selection dropdown
+if company_list:
+    selected_company = st.selectbox("Select Company", company_list, key="company_selector")
+else:
+    selected_company = st.selectbox("Select Company", ["anthropic", "abridge", "baseten", "clay", "anysphere"], key="company_selector")
+    st.info("Using default company list. API may not be available.")
 
-# Company selector
-names = [c["company_name"] for c in companies]
-choice = st.selectbox("Select company", names)
+st.divider()
 
-# Get company_id for selected company
-selected = next((c for c in companies if c["company_name"] == choice), None)
-company_id = selected.get("company_id", choice.lower().replace(' ', '_')) if selected else choice.lower().replace(' ', '_')
-
-# Display company info
-if selected:
-    st.markdown("---")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Location", f"{selected.get('hq_city', 'N/A')}, {selected.get('hq_country', 'N/A')}")
-    with col2:
-        st.metric("Category", selected.get('category', 'N/A'))
-    with col3:
-        if selected.get('website'):
-            st.markdown(f"[Website]({selected['website']})")
-
-st.markdown("---")
-
-# Two-column layout for pipelines
+# Two columns for RAG and Structured pipelines
 col1, col2 = st.columns(2)
 
+# Column 1: Structured Pipeline
 with col1:
-    st.subheader("📊 Structured Pipeline")
-    st.caption("Uses Pydantic-extracted data")
+    st.subheader("📊 Structured Pipeline Dashboard")
+    st.caption("Uses normalized structured payload (JSON) → LLM → Dashboard")
     
-    if st.button("Generate (Structured)", key="structured", use_container_width=True):
-        with st.spinner("Generating dashboard..."):
+    if st.button("Generate Structured Dashboard", key="structured_btn", type="primary"):
+        with st.spinner(f"Generating structured dashboard for {selected_company}..."):
             try:
-                resp = requests.post(
+                response = requests.post(
                     f"{API_BASE}/dashboard/structured",
-                    params={"company_id": company_id},
-                    timeout=30
+                    json={"company_id": selected_company},
+                    timeout=120
                 )
-                if resp.status_code == 200:
-                    st.markdown(resp.json()["markdown"])
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    dashboard = data.get("dashboard", "")
+                    st.success("✅ Dashboard generated successfully!")
+                    st.markdown(dashboard)
                 else:
-                    st.error(f"Error {resp.status_code}: {resp.text}")
+                    st.error(f"Error: {response.status_code} - {response.text}")
+            except requests.exceptions.RequestException as e:
+                st.error(f"Failed to connect to API: {e}")
             except Exception as e:
-                st.error(f"Failed: {e}")
+                st.error(f"Error generating dashboard: {e}")
 
+# Column 2: RAG Pipeline
 with col2:
-    st.subheader("🔍 RAG Pipeline")
-    st.caption("Uses vector database retrieval")
+    st.subheader("🔍 RAG Pipeline Dashboard")
+    st.caption("Uses vector DB retrieval → LLM → Dashboard")
     
-    if st.button("Generate (RAG)", key="rag", use_container_width=True):
-        with st.spinner("Generating dashboard..."):
+    top_k = st.slider("Top K chunks to retrieve", min_value=5, max_value=20, value=10, key="top_k_slider")
+    
+    if st.button("Generate RAG Dashboard", key="rag_btn", type="primary"):
+        with st.spinner(f"Generating RAG dashboard for {selected_company}..."):
             try:
-                resp = requests.post(
+                response = requests.post(
                     f"{API_BASE}/dashboard/rag",
-                    params={"company_name": choice},
-                    timeout=30
+                    json={"company_id": selected_company, "top_k": top_k},
+                    timeout=120
                 )
-                if resp.status_code == 200:
-                    result = resp.json()
-                    st.markdown(result["markdown"])
-                    with st.expander("📄 Retrieved context"):
-                        st.json(result.get("retrieved", []))
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    dashboard = data.get("dashboard", "")
+                    chunks_used = data.get("chunks_used", 0)
+                    st.success(f"✅ Dashboard generated successfully! (Used {chunks_used} chunks)")
+                    st.markdown(dashboard)
+                    
+                    with st.expander("📋 Retrieval Details"):
+                        st.info(f"Retrieved {chunks_used} chunks from vector database for context.")
                 else:
-                    st.error(f"Error {resp.status_code}: {resp.text}")
+                    st.error(f"Error: {response.status_code} - {response.text}")
+            except requests.exceptions.RequestException as e:
+                st.error(f"Failed to connect to API: {e}")
             except Exception as e:
-                st.error(f"Failed: {e}")
+                st.error(f"Error generating dashboard: {e}")
+
+# Footer
+st.divider()
+st.caption(f"API Server: {API_BASE} | Health Check: {API_BASE}/health")
