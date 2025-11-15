@@ -40,14 +40,17 @@ class ReActLogger:
         Args:
             run_id: Correlation ID for this execution session (auto-generated if None)
             company_id: Company being analyzed
-            log_dir: Directory to save log files
+            log_dir: Directory to save log files (will create react_traces subdirectory)
             console_output: Whether to print to console
             file_output: Whether to save to file
         """
         self.run_id = run_id or str(uuid.uuid4())
         self.company_id = company_id or "unknown"
         self.log_dir = Path(log_dir)
-        self.log_dir.mkdir(exist_ok=True)
+        
+        # Create react_traces subdirectory
+        self.trace_dir = self.log_dir / "react_traces"
+        self.trace_dir.mkdir(parents=True, exist_ok=True)
         
         self.console_output = console_output
         self.file_output = file_output
@@ -226,13 +229,13 @@ class ReActLogger:
     
     def _append_to_file(self, entry: ReActLogEntry):
         """Append log entry to JSONL file"""
-        log_file = self.log_dir / f"react_trace_{self.run_id}.jsonl"
+        log_file = self.trace_dir / f"react_trace_{self.run_id}.jsonl"
         with open(log_file, 'a', encoding='utf-8') as f:
             f.write(json.dumps(entry.to_dict(), default=str) + '\n')
     
     def save_trace(self, summary: Optional[Dict[str, Any]] = None) -> Path:
         """
-        Save complete trace to JSON file.
+        Save complete trace to JSON file in logs/react_traces/ directory.
         
         Args:
             summary: Optional summary data to include
@@ -243,7 +246,7 @@ class ReActLogger:
         self.trace.completed_at = datetime.now()
         self.trace.summary = summary
         
-        trace_file = self.log_dir / f"react_trace_{self.run_id}.json"
+        trace_file = self.trace_dir / f"react_trace_{self.run_id}.json"
         with open(trace_file, 'w', encoding='utf-8') as f:
             json.dump(self.trace.to_dict(), f, indent=2, default=str)
         
@@ -283,4 +286,3 @@ class ReActLogger:
             company_id=self.company_id,
             started_at=datetime.now()
         )
-
