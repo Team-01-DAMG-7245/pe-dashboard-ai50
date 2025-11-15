@@ -53,6 +53,7 @@ class ReActCallbackHandler(BaseCallbackHandler):
         self.current_thought: Optional[str] = None
         self.current_action: Optional[str] = None
         self.current_action_input: Optional[Dict[str, Any]] = None
+        self.logged_actions: set = set()  # Track logged actions to prevent duplicates
     
     def on_llm_start(
         self, serialized: Dict[str, Any], prompts: List[str], **kwargs: Any
@@ -109,10 +110,16 @@ class ReActCallbackHandler(BaseCallbackHandler):
         """
         tool_name = serialized.get("name", "unknown_tool")
         
+        # Handle different input formats
+        if input_str is None:
+            input_str = ""
+        if not isinstance(input_str, str):
+            input_str = str(input_str)
+        
         # Parse input_str to extract parameters
         try:
             # Try to parse as JSON if it's a JSON string
-            if input_str.strip().startswith('{'):
+            if input_str.strip().startswith('{') or input_str.strip().startswith('['):
                 action_input = json.loads(input_str)
             else:
                 # Otherwise, treat as a simple string parameter
@@ -123,14 +130,27 @@ class ReActCallbackHandler(BaseCallbackHandler):
         self.current_action = tool_name
         self.current_action_input = action_input
         
-        # Log the action
-        self.logger.log_action(tool_name, action_input)
+        # Create unique key for this action to prevent duplicates
+        action_key = f"{tool_name}_{hash(str(action_input))}"
+        
+        # Log the action only if not already logged
+        if action_key not in self.logged_actions:
+            self.logged_actions.add(action_key)
+            self.logger.log_action(tool_name, action_input)
     
     def on_tool_end(self, output: str, **kwargs: Any) -> None:
         """
         Called when a tool ends running.
         This captures the OBSERVATION step in ReAct pattern.
         """
+        # Handle None or empty output
+        if output is None:
+            output = ""
+        
+        # Convert output to string if it's not already
+        if not isinstance(output, str):
+            output = str(output)
+        
         # Parse output if it's JSON
         observation_data = None
         try:
@@ -139,11 +159,16 @@ class ReActCallbackHandler(BaseCallbackHandler):
         except (json.JSONDecodeError, ValueError):
             pass
         
+        # Create observation text
+        if output:
+            observation_text = output[:500] if len(output) > 500 else output
+        else:
+            observation_text = f"Tool {self.current_action} completed (no output)"
+        
         # Log the observation
-        observation_text = output[:500] if len(output) > 500 else output
         self.logger.log_observation(
             observation_text,
-            observation_data=observation_data
+            observation_data=observation_data or {"raw_output": output}
         )
         
         # Reset current action
@@ -167,6 +192,7 @@ class ReActCallbackHandler(BaseCallbackHandler):
         """
         Called when agent takes an action.
         This is where we capture the agent's decision to use a tool.
+        We log the action here as a fallback if on_tool_start doesn't fire.
         """
         # Extract thought from log if available
         if action.log:
@@ -179,13 +205,33 @@ class ReActCallbackHandler(BaseCallbackHandler):
                         self.logger.log_thought(thought)
                         self.current_thought = thought
         
-        # Log the action (tool will be logged in on_tool_start)
-        # But we can log the agent's decision here
-        if action.tool:
-            self.logger.log_action(
-                action.tool,
-                {"tool_input": action.tool_input}
-            )
+        # Log action here as fallback (on_tool_start may not fire for async tools)
+        # Check if we already logged this action to avoid duplicates
+        tool_name = action.tool
+        tool_input = action.tool_input
+        
+        if tool_name:
+            # Parse tool_input
+            if isinstance(tool_input, dict):
+                action_input = {"tool_input": tool_input}
+            elif isinstance(tool_input, str):
+                try:
+                    action_input = {"tool_input": json.loads(tool_input)}
+                except (json.JSONDecodeError, ValueError):
+                    action_input = {"tool_input": {"input": tool_input}}
+            else:
+                action_input = {"tool_input": {"input": str(tool_input)}}
+            
+            # Create unique key for this action to prevent duplicates
+            action_key = f"{tool_name}_{hash(str(action_input))}"
+            
+            # Only log if we haven't already logged this action
+            # (on_tool_start might have already logged it)
+            if action_key not in self.logged_actions:
+                self.logged_actions.add(action_key)
+                self.current_action = tool_name
+                self.current_action_input = action_input
+                self.logger.log_action(tool_name, action_input)
     
     def on_agent_finish(self, finish: AgentFinish, **kwargs: Any) -> None:
         """
