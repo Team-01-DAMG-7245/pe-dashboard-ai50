@@ -37,7 +37,8 @@ streamlit run src/streamlit_app.py  # http://localhost:8501
 │   ├── forbes_ai50_seed.json   # Company list (Lab 0)
 │   ├── raw/                     # Scraped HTML/text (Lab 1)
 │   ├── structured/              # Pydantic models (Lab 5)
-│   └── payloads/                # Dashboard payloads (Lab 6)
+│   ├── payloads/                # Dashboard payloads (Lab 6)
+│   └── workflow_dashboards/     # Lab 17 workflow outputs
 ├── src/
 │   ├── api.py                   # FastAPI endpoints (Lab 7-8)
 │   ├── models.py                # Pydantic schemas (Lab 5)
@@ -201,6 +202,50 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 
 **Expected Output:** `EVAL.md` with rubric and scores for all companies with payloads.
 
+### Step 6: Lab 17 - Supervisory Workflow Pattern (Graph-based)
+
+**Run Lab 17 Workflow:**
+
+You need to start 3 terminals (or 3 separate PowerShell windows):
+
+**Terminal 1 - Start MCP Server:**
+```powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:PYTHONPATH="src"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python -c "import sys; sys.path.insert(0, 'src'); from server.mcp_server import app; import uvicorn; uvicorn.run(app, host='0.0.0.0', port=9000)"
+```
+
+**Terminal 2 - Start API Server:**
+```powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:PYTHONPATH="src"
+$env:KMP_DUPLICATE_LIB_OK="TRUE"
+python src\lab7\rag_dashboard.py
+```
+
+**Terminal 3 - Run Lab 17 Workflow:**
+```powershell
+cd "C:\Users\Swara\Desktop\Big Data Assignments\damg7245-assignmnet4\forbes-ai50-dashboard-assignment4"
+$env:PYTHONPATH=""
+python -m src.workflows.due_diligence_graph anthropic
+```
+
+**Expected Output:**
+- Workflow executes all 4 nodes (Planner, Data Generator, Evaluator, Risk Detector)
+- Detects risk signals in dashboard content
+- Routes to HITL path if high-severity risks found, or safe path if no risks
+- Prints branch taken: `[BRANCH] SAFE PATH -> END (Direct)` or `[BRANCH] HIGH-RISK PATH -> HITL Approval -> END`
+- Prompts for human approval if high risks detected
+- **Dashboard saved to:** `data/workflow_dashboards/{company_id}_{run_id}_{timestamp}.md`
+
+**Dashboard Storage:**
+- All generated dashboards are automatically saved to `data/workflow_dashboards/`
+- Each dashboard includes metadata: run ID, score, risk signals, branch taken, HITL status
+- Filename format: `{company_id}_{run_id}_{timestamp}.md`
+
+**Note:** Make sure both servers (MCP on port 9000 and API on port 8002) are running before executing the workflow.
+
 ---
 
 ## Labs Progress
@@ -254,6 +299,12 @@ Open a **NEW** PowerShell terminal (keep the API server running) and run:
 - Compare RAG vs Structured for 5+ companies
 - Rubric: factual correctness, schema adherence, hallucination control
 - Output: `EVAL.md` with scores and findings
+
+### ✅ Lab 17: Supervisory Workflow Pattern (Graph-based)
+- LangGraph-based workflow with conditional branching
+- Nodes: Planner, Data Generator, Evaluator, Risk Detector
+- Conditional routing based on risk signals (HITL approval for high-risk cases)
+- See [Lab 17 Instructions](#lab-17-supervisory-workflow-pattern) below
 
 ### ✅ Lab 10: Dockerize FastAPI + Streamlit
 - `docker-compose.yml` for app layer
